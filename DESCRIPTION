@@ -14,7 +14,7 @@ Imports:
   glue,
   stringr
 Remotes:
-  github::dtkaplan/Znotes
+  github::dtkaplan/Znotes,
   github::dtkaplan/Zcalc
 Encoding: UTF-8
 LazyData: true
