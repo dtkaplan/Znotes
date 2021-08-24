@@ -2,3 +2,10 @@
 
 cat("Installing MOSAIC Calculus software.")
 
+install.packages(c("remotes", "tidyverse"))
+remotes::install_github("dtkaplan/Zcalc")
+install.packages(c("bookdown","bslib", "downlit", "here", "DT", "kableExtra"))
+
+
+# Still need to install shell scripts for Sandbox and Drill
+cat("Local Sandbox and Drill apps not yet installed.")
