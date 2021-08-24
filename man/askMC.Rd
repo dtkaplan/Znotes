@@ -3,6 +3,7 @@
 \name{askMC}
 \alias{askMC}
 \alias{askGS}
+\alias{letter_counter}
 \title{Formatting multiple-choice questions for the book}
 \usage{
 askMC(
@@ -25,6 +26,8 @@ askMC(
 )
 
 askGS(...)
+
+letter_counter()
 }
 \description{
 Formatting multiple-choice questions for the book

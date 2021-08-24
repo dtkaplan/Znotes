@@ -142,3 +142,20 @@ dots_to_answers <- function(..., right_one = "",
 
   answers
 }
+
+#' @rdname askMC
+#' @export
+letter_counter <- function() {
+  counter <- 0
+  names <- c(LETTERS, paste0(LETTERS, 1), paste0(LETTERS, 2),
+             paste0(LETTERS, 3), paste0(LETTERS, 4), paste0(LETTERS, 5))
+  res <- list()
+  res$reset <- function(s = 0) {
+    counter <<- s
+  }
+  res$get   <- function() {
+    counter <<- counter+1
+    names[counter %% length(names)] # never run out
+  }
+  res
+}
