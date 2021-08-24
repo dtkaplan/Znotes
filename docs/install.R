@@ -2,9 +2,13 @@
 
 cat("Installing MOSAIC Calculus software.")
 
-install.packages(c("remotes", "tidyverse"))
+install.packages("remotes")
 remotes::install_github("dtkaplan/Zcalc")
-install.packages(c("bookdown","bslib", "downlit", "here", "DT", "kableExtra"))
+remotes::install_github("dtkaplan/Znotes")
+
+
+
+# install.packages(c("bookdown","bslib", "downlit", "here", "DT", "kableExtra"))
 
 
 # Still need to install shell scripts for Sandbox and Drill
