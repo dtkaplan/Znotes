@@ -2,10 +2,13 @@
 % Please edit documentation in R/success.R
 \name{random_regret}
 \alias{random_regret}
+\alias{random_success}
 \title{Generates a random success or regret message}
 \usage{
 random_regret()
+
+random_success()
 }
 \description{
-Generates a random success or regret message
+Just for a bit of variety in multiple-choice feedback.
 }

@@ -1,5 +1,8 @@
 #' Generates a random success or regret message
 #'
+#' Just for a bit of variety in multiple-choice feedback.
+#'
+#' @rdname success
 #' @export
 random_regret <- function() {
   sample(regrets, size=1)
