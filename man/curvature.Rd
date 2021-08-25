@@ -15,7 +15,7 @@ A function with the same argument as that described by the
 tilde expression argument.
 }
 \description{
-curvature works much like `D()`, but instead of returning a function
+curvature works much like \code{D()}, but instead of returning a function
 containing the first or second derivative, the function instead
 gives the curvature of the parent function.
 }

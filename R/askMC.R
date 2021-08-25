@@ -33,7 +33,7 @@ askMC <- function (prompt = "The question prompt", ..., id = NULL, right_one = N
                              collapse = "\n"),
                        "]]\n")
 
-    total <- paste(out, answers, feedback, sep="\n\n")
+    total <- paste(fix_dollar_signs(out), answers, feedback, sep="\n\n")
 
     Res <- knitr::asis_output(paste0("<pre>",  total, "\n</pre>\n"))
 
@@ -88,7 +88,7 @@ askMC <- function (prompt = "The question prompt", ..., id = NULL, right_one = N
 #' @rdname askMC
 #' @export
 askGS <- function(...) {
-  CalcZapps::askMC(..., out_format = "GradeScope")
+  askMC(..., out_format = "GradeScope")
 }
 # fix the dollar signs for GradeScope
 fix_dollar_signs <- function(str) {

@@ -12,10 +12,10 @@ inscribed_circle(ftilde, x0 = 0)
 \item{x0}{The value for the input at which the curvature is to be calculated.}
 }
 \value{
-`inscribed_circle()` return a data frame with `x` and `y` components describing the inscribed circle
-at $[x_0, f(x_0)]$. Plot this with `gf_path(y ~ x)`
-`curvature_function()` returns a function that gives the curvature of the specified
-function for any input $x$. It's much like `D()` in the way it is used.
+\code{inscribed_circle()} return a data frame with \code{x} and \code{y} components describing the inscribed circle
+at $\link{x_0, f(x_0)}$. Plot this with \code{gf_path(y ~ x)}
+\code{curvature_function()} returns a function that gives the curvature of the specified
+function for any input $x$. It's much like \code{D()} in the way it is used.
 }
 \description{
 Create a data frame for a circle marking the curvature of a function.

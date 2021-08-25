@@ -54,12 +54,12 @@ scale_shift <- function(min, max, r, x0=0, nticks=10) {
   gf_line(vert ~ horiz, data = Orig) %>%
     gf_text(vert ~ horiz, label = ~ as.character(horiz), vjust=1, nudge_y = -nudge) %>%
     gf_errorbar(end + vert ~ horiz, width=0) %>%
-    gf_line(vert ~ horiz, data = New, color="red") %>%
+    gf_line(vert ~ horiz, data = New, color="blue") %>%
     gf_text(vert ~ horiz, label = ~ as.character(yvals),
             data = New, vjust=0, nudge_y = nudge,
-            color="red") %>%
+            color="blue") %>%
     gf_errorbar(end + vert ~ horiz, width=0, data=New,
-                color="red") %>%
+                color="blue") %>%
     gf_theme(theme_void()) %>%
     gf_refine(coord_fixed(ratio = 0.1)) %>%
     gf_lims(

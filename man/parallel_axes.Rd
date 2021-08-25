@@ -14,15 +14,15 @@ plot_scaled_input(ftilde, domain, r, x0, nticks = 10, color = "blue")
 
 \item{max}{upper end of domain}
 
-\item{r}{r parameter in linear scaling `r*(x-x0)`}
+\item{r}{r parameter in linear scaling \code{r*(x-x0)}}
 
-\item{x0}{x0 parameter in linear scaling `r*(x-x0)`}
+\item{x0}{x0 parameter in linear scaling \code{r*(x-x0)}}
 
 \item{nticks}{number of ticks on new axis (add_scale)}
 
-\item{ftilde}{tilde expression as in `slice_plot()`}
+\item{ftilde}{tilde expression as in \code{slice_plot()}}
 
-\item{domain}{domain specifier as in `slice_plot()`}
+\item{domain}{domain specifier as in \code{slice_plot()}}
 
 \item{color}{color of new axis (e.g. "blue")}
 }
@@ -36,7 +36,7 @@ function. The upper axis shows the input that goes into the scaling
 before being handed off to the pattern-book function.
 }
 \details{
-`plot_scaled_input()` is for drawing pattern-book functions on
+\code{plot_scaled_input()} is for drawing pattern-book functions on
 their natural unscaled input (plain "x"), but then adds a second scale
 that shows the input to the scaled function.
 

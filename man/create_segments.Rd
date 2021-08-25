@@ -7,11 +7,11 @@
 create_segments(ftilde, domain, h = NULL, nsegs = 20)
 }
 \arguments{
-\item{ftilde}{a tilde expression, as in `slice_plot()`}
+\item{ftilde}{a tilde expression, as in \code{slice_plot()}}
 
-\item{domain}{specification of a domain, as in `slice_plot()`}
+\item{domain}{specification of a domain, as in \code{slice_plot()}}
 
-\item{h}{an alternative to `nsegs`, giving the length of each segment.}
+\item{h}{an alternative to \code{nsegs}, giving the length of each segment.}
 
 \item{nsegs}{how many segments to divide the domain into}
 }

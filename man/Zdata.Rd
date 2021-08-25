@@ -7,12 +7,12 @@
 Zdata(dname, ...)
 }
 \arguments{
-\item{dname}{the complete name of the .csv file, e.g. `"USAFA/hawaii.csv"`}
+\item{dname}{the complete name of the .csv file, e.g. \code{"USAFA/hawaii.csv"}}
 
 \item{...}{other arguments to readr::read_csv()}
 }
 \description{
-The `{Znotes}` repository on GitHub has an associated web site. Authorized
+The \code{{Znotes}} repository on GitHub has an associated web site. Authorized
 instructors can add CSV files to that site. These data files can then
 be used in the Sandbox or in the R console.
 }

@@ -11,16 +11,16 @@ roof_fun(x, y, type = c("plain", "dormer", "silo"))
 
 \item{y}{the y-coordinates at which to evaluate the function}
 
-\item{type}{one of `"plain"`,  `"dormer"`, or `"silo"`.}
+\item{type}{one of \code{"plain"},  \code{"dormer"}, or \code{"silo"}.}
 }
 \description{
 Roof-shaped functions to illustrate the properties of partial derivatives.
 }
 \details{
-Note that when used in `contour_plot()` or `interactive_plot()`, you
-need only specify the symbolic expression `roof_fun(x, y) ~ x + y`. The plotting function
+Note that when used in \code{contour_plot()} or \code{interactive_plot()}, you
+need only specify the symbolic expression \code{roof_fun(x, y) ~ x + y}. The plotting function
 will calculate and provide the needed numerical values for the coordinate.
-The domain for this function is `x=c(-3,3)` and `y=c(-1,1)`.
+The domain for this function is \code{x=c(-3,3)} and \code{y=c(-1,1)}.
 }
 \examples{
 \dontrun{
