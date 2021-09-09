@@ -3,6 +3,7 @@
 \name{askMC}
 \alias{askMC}
 \alias{askGS}
+\alias{fix_dollar_signs}
 \alias{letter_counter}
 \title{Formatting multiple-choice questions for the book}
 \usage{
@@ -22,10 +23,12 @@ askMC(
   try_again_button = "Try again",
   allow_multiple_correct = FALSE,
   show_feedback = TRUE,
-  out_format = c("Markdown", "GradeScope")
+  out_format = c("Markdown", "GradeScope", "PDF")
 )
 
 askGS(...)
+
+fix_dollar_signs(str)
 
 letter_counter()
 }

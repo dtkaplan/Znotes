@@ -4,7 +4,7 @@ askMC <- function (prompt = "The question prompt", ..., id = NULL, right_one = N
                    inline = FALSE, random_answer_order = FALSE, allow_retry = TRUE,
                    correct = "Right!", incorrect = "Sorry.", message = NULL,
                    post_message = NULL, submit_button = "Check answer", try_again_button = "Try again",
-                   allow_multiple_correct = FALSE, show_feedback=TRUE, out_format=c("Markdown", "GradeScope")) {
+                   allow_multiple_correct = FALSE, show_feedback=TRUE, out_format=c("Markdown", "GradeScope", "PDF")) {
   out <- paste(prompt, "\n\n")
   out_format <- match.arg(out_format)
   raw_labels <- c("i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix", "x")
@@ -40,6 +40,27 @@ askMC <- function (prompt = "The question prompt", ..., id = NULL, right_one = N
     return(Res)
   }
   ## End of GradeScope module
+
+  ## latex/PDF output module
+  if (out_format == "PDF") {
+
+    feedback <- paste0("[*", answer_table$feedback, "*]")
+    feedback[nchar(feedback)==4] <- " "
+    answers <- paste0("a. ", answer_table$item,
+                      ifelse(answer_table$correct, " $\\heartsuit$ ", " "),
+                      feedback,
+                      collapse="\n")
+
+    total <- paste(out, answers,  sep="\n\n")
+
+    Res <- knitr::asis_output(paste0(
+      "\n\\hrulefill\n",
+      "**Question ", MC_counter$get(), "**  ",
+      total, "\n\n"))
+
+    return(Res)
+  }
+  ## End of latex/PDF module
 
 
   place_inline <- inline || (sum(nchar(answer_table$item) + nchar(answer_table$feedback)) < 80)
@@ -90,6 +111,13 @@ askMC <- function (prompt = "The question prompt", ..., id = NULL, right_one = N
 askGS <- function(...) {
   askMC(..., out_format = "GradeScope")
 }
+#' @export
+askPDF <- function(...) {
+  askMC(..., out_format = "PDF")
+}
+#' @rdname askMC
+#' @export
+#'
 # fix the dollar signs for GradeScope
 fix_dollar_signs <- function(str) {
   str <- gsub("\\${1}", "\\$\\$", str)
