@@ -63,35 +63,37 @@ askMC <- function (prompt = "The question prompt", ..., id = NULL, right_one = N
   ## End of latex/PDF module
 
 
-  place_inline <- inline || (sum(nchar(answer_table$item) + nchar(answer_table$feedback)) < 80)
-
-  if (place_inline) {
-    answer_labels <- paste0(rep("    ", nrow(answer_table)))
-    newline <- "   "
-  } else {
-    answer_labels <- paste0(answer_labels, ". ")
-    newline <- "     \n"
-
-  }
-
   # make all feedback strings the same length, so items will be
   # evenly spaced
   raw_feedback <- answer_table$feedback
   raw_feedback <- stringr::str_pad(raw_feedback,
                                    max(nchar(raw_feedback)),
-                                   side="right", pad=" ")
+                                   side="right", pad="‥")
+
+
+  place_inline <- inline || (sum(nchar(answer_table$item) + nchar(raw_feedback)) < 80)
+
+  if (place_inline) {
+    answer_labels <- paste0(rep("    ", nrow(answer_table)))
+    newline <- "   "
+    success <- "$\\heartsuit$"
+    container <- "span"
+  } else {
+    answer_labels <- paste0(answer_labels, ". ")[1:nrow(answer_table)]
+    newline <- "     \n"
+    success <- random_success()
+    container <- "div"
+
+  }
+
   if (show_feedback) {
-    feedback <- paste("<span class='mcanswer'>",
-                      ifelse(answer_table$correct, random_success(), "︎✘"),
+    feedback <- paste0("<", container, " class='mcanswer'>",
+                      ifelse(answer_table$correct, success, "︎✘"),
                       raw_feedback) # haven't yet closed <span>
-    feedback <- stringr::str_pad(feedback,
-                                 max(nchar(feedback)),
-                                 side="right", pad=" ")
-    feedback <- paste(feedback, "</span>") # close it up
+    feedback <- paste0(feedback, "</", container, ">") # close it up
   } else {
     feedback <- ""
   }
-
 
 
   answers <- paste0(answer_labels[1:nrow(answer_table)],
