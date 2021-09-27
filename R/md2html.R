@@ -2,7 +2,7 @@
 #'
 #' @param s character string containing simple markdown/latex-math
 #'
-#' @value Another character string containing the equivalent of s in HTML.
+#' @return  Another character string containing the equivalent of s in HTML.
 #' This is suitable for an htmlOutput() display in Shiny. You'll need to
 #' escape the HTML by using the html() function in your shiny::renderText()
 #' @export
