@@ -68,7 +68,7 @@ askMC <- function (prompt = "The question prompt", ..., id = NULL, right_one = N
   raw_feedback <- answer_table$feedback
   raw_feedback <- stringr::str_pad(raw_feedback,
                                    max(nchar(raw_feedback)),
-                                   side="right", pad="‥")
+                                   side="right", pad=".") # pad="‥")
 
 
   place_inline <- inline || (sum(nchar(answer_table$item) + nchar(raw_feedback)) < 80)
