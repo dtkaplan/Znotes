@@ -21,7 +21,7 @@ askMC <- function (prompt = "The question prompt", ..., id = NULL, right_one = N
   ## GradeScope output module
   if (out_format == "GradeScope") {
 
-    answers <- paste0("(", ifelse(answer_table$correct, "x", " "), ")  ",
+    answers <- paste0("(", ifelse(answer_table$correct, "x ", " "), ")  ",
                       fix_dollar_signs(answer_table$item), collapse="\n")
 
     feedback_for_correct <- answer_table$feedback[answer_table$correct]
@@ -66,9 +66,9 @@ askMC <- function (prompt = "The question prompt", ..., id = NULL, right_one = N
   # make all feedback strings the same length, so items will be
   # evenly spaced
   raw_feedback <- answer_table$feedback
-  raw_feedback <- stringr::str_pad(raw_feedback,
-                                   max(nchar(raw_feedback)),
-                                   side="right", pad=".") # pad="‥")
+  # raw_feedback <- stringr::str_pad(raw_feedback,
+  #                                  max(nchar(raw_feedback)),
+  #                                  side="right", pad=".") # pad="‥")
 
 
   place_inline <- inline || (sum(nchar(answer_table$item) + nchar(raw_feedback)) < 80)
@@ -76,27 +76,28 @@ askMC <- function (prompt = "The question prompt", ..., id = NULL, right_one = N
   if (place_inline) {
     answer_labels <- paste0(rep("    ", nrow(answer_table)))
     newline <- "   "
-    success <- "$\\heartsuit$"
+    success <- "$\\heartsuit\\ $"
     container <- "span"
   } else {
     answer_labels <- paste0(answer_labels, ". ")[1:nrow(answer_table)]
     newline <- "     \n"
-    success <- random_success()
-    container <- "div"
+    success <- paste0(random_success(), " ")
+    container <- "span"
 
   }
 
   if (show_feedback) {
     feedback <- paste0("<", container, " class='mcanswer'>",
-                      ifelse(answer_table$correct, success, "︎✘"),
+                      ifelse(answer_table$correct, success, "︎✘ "),
                       raw_feedback) # haven't yet closed <span>
-    feedback <- paste0(feedback, "</", container, ">") # close it up
+    feedback <- paste0(feedback, "</", container, "></span>") # close it up
   } else {
     feedback <- ""
   }
 
 
   answers <- paste0(answer_labels[1:nrow(answer_table)],
+                    "<span class='Zchoice'>",
                     answer_table$item,
                     feedback,
                     collapse = newline)
