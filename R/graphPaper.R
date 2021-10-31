@@ -84,12 +84,50 @@ graph_paper = function(P = NULL, xticks=0:5, yticks=-0:5,
 }
 
 #' @export
-gvec <- function(P = NULL, from, to, color="blue", size=1.2, alpha=1) {
+gvec <- function(P = NULL, from, to, label="..........", size=1.2, alpha=1,
+                 where = 0.5, nudge=0.5, flip=FALSE, ...) {
   df <- tibble(x = from[1], xend = to[1], y = from[2], yend = to[2])
   A <- arrow(ends="last", type="closed", length=unit(0.125, "inches"))
-  if (inherits(P, "ggplot")) {
-    P %>% gf_segment(y + yend ~ x + xend, data=df, color=color, arrow = A, size=size, alpha=alpha)
+  disp <- to - from
+  label_spot <- (1-where)*from + (where)*to
+  angle <- atan2(disp[2], disp[1]) + pi*flip
+  P <- if (inherits(P, "ggplot")) {
+    P %>% gf_segment(y + yend ~ x + xend, data=df, arrow = A, size=size, alpha=alpha, ...)
   } else {
-    gf_segment(y + yend ~ x + xend, data=df, color=color, arrow = A, size=size, alpha=alpha)
+    gf_segment(y + yend ~ x + xend, data=df, arrow = A, size=size, alpha=alpha, ...)
   }
+  P %>%
+    gf_text(label_spot[2] ~ label_spot[1], label=label, nudge_x=nudge*sin(angle),
+            nudge_y=nudge*cos(angle), angle=180*angle/pi, ...)
+}
+#' @export
+subspace <- function(P=NULL, from, to, label="...", where=1/2,nudge=0.5,
+                     linetype="dotted", flip=FALSE,...) {
+  dat <- as.data.frame(rbind(from, to))
+  disp <- to - from
+  angle <- atan2(disp[2] , disp[1]) + flip*pi
+  names(dat) <- c("x", "y")
+  label_spot <- (1-where)*from + (where)*to
+  coefs <- coefficients(lm(y ~ x, data = dat))
+  gf_abline(P, slope= ~ coefs[2], intercept= ~ coefs[1], linetype=linetype,
+            ...) %>%
+    gf_text(label_spot[2] ~ label_spot[1], label=label, nudge_x=nudge*sin(angle),
+            nudge_y=nudge*cos(angle), angle=180*angle/pi, ...)
+}
+#' @export
+bare_frame <- function(domain=list(x=c(-5,5), y=c(-5,5))) {
+  ggplot(data = as.data.frame(domain), aes(x=x, y=y)) +
+    geom_blank() + xlim(domain[[1]]) + ylim(domain[[2]]) +
+    coord_fixed() +
+    theme(axis.title.x = element_blank(),
+             axis.text.x = element_blank(),
+             axis.ticks.x = element_blank(),
+             axis.title.y = element_blank(),
+             axis.text.y = element_blank(),
+             axis.ticks.y = element_blank(),
+             panel.background = element_blank(),
+             panel.grid.major = element_blank(),
+             panel.grid.minor = element_blank(),
+             panel.border = element_blank(),
+             aspect.ratio = 1)
 }
