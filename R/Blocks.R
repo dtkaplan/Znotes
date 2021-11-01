@@ -23,7 +23,6 @@ matrix_block <- function(cmd, digits=4, ignore_cmd=FALSE, phrase="      ",
   if (is.matrix(result) && prod(dim(result)) > 1) {
     result = matrix2latex(result)
   }
-  browser()
   if (ignore_cmd) {
     paste0(phrase, dollars, result, dollars)
   } else if (inline) {
