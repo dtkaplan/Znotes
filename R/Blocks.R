@@ -26,17 +26,31 @@ matrix_block <- function(cmd, digits=4, ignore_cmd=FALSE, phrase="      ",
   if (ignore_cmd) {
     paste0(phrase, dollars, result, dollars)
   } else if (inline) {
-    paste0("<div><span><pre class='r'  style='width:",width,";overflow:auto;float:left;'>",
-           paste(as.character(raw[-1]), collapse="\n"),
-           "</pre><span>", " ",phrase," ",
-           dollars, result, dollars, "</div></br>")
-  } else {
-    paste0("<pre class='r'  style='width:",width,";overflow:auto;'>",
+    paste0("<div><span><pre class='sourceCode'  style='width:",width,";overflow:auto;float:left;'>",
            paste(as.character(raw[-1]), collapse="\n"),
            "</pre>", " ",phrase," ",
-           dollars, result, dollars, "</br>")
+           dollars, result, dollars, "</span><br></div>")
+  } else {
+    paste0("<pre class='sourceCode'  style='width:",width,";overflow:auto;'>",
+           paste(as.character(raw[-1]), collapse="\n"),
+           "</pre>", " ",phrase," ",
+           dollars, result, dollars, "<br>")
   }
 }
+
+#' @export
+
+oneline_block <- function(cmd, digits=4, phrase="      ", comment="", width="40%") {
+  raw <- substitute(cmd)
+  result <- eval(raw)
+  result <- round(result, digits)
+  if (nchar(comment) > 0) comment <- paste("#", comment)
+
+  paste0("<p><code class='sourceCode'  style='width:",width,";overflow:auto;float:left;'>",
+           paste(as.character(raw[-1]), comment, collapse="\n"),
+           "</code>", " ", phrase,"<code class='sourceCode' style=\"color: blue;\">",
+           result, "</code></p>")
+  }
 
 #' helper function for typesetting matrices.
 matrix2latex <- function(matr) {
