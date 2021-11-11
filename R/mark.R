@@ -16,7 +16,10 @@
 mark <- function(id) {
   id <- as.character(substitute(id))
   glue::glue('<span style="float: right; padding-left: 50px;"><a name="{id}" href="#{id}"><img src="www/icons8-signpost.png" title="Location: {id}" width="12px"/></a><span style="color: red; font-size: 6pt;">{id}</red></span>')
-}
+
+  # now defunct
+  ""
+  }
 
 #' @rdname mark
 #' @export
