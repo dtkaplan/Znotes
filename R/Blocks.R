@@ -45,11 +45,7 @@ oneline_block <- function(cmd, digits=4, phrase="\\(\\color{blue}{\\longrightarr
                           width="40%", inline=TRUE) {
   raw <- substitute(cmd)
   result <- eval(raw, envir = knitr::knit_global())
-  # if (inherits(raw, "<-")) {
-  #   # It's an assignment, so put it in the global environment
-  #   vname <- all.names(raw[[2]])
-  #   assign(vname, result, envir=knitr::knit_global())
-  # }
+
   if (inline) result <- round(result, digits)
   if (nchar(comment) > 0) comment <- paste("#", comment)
 
