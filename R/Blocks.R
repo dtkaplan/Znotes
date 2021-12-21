@@ -17,7 +17,7 @@
 matrix_block <- function(cmd, digits=4, ignore_cmd=FALSE, phrase="      ",
                          display=FALSE, inline=TRUE, width="40%") {
   raw <- substitute(cmd)
-  result <- eval(raw)
+  result <- eval(raw, envir=.GlobalEnv)
   dollars <- ifelse(display, "$$", "$")
   result <- round(result, digits)
   if (is.matrix(result) && prod(dim(result)) > 1) {
@@ -40,16 +40,37 @@ matrix_block <- function(cmd, digits=4, ignore_cmd=FALSE, phrase="      ",
 
 #' @export
 
-oneline_block <- function(cmd, digits=4, phrase="      ", comment="", width="40%") {
+oneline_block <- function(cmd, digits=4, phrase="\\(\\color{blue}{\\longrightarrow}\\)",
+                          comment="",
+                          width="40%", inline=TRUE) {
   raw <- substitute(cmd)
-  result <- eval(raw)
-  result <- round(result, digits)
+  result <- eval(raw, envir = knitr::knit_global())
+  if (inherits(raw, "<-")) {
+    # It's an assignment, so put it in the global environment
+    vname <- all.names(raw[[2]])
+    assign(vname, result, envir=knitr::knit_global())
+  }
+  if (inline) result <- round(result, digits)
   if (nchar(comment) > 0) comment <- paste("#", comment)
 
-  paste0("<p><code class='sourceCode'  style='width:",width,";overflow:auto;float:left;'>",
-           paste(as.character(raw[-1]), comment, collapse="\n"),
-           "</code>", " ", phrase,"<code class='sourceCode' style=\"color: blue;\">",
-           result, "</code></p>")
+    if (!inline) {
+    result <- ""
+  } else if (is.matrix(result)) {
+    result <- paste(capture.output(result), collapse="\n")
+  } else if (is.data.frame(result)) {
+    result <- knitr::kable(result) %>%
+      kable_paper("hover", html_font="Courier New", full_width = FALSE)
+  } else {
+    result <- paste0("<code class='sourceCode' style=\"color: blue;\">",
+                     result, "</code></p>")
+  }
+
+
+
+
+  paste0("<code class='sourceCode'  style='width:",width,";overflow:auto;float:left;'>",
+           paste(paste(" ", as.character(raw[-1])), comment, collapse="\n"),
+           "</code>", " ", phrase, result)
   }
 
 #' helper function for typesetting matrices.
