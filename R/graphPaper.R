@@ -9,6 +9,8 @@
 #'
 #' @name graphPaper
 #'
+#' @param show_labels logical (default: FALSE) whether to place axis labels.
+#' @param no_axes logical (default: TRUE) Do not display the x and y axes
 #' @param xticks numerical vector listing the position of x-axis ticks
 #' @param yticks like \code{xticks} but for y-axis
 #' @param xlabels as in \code{plot}, sets the y-axis label
@@ -25,7 +27,9 @@
 #' @author Daniel Kaplan (\email{kaplan@@macalester.edu})
 #' @return a ggplot2 object
 #' @export
-graph_paper = function(P = NULL, xticks=0:5, yticks=-0:5,
+graph_paper = function(P = NULL,
+                       xticks=0:5, yticks=xticks,
+                       show_labels=FALSE, no_axes=TRUE,
                        xlabels = xticks, ylabels = yticks,
                        extend = 0.10,
                        xlim=c(min(xticks), max(xticks)),
@@ -58,7 +62,7 @@ graph_paper = function(P = NULL, xticks=0:5, yticks=-0:5,
   arrow_head <- arrow(ends="both",  type = "closed",
                       length = unit(0.1, "inches"))
 
-  P %>% gf_segment(y + y2 ~ x + x2, data = Grid, alpha = 0.3) %>%
+  P <- P %>% gf_segment(y + y2 ~ x + x2, data = Grid, alpha = 0.3) %>%
     gf_theme(axis.title.x = element_blank(),
              axis.text.x = element_blank(),
              axis.ticks.x = element_blank(),
@@ -72,15 +76,23 @@ graph_paper = function(P = NULL, xticks=0:5, yticks=-0:5,
              aspect.ratio = 1,
     ) %>%
     gf_refine(scale_y_continuous(breaks = yticks),
-              scale_x_continuous(breaks = xticks)) %>%
-    gf_segment(min(yticks-extendy) + max(yticks+extendy) ~ 0 + 0,
-               color = "black", arrow = arrow_head) %>%
-    gf_segment(0 + 0 ~ min(xticks - extendx) + max(xticks + extendx),
-               color = "black",
-               arrow = arrow_head) %>%
-    gf_point(y ~ x, data = Labels, size=5, alpha=.8, color="white", inherit=FALSE) %>%
-    gf_text(y ~ x, label = ~ label, data = Labels, inherit=FALSE, alpha = 0.6)
+              scale_x_continuous(breaks = xticks))  %>%
+    gf_point(y ~ x, data = Labels, size=5, alpha=.8, color="white", inherit=FALSE)
 
+  if (!no_axes) {
+    P <- P %>%
+      gf_segment(min(yticks-extendy) + max(yticks+extendy) ~ 0 + 0,
+                 color = "black", arrow = arrow_head) %>%
+      gf_segment(0 + 0 ~ min(xticks - extendx) + max(xticks + extendx),
+                 color = "black",
+                 arrow = arrow_head)
+  }
+
+  if (show_labels) {
+    P %>% gf_text(y ~ x, label = ~ label, data = Labels, inherit=FALSE, alpha = 0.6)
+  } else {
+    P
+  }
 }
 
 #' @export

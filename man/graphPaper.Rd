@@ -8,7 +8,9 @@
 graph_paper(
   P = NULL,
   xticks = 0:5,
-  yticks = -0:5,
+  yticks = xticks,
+  show_labels = FALSE,
+  no_axes = TRUE,
   xlabels = xticks,
   ylabels = yticks,
   extend = 0.1,
@@ -25,6 +27,10 @@ graph_paper(
 \item{xticks}{numerical vector listing the position of x-axis ticks}
 
 \item{yticks}{like \code{xticks} but for y-axis}
+
+\item{show_labels}{logical (default: FALSE) whether to place axis labels.}
+
+\item{no_axes}{logical (default: TRUE) Do not display the x and y axes}
 
 \item{xlabels}{as in \code{plot}, sets the y-axis label}
 
