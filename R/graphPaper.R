@@ -103,6 +103,8 @@ gvec <- function(P = NULL, from, to, label="..........", size=1.2, alpha=1,
   disp <- to - from
   label_spot <- (1-where)*from + (where)*to
   label_angle <- atan2(disp[2], disp[1])
+  if (label_angle > pi/2) label_angle <- label_angle - pi
+  else if (label_angle < -pi/2) label_angle <- label_angle + pi
   angle <- label_angle + pi*ifelse(flip, 1, -1)/2
   P <- if (inherits(P, "ggplot")) {
     P %>% gf_segment(y + yend ~ x + xend, data=df, arrow = A, size=size, alpha=alpha, ...)
