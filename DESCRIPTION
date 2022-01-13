@@ -9,6 +9,7 @@ License: MIT + License
 Imports:
   mosaic,
   mosaicCalc,
+  tibble,
   remotes,
   glue,
   stringr

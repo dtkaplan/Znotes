@@ -85,34 +85,36 @@ graph_paper = function(P = NULL, xticks=0:5, yticks=-0:5,
 
 #' @export
 gvec <- function(P = NULL, from, to, label="..........", size=1.2, alpha=1,
-                 where = 0.5, nudge=0.5, flip=FALSE, ...) {
+                 where = 0.5, nudge=0.05, flip=FALSE, ...) {
   df <- tibble(x = from[1], xend = to[1], y = from[2], yend = to[2])
   A <- arrow(ends="last", type="closed", length=unit(0.125, "inches"))
   disp <- to - from
   label_spot <- (1-where)*from + (where)*to
-  angle <- atan2(disp[2], disp[1]) + pi*flip
+  label_angle <- atan2(disp[2], disp[1])
+  angle <- label_angle + pi*ifelse(flip, 1, -1)/2
   P <- if (inherits(P, "ggplot")) {
     P %>% gf_segment(y + yend ~ x + xend, data=df, arrow = A, size=size, alpha=alpha, ...)
   } else {
     gf_segment(y + yend ~ x + xend, data=df, arrow = A, size=size, alpha=alpha, ...)
   }
   P %>%
-    gf_text(label_spot[2] ~ label_spot[1], label=label, nudge_x=nudge*sin(angle),
-            nudge_y=nudge*cos(angle), angle=180*angle/pi, ...)
+    gf_text(label_spot[2] ~ label_spot[1], label=label, nudge_x=nudge*cos(angle),
+            nudge_y=nudge*sin(angle), angle=180*label_angle/pi, ...)
 }
 #' @export
 subspace <- function(P=NULL, from, to, label="...", where=1/2,nudge=0.5,
                      linetype="dotted", flip=FALSE,...) {
   dat <- as.data.frame(rbind(from, to))
   disp <- to - from
-  angle <- atan2(disp[2] , disp[1]) + flip*pi
+  label_angle <- atan2(disp[2] , disp[1])
+  angle <- label_angle + ifelse(flip, 1, -1)*pi/2
   names(dat) <- c("x", "y")
   label_spot <- (1-where)*from + (where)*to
   coefs <- coefficients(lm(y ~ x, data = dat))
   gf_abline(P, slope= ~ coefs[2], intercept= ~ coefs[1], linetype=linetype,
             ...) %>%
     gf_text(label_spot[2] ~ label_spot[1], label=label, nudge_x=nudge*sin(angle),
-            nudge_y=nudge*cos(angle), angle=180*angle/pi, ...)
+            nudge_y=nudge*cos(angle), angle=180*label_angle/pi, ...)
 }
 #' @export
 bare_frame <- function(domain=list(x=c(-5,5), y=c(-5,5))) {

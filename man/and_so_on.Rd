@@ -4,7 +4,7 @@
 \alias{and_so_on}
 \title{Formats tables to show top and bottom rows.}
 \usage{
-and_so_on(data, top = 3, bottom = 2, message = "...and so on...")
+and_so_on(data, top = 3, bottom = 2, message = "... and so on ...")
 }
 \arguments{
 \item{data}{A data frame to display}
