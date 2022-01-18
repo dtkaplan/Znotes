@@ -8,8 +8,10 @@
 #' @export
 and_so_on <- function(data, top=3, bottom=2, message="... and so on ...") {
   ncolumns <- length(data)
-  Top <- knitr::kable(head(data, top), format="html") |> strsplit("\n") |> unlist()
-  Bottom <- knitr::kable(tail(data, bottom), format="html") |> strsplit("\n") |> unlist()
+  Top <- knitr::kable(head(data, top), format="html", row.names=FALSE) |>
+    strsplit("\n") |> unlist()
+  Bottom <- knitr::kable(tail(data, bottom), format="html", row.names=FALSE) |>
+    strsplit("\n") |> unlist()
   topdrop <- grep("</table>|</tbody>", Top)
   bottomdrop <- grep("<table>|<thead>|</thead>|</th>|<tbody>", Bottom)
   #Bottom <- gsub("\\<thead\\>.*\\<\\thead>", "", Bottom)
