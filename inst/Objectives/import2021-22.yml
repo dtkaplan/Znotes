@@ -1,0 +1,2729 @@
+---
+Z1-VY0UT:
+- topic: Course mechanics
+- when: S1-L1
+- text: >
+    Access the course textbook
+- date: "Tue Feb  1 14:15:11 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-VY0UT
+- successor: none
+
+Z1-HKY4A:
+- topic: Course mechanics
+- when: S1-L1
+- text: >
+    Access the course Teams channel
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-HKY4A
+- successor: none
+
+
+Z1-8VV0P:
+- topic: Course mechanics
+- when: S1-L1
+- text: >
+    Access & submit assignments in Gradescope
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-8VV0P
+- successor: none
+
+
+Z1-QOPCP:
+- topic: Course mechanics
+- when: S1-L1
+- text: >
+    Know the content of the course letter
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-QOPCP
+- successor: none
+
+
+Z1-BE10J:
+- topic: Course mechanics
+- when: S1-L1
+- text: >
+    Describe (in broad terms) the structure of the course
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-BE10J
+- successor: none
+
+
+Z1-N6C9K:
+- topic: Functions
+- when: S1-L1
+- text: >
+    Identify inputs and outputs of a function given in
+    mathematical notation
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-N6C9K
+- successor: none
+
+
+Z1-AHXF1:
+- topic: Function
+- when: S1-L1
+- text: >
+    Evaluate a function given in mathematical notation
+    (e.g., line(x)=ax+b)
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-AHXF1
+- successor: none
+
+
+Z1-7AQCH:
+- topic: 2021/22
+- when: S1-L1
+- text: >
+    Estimate (model) a rate of change using a line and
+    the rise/run formula
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-7AQCH
+- successor: none
+
+
+Z1-VJL7J:
+- topic: 2021/22
+- when: S1-L2
+- text: >
+    Describe functions as a mapping from input(s)
+    and to a corresponding output
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-VJL7J
+- successor: none
+
+
+Z1-I5X5Y:
+- topic: 2021/22
+- when: S1-L2
+- text: >
+    Understand the Input/Output (I/O) correspondence
+    as the mathematical model of a real-world phenomenon
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-I5X5Y
+- successor: none
+
+
+Z1-S1QZR:
+- topic: 2021/22
+- when: S1-L2
+- text: >
+    Know the basic R syntax for multiplication, division,
+    addition, subtraction, exponents and know how to evaluate functions in R
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-S1QZR
+- successor: none
+
+
+Z1-HAK08:
+- topic: 2021/22
+- when: S1-L2
+- text: >
+    Know (Distinguish between) the behaviors and R commands
+    for the Pattern-book Functions (Exponential, Logarithm, Sinusoidal, Power family, Gaussian, Sigmoid)
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-HAK08
+- successor: none
+
+
+Z1-E9QIS:
+- topic: 2021/22
+- when: S1-L2
+- text: >
+    Identify the Domain and Range (i.e., valid inputs and outputs)
+    of the pattern-book functions
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-E9QIS
+- successor: none
+
+
+Z1-B8SLK:
+- topic: 2021/22
+- when: S1-L3
+- text: >
+    Understand the various ways functions can be given:
+    as Computer commands, Tables, and via word descriptions
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-B8SLK
+- successor: none
+
+
+Z1-BLRGZ:
+- topic: 2021/22
+- when: S1-L3
+- text: >
+    Distinguish between a mathematical expression/function and
+    the associated notation (e.g., =, <f0>, and <-)
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-BLRGZ
+- successor: none
+
+
+Z1-H4F0B:
+- topic: 2021/22
+- when: S1-L3
+- text: >
+    Translate a function given in mathematical notation to R code and back
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-H4F0B
+- successor: none
+
+
+Z1-207N5:
+- topic: 2021/22
+- when: S1-L3
+- text: >
+    Determine from a graph the concavity, inflection point(s),
+    continuity, asymptotic behavior, periodic behavior, and local extreme points of a function
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-207N5
+- successor: none
+
+
+Z1-0LMZT:
+- topic: 2021/22
+- when: S1-L3
+- text: >
+    Reflexively apply the CalcZ naming conventions
+    (covered in textbook, Chapter 5.6)
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-0LMZT
+- successor: none
+
+
+Z1-VLDC6:
+- topic: 2021/22
+- when: S1-L4
+- text: >
+    Produce an R plot of a given function over a given graphics domain
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-VLDC6
+- successor: none
+
+
+Z1-6R3XX:
+- topic: 2021/22
+- when: S1-L4
+- text: >
+    Apply the makeFun command in R to define a new function and
+    assign it a name
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-6R3XX
+- successor: none
+
+
+Z1-NZNIE:
+- topic: 2021/22
+- when: S1-L4
+- text: >
+    Apply the pipe operator (%>%) to layer multiple graphics in one plot
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-NZNIE
+- successor: none
+
+
+Z1-IG60S:
+- topic: 2021/22
+- when: S1-L4
+- text: >
+    Know the difference between a min/max and an argmin/argmax
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-IG60S
+- successor: none
+
+
+Z1-X6J99:
+- topic: 2021/22
+- when: S1-L5
+- text: >
+    Apply input scaling to the basic modeling functions
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-X6J99
+- successor: none
+
+
+Z1-MJ80T:
+- topic: 2021/22
+- when: S1-L5
+- text: >
+    Determine how input scaling was applied to a basic modeling function
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-MJ80T
+- successor: none
+
+
+Z1-L2BA6:
+- topic: 2021/22
+- when: S1-L5
+- text: >
+    Know that exponential functions always have a constant
+    doubling/halving time; use this property of exponentials
+    to estimate the remaining/growth of a quantity after a given time
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-L2BA6
+- successor: none
+
+
+Z1-V6CE5:
+- topic: 2021/22
+- when: S1-L5
+- text: >
+    Estimate the parameters (A, k, t, B) for an exponential
+    function given a dataset or graph
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-V6CE5
+- successor: none
+
+
+Z1-67FHO:
+- topic: 2021/22
+- when: S1-L6
+- text: >
+    Estimate the parameters for a periodic function (A, P, B, and t0) given a dataset or graph
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-67FHO
+- successor: none
+
+
+Z1-D7OGX:
+- topic: 2021/22
+- when: S1-L6
+- text: >
+    Estimate the parameters for a Gaussian function (A, mean, sd) given a dataset or graph
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-D7OGX
+- successor: none
+
+
+Z1-F5IYO:
+- topic: 2021/22
+- when: S1-L6
+- text: >
+    Estimate the parameters for a Sigmoidal function (A, mean, sd) given a dataset or graph
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-F5IYO
+- successor: none
+
+
+Z1-HSHMM:
+- topic: 2021/22
+- when: S1-L6
+- text: >
+    Identify related/corresponding Gaussian and Sigmoidal functions
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-HSHMM
+- successor: none
+
+
+Z1-A9YA0:
+- topic: 2021/22
+- when: S1-L7
+- text: >
+    Understand that for a continuous function with a curved graph, if you zoom in closely around a given point, will look like a straight line
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-A9YA0
+- successor: none
+
+
+Z1-K9W4Y:
+- topic: 2021/22
+- when: S1-L7
+- text: >
+    Calculate the average/instantaneous rate of change for a given function in mathematical or R notation or estimate the same using a graph of the function
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-K9W4Y
+- successor: none
+
+
+Z1-4TBR2:
+- topic: 2021/22
+- when: S1-L7
+- text: >
+    Compare the rates of change of a functions or across different inputs of the same function
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-4TBR2
+- successor: none
+
+
+Z1-643QU:
+- topic: 2021/22
+- when: S1-L7
+- text: >
+    Use the guess and check method to estimate the inverse of a function for a particular input
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-643QU
+- successor: none
+
+
+Z1-Z0YG4:
+- topic: 2021/22
+- when: S1-L8
+- text: >
+    Graphically construct a linear combination of two given functions
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-Z0YG4
+- successor: none
+
+
+Z1-7X9OT:
+- topic: 2021/22
+- when: S1-L8
+- text: >
+    Evaluate an assembled function
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-7X9OT
+- successor: none
+
+
+Z1-UXQBW:
+- topic: 2021/22
+- when: S1-L8
+- text: >
+    Assemble multiple modeling functions by combination, composition, and/or multiplication to match a given function or graph
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-UXQBW
+- successor: none
+
+
+Z1-R1DYG:
+- topic: 2021/22
+- when: S1-L8
+- text: >
+    Decompose an assembled function into its constituent modeling functions and identify the combination, composition, and/or multiplication steps using during assembly
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-R1DYG
+- successor: none
+
+
+Z1-TWCEF:
+- topic: 2021/22
+- when: S1-L9
+- text: >
+    Be able to read a table representing of a multivariate function
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-TWCEF
+- successor: none
+
+
+Z1-N4DQL:
+- topic: 2021/22
+- when: S1-L9
+- text: >
+    Evaluate a function with multiple inputs
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-N4DQL
+- successor: none
+
+
+Z1-NH4G1:
+- topic: 2021/22
+- when: S1-L9
+- text: >
+    Read and construct (in R) surface plots
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-NH4G1
+- successor: none
+
+
+Z1-A3VUX:
+- topic: 2021/22
+- when: S1-L9
+- text: >
+    Read and construct (in R) contour plots
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-A3VUX
+- successor: none
+
+
+Z1-Y5JLK:
+- topic: 2021/22
+- when: S1-L9
+- text: >
+    Sketch (by hand) a slice plot of a multivariate function
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-Y5JLK
+- successor: none
+
+
+Z1-SQFMP:
+- topic: 2021/22
+- when: S1-L9
+- text: >
+    Estimate if slope in a particular direction is positive or negative
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-SQFMP
+- successor: none
+
+
+Z1-SNJ03:
+- topic: 2021/22
+- when: S1-L10
+- text: >
+    Understand how ifelse() is used to define a piecewise function in R
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-SNJ03
+- successor: none
+
+
+Z1-8MT6R:
+- topic: 2021/22
+- when: S1-L10
+- text: >
+    Describe the difference between two given models
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-8MT6R
+- successor: none
+
+
+Z1-E5U46:
+- topic: 2021/22
+- when: S1-L10
+- text: >
+    Identify the disagreements between a model and a given dataset
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-E5U46
+- successor: none
+
+
+Z1-IQJUT:
+- topic: 2021/22
+- when: S1-L11
+- text: >
+    Know and reflexively apply the properties of logarithms and exponentials
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-IQJUT
+- successor: none
+
+
+Z1-TNRHK:
+- topic: 2021/22
+- when: S1-L11
+- text: >
+    Be able to read a semi-log or log-log plot
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-TNRHK
+- successor: none
+
+
+Z1-L7HXN:
+- topic: 2021/22
+- when: S1-L11
+- text: >
+    Estimate parameters for an exponential & power function using a semi-log or log-log plot
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-L7HXN
+- successor: none
+
+
+Z1-RZ2B9:
+- topic: 2021/22
+- when: S1-L13
+- text: >
+    Use identities to convert between units
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-RZ2B9
+- successor: none
+
+
+Z1-K94MU:
+- topic: 2021/22
+- when: S1-L13
+- text: >
+    Know the definition of fundamental and derived dimensions
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-K94MU
+- successor: none
+
+
+Z1-6NPO1:
+- topic: 2021/22
+- when: S1-L13
+- text: >
+    Use dimensional arithmetic to determine the dimension of various combinations of physical quantities
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-6NPO1
+- successor: none
+
+
+Z1-LBC89:
+- topic: 2021/22
+- when: S1-L13
+- text: >
+    Be able to identify valid or invalid operations based on the involved quantities? dimensions
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-LBC89
+- successor: none
+
+
+Z1-G9PLP:
+- topic: 2021/22
+- when: S1-L13
+- text: >
+    Use dimensional analysis to solve for the dimension of unknown constants or quantities
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-G9PLP
+- successor: none
+
+
+Z1-G284M:
+- topic: 2021/22
+- when: S1-L13
+- text: >
+    Understand the general idea of using dimensional analysis to develop reasonable relationships between physical quantities
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-G284M
+- successor: none
+
+
+Z1-LTNO7:
+- topic: 2021/22
+- when: S1-L17
+- text: >
+    Understand the derivative as a limit where the change in inputs approaches zero
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-LTNO7
+- successor: none
+
+
+Z1-JO9WF:
+- topic: 2021/22
+- when: S1-L17
+- text: >
+    Identify the original function, order of the derivative, and the ?with respect to? variable of a derivative for the following notations: one-line ?_x f , Leibniz dx/dt , Lagrange?s f'
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-JO9WF
+- successor: none
+
+
+Z1-3AH4H:
+- topic: 2021/22
+- when: S1-L17
+- text: >
+    Given a function?s derivative, determine if the function is (monotonically) increasing over a particular domain
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-3AH4H
+- successor: none
+
+
+Z1-UIJXS:
+- topic: 2021/22
+- when: S1-L17
+- text: >
+    Understand the correspondence between a function, its derivative, and second derivative
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-UIJXS
+- successor: none
+
+
+Z1-VYLAV:
+- topic: 2021/22
+- when: S1-L17
+- text: >
+    Determine the dimension of quantities involving rates and derivatives
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-VYLAV
+- successor: none
+
+
+Z1-I7IZ0:
+- topic: 2021/22
+- when: S1-L18
+- text: >
+    Understand differentiation as an operator which maps a function to its slope function
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-I7IZ0
+- successor: none
+
+
+Z1-NH92B:
+- topic: 2021/22
+- when: S1-L18
+- text: >
+    Use symbolic differentiation to find successive derivative functions for the pattern-book functions
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-NH92B
+- successor: none
+
+
+Z1-RABI7:
+- topic: 2021/22
+- when: S1-L18
+- text: >
+    Use numerical differentiation to confirm a candidate derivative,
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-RABI7
+- successor: none
+
+
+Z1-UMYNF:
+- topic: 2021/22
+- when: S1-L18
+- text: >
+    Understand that any function that can be differentiated, can be symbolically differentiated by a computer
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-UMYNF
+- successor: none
+
+
+Z1-9O1H6:
+- topic: 2021/22
+- when: S1-L18
+- text: >
+    Understand that there are practical (computational) limits of using numerical differentiation to calculate derivatives
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-9O1H6
+- successor: none
+
+
+Z1-WUVFF:
+- topic: 2021/22
+- when: S1-L19
+- text: >
+    Use a derivative to identify concavity and inflection points over a given domain
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-WUVFF
+- successor: none
+
+
+Z1-ONN4N:
+- topic: 2021/22
+- when: S1-L19
+- text: >
+    Recognize there exists a tangent circle to every function at every point related to the function?s curvature, be able to compare the radii between circles tangent to a given function at two or more points
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-ONN4N
+- successor: none
+
+
+Z1-6D5P7:
+- topic: 2021/22
+- when: S1-L19
+- text: >
+    Distinguish between concavity and curvature
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-6D5P7
+- successor: none
+
+
+Z1-SXHQP:
+- topic: 2021/22
+- when: S1-L19
+- text: >
+    Identify the order of continuity of a function as it relates to smoothness
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-SXHQP
+- successor: none
+
+
+Z1-M22S1:
+- topic: 2021/22
+- when: S1-L20
+- text: >
+    Determine the derivative of a linear combination of functions
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-M22S1
+- successor: none
+
+
+Z1-4H935:
+- topic: 2021/22
+- when: S1-L21
+- text: >
+    Determine the derivative of a product of functions
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-4H935
+- successor: none
+
+
+Z1-EDATP:
+- topic: 2021/22
+- when: S1-L22
+- text: >
+    Determine the derivative of a composition of functions
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-EDATP
+- successor: none
+
+
+Z1-GN4XU:
+- topic: 2021/22
+- when: S1-L23
+- text: >
+    Find critical points given a function or its graph, and relate the critical points to the function?s argmax and argmin
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-GN4XU
+- successor: none
+
+
+Z1-9IFZ5:
+- topic: 2021/22
+- when: S1-L23
+- text: >
+    Perform one (or more) Newton?s step(s) to refine a guess when finding zeros
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-9IFZ5
+- successor: none
+
+
+Z1-766WK:
+- topic: 2021/22
+- when: S1-L25
+- text: >
+    Recognize partial derivatives can involve any number of variables, but in this class, we focus on partial derivatives of 2-variable functions
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-766WK
+- successor: none
+
+
+Z1-R3WWE:
+- topic: 2021/22
+- when: S1-L25
+- text: >
+    Compute a partial derivative at a given point using algebra
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-R3WWE
+- successor: none
+
+
+Z1-A11W2:
+- topic: 2021/22
+- when: S1-L25
+- text: >
+    Estimate the partial derivative at a given point based on a contour plot
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-A11W2
+- successor: none
+
+
+Z1-A4L73:
+- topic: 2021/22
+- when: S1-L26
+- text: >
+    Determine which basis elements of a quadratic polynomial are used in the construction of a physical process based on a contour plot of said process
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-A4L73
+- successor: none
+
+
+Z1-BBB1P:
+- topic: 2021/22
+- when: S1-L26
+- text: >
+    Use a quadratic polynomial of multiple variables to model a physical phenomenon
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-BBB1P
+- successor: none
+
+
+Z1-TODD0:
+- topic: 2021/22
+- when: S1-L26
+- text: >
+    Leverage first-order, second-order, and interaction terms in the modeling process
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-TODD0
+- successor: none
+
+
+Z1-LK4GY:
+- topic: 2021/22
+- when: S1-L27
+- text: >
+    Memorize Taylor polynomials for several pattern book functions (e^x, sin?(x), cos?(x))
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-LK4GY
+- successor: none
+
+
+Z1-PPA0T:
+- topic: 2021/22
+- when: S1-L27
+- text: >
+    Understand the weaknesses of using polynomials for approximation
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-PPA0T
+- successor: none
+
+
+Z1-8JA3E:
+- topic: 2021/22
+- when: S1-L27
+- text: >
+    Compute the error of a Taylor polynomial at a given input
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-8JA3E
+- successor: none
+
+
+Z1-A7DY6:
+- topic: 2021/22
+- when: S1-L29
+- text: >
+    Identify the units and dimension of the result of
+    differentiation and antidifferentiation
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-A7DY6
+- successor: none
+
+
+Z1-5ZTU9:
+- topic: 2021/22
+- when: S1-L29
+- text: >
+    Identify differentiation and antidifferentiation as
+    reverse processes of each other
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-5ZTU9
+- successor: none
+
+
+Z1-PJ0RI:
+- topic: 2021/22
+- when: S1-L29
+- text: >
+    Use appropriate notation for the antiderivative and the
+    definite integral
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-PJ0RI
+- successor: none
+
+
+Z1-2J192:
+- topic: 2021/22
+- when: S1-L29
+- text: >
+    Given a scenario, identify units, dimension, and whether
+    the scenario describes differentiation, antidifferentiation (a function), or a definite integral (a number)
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-2J192
+- successor: none
+
+
+Z1-1Y6C1:
+- topic: 2021/22
+- when: S1-L31
+- text: >
+    Know the antiderivatives of the pattern book functions
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-1Y6C1
+- successor: none
+
+
+Z1-T407H:
+- topic: 2021/22
+- when: S1-L31
+- text: >
+    Given the graph of a function, draw a graph of an
+    antiderivative of that function
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-T407H
+- successor: none
+
+
+Z1-QPHVB:
+- topic: 2021/22
+- when: S1-L31
+- text: >
+    Utilize the antiD() operator in R to compute an antiderivative
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-QPHVB
+- successor: none
+
+
+Z1-3SEPZ:
+- topic: 2021/22
+- when: S1-L31
+- text: >
+    Given a candidate for an antiderivative verify it
+    is so by differentiating
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-3SEPZ
+- successor: none
+
+
+Z1-SGPQZ:
+- topic: 2021/22
+- when: S1-L32
+- text: >
+    Recognize the difference between antidifferentiation and
+    integration (accumulation)
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-SGPQZ
+- successor: none
+
+
+Z1-I7NFZ:
+- topic: 2021/22
+- when: S1-L32
+- text: >
+    Use the algebraic properties to calculate definite integrals
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-I7NFZ
+- successor: none
+
+
+Z1-9UNSM:
+- topic: 2021/22
+- when: S1-L32
+- text: >
+    Use the Fundamental Theorem of Calculus to compute a
+    definite integral, equivalent to "area" under a curve
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-9UNSM
+- successor: none
+
+
+Z1-FPNO3:
+- topic: 2021/22
+- when: S1-L32
+- text: >
+    Understand the "area under a curve" (i.e. net change)
+    is a signed quantity
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-FPNO3
+- successor: none
+
+
+Z1-U0PN3:
+- topic: 2021/22
+- when: S1-L34
+- text: >
+    Compute antiderivatives by applying basic rules to
+    linear combinations of pattern-book functions
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-U0PN3
+- successor: none
+
+
+Z1-GZOOD:
+- topic: 2021/22
+- when: S1-L35
+- text: >
+    Compute the antiderivative of composed functions
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-GZOOD
+- successor: none
+
+
+Z1-QXXZC:
+- topic: 2021/22
+- when: S1-L35
+- text: >
+    Compute the antiderivative of products of functions
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-QXXZC
+- successor: none
+
+
+Z1-B08YX:
+- topic: 2021/22
+- when: S1-L36
+- text: >
+    Compute the antiderivative of composed functions
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-B08YX
+- successor: none
+
+
+Z1-BMGW8:
+- topic: 2021/22
+- when: S1-L36
+- text: >
+    Compute the antiderivative of products of functions
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-BMGW8
+- successor: none
+
+
+Z2-4EIXW:
+- topic: 2021/22
+- when: S2-L1
+- text: >
+    Understand that vectors can be used to represent
+    quantities like position, velocity, and acceleration
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-4EIXW
+- successor: none
+
+
+Z2-CVX9Z:
+- topic: 2021/22
+- when: S2-L1
+- text: >
+    Describe the relationship between contours and gradient vectors
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-CVX9Z
+- successor: none
+
+
+Z2-QKMB6:
+- topic: 2021/22
+- when: S2-L1
+- text: >
+    Interpret the arrow-representation of a vector
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-QKMB6
+- successor: none
+
+
+Z2-SD2KQ:
+- topic: 2021/22
+- when: S2-L1
+- text: >
+    Contrast a gradient vector from a vector that points to an argmax
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-SD2KQ
+- successor: none
+
+
+Z2-NHR13:
+- topic: 2021/22
+- when: S2-L1
+- text: >
+    Compute the gradient vector for a given function
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-NHR13
+- successor: none
+
+
+Z2-J9BQP:
+- topic: 2021/22
+- when: S2-L2
+- text: >
+    Describe iteration as the repeated application of a
+    function to the result of a previous application
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-J9BQP
+- successor: none
+
+
+Z2-S89UK:
+- topic: 2021/22
+- when: S2-L2
+- text: >
+    Iterate a function from a given starting point by hand
+    and using R's Iterate() operator
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-S89UK
+- successor: none
+
+
+Z2-R6Y45:
+- topic: 2021/22
+- when: S2-L2
+- text: >
+    Compute the 1st-order linear approximation of a function
+    at a given point
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-R6Y45
+- successor: none
+
+
+Z2-DR9L7:
+- topic: 2021/22
+- when: S2-L2
+- text: >
+    Solve a linear equation
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-DR9L7
+- successor: none
+
+
+Z2-PTHHD:
+- topic: 2021/22
+- when: S2-L3
+- text: >
+    Describe in your own words how Newton's method works
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-PTHHD
+- successor: none
+
+
+Z2-TQES3:
+- topic: 2021/22
+- when: S2-L3
+- text: >
+    Create the function that corresponds to a single Newton step
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-TQES3
+- successor: none
+
+
+Z2-T2E7N:
+- topic: 2021/22
+- when: S2-L3
+- text: >
+    Apply Newton's method to solve an equation
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-T2E7N
+- successor: none
+
+
+Z2-OD4G6:
+- topic: 2021/22
+- when: S2-L3
+- text: >
+    Apply Newton's method to derivative to find argmax/argmin
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-OD4G6
+- successor: none
+
+
+Z2-OJMZ7:
+- topic: 2021/22
+- when: S2-L4
+- text: >
+    Given a set of XY-coordinates, connect them with a
+    continuous, smooth function
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-OJMZ7
+- successor: none
+
+
+Z2-D9S33:
+- topic: 2021/22
+- when: S2-L4
+- text: >
+    Given a graph of horizontal position versus vertical position, sketch the graphs of the functions x(t) and y(t) to independently represent the horizontal and vertical positions versus time, respectively.
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-D9S33
+- successor: none
+
+
+Z2-1W5AZ:
+- topic: 2021/22
+- when: S2-L4
+- text: >
+    Sketch a graph of position vs time given a written description of the motion.
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-1W5AZ
+- successor: none
+
+
+Z2-ISXDB:
+- topic: 2021/22
+- when: S2-L5
+- text: >
+    Recognize when smoothness is or is not necessary
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-ISXDB
+- successor: none
+
+
+Z2-G880N:
+- topic: 2021/22
+- when: S2-L5
+- text: >
+    Distinguish between cubic and quadratic splines given a graph
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-G880N
+- successor: none
+
+
+Z2-OETXQ:
+- topic: 2021/22
+- when: S2-L5
+- text: >
+    Use spliner() to produce a smooth spline
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-OETXQ
+- successor: none
+
+
+Z2-V0KOR:
+- topic: 2021/22
+- when: S2-L6
+- text: >
+    Read and interpret a gradient field
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-V0KOR
+- successor: none
+
+
+Z2-FNLLM:
+- topic: 2021/22
+- when: S2-L6
+- text: >
+    Determine if a gradient field corresponds to an objective
+    function's contour plot
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-FNLLM
+- successor: none
+
+
+Z2-8JJI8:
+- topic: 2021/22
+- when: S2-L6
+- text: >
+    Understand the role played by the gradient of the objective
+    function in solving optimization problems
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-8JJI8
+- successor: none
+
+
+Z2-T1OX2:
+- topic: 2021/22
+- when: S2-L6
+- text: >
+    Know gradient ascent is used to find an argmax whereas gradient
+    descent is used to find an argmin
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-T1OX2
+- successor: none
+
+
+Z2-F5KXC:
+- topic: 2021/22
+- when: S2-L6
+- text: >
+    Determine if a given path follows gradient ascent, descent,
+    or neither
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-F5KXC
+- successor: none
+
+
+Z2-AL99J:
+- topic: 2021/22
+- when: S2-L6
+- text: >
+    Approximate the argmin/argmax of an objective function
+    given its gradient field
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-AL99J
+- successor: none
+
+
+Z2-X4ZZQ:
+- topic: 2021/22
+- when: S2-L7
+- text: >
+    Given a word problem with an objective function,
+    determine the constraints
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-X4ZZQ
+- successor: none
+
+
+Z2-2L7Q4:
+- topic: 2021/22
+- when: S2-L7
+- text: >
+    Distinguish between equality constraints and inequality constraints
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-2L7Q4
+- successor: none
+
+
+Z2-TV12K:
+- topic: 2021/22
+- when: S2-L7
+- text: >
+    If given a feasible region, determine the optimal solution
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-TV12K
+- successor: none
+
+
+Z2-6HT6U:
+- topic: 2021/22
+- when: S2-L8
+- text: >
+    Be able to calculate the Lagrange Multiplier
+    ("shadow price") of a constraint
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-6HT6U
+- successor: none
+
+
+Z2-FOYH9:
+- topic: 2021/22
+- when: S2-L8
+- text: >
+    Determine whether a constraint is active or inactive
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-FOYH9
+- successor: none
+
+
+Z2-SPUK1:
+- topic: 2021/22
+- when: S2-L8
+- text: >
+    Understand there is no purely mathematical solution
+    to optimization with multiple incommensurate objectives
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-SPUK1
+- successor: none
+
+
+Z2-3Q2H1:
+- topic: 2021/22
+- when: S2-L9
+- text: >
+    Understand that energy is conserved, neither created or destroyed
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-3Q2H1
+- successor: none
+
+
+Z2-OYHA9:
+- topic: 2021/22
+- when: S2-L9
+- text: >
+    Solve work, energy and momentum problems for given mass,
+    displacement, velocity, and/or acceleration
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-OYHA9
+- successor: none
+
+
+Z2-2TNI2:
+- topic: 2021/22
+- when: S2-L10
+- text: >
+    Find the moments of a system about an axis
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-2TNI2
+- successor: none
+
+
+Z2-3YZ8F:
+- topic: 2021/22
+- when: S2-L10
+- text: >
+    Use integrals to calculate the centroid (center of mass) of a
+    lamina (flat plate)
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-3YZ8F
+- successor: none
+
+
+Z2-SVT2D:
+- topic: 2021/22
+- when: S2-L10
+- text: >
+    Find the centroid of a region that lies between two curves
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-SVT2D
+- successor: none
+
+
+Z2-I7DMC:
+- topic: 2021/22
+- when: S2-L11
+- text: >
+    Understand what a random variable represents
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-I7DMC
+- successor: none
+
+
+Z2-JRTYI:
+- topic: 2021/22
+- when: S2-L11
+- text: >
+    Discuss the scientific application of probability density
+    and cumulative probability
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-JRTYI
+- successor: none
+
+
+Z2-YQKS3:
+- topic: 2021/22
+- when: S2-L11
+- text: >
+    Be able to compute the probability of a continuous random
+    variable being in a range of values
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-YQKS3
+- successor: none
+
+
+Z2-ADIZ4:
+- topic: 2021/22
+- when: S2-L12
+- text: >
+    Understand the concept of expected value
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-ADIZ4
+- successor: none
+
+
+Z2-7CU94:
+- topic: 2021/22
+- when: S2-L12
+- text: >
+    Be able to compute the expected value of a
+    continuous random variable
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-7CU94
+- successor: none
+
+
+Z2-Q28SQ:
+- topic: 2021/22
+- when: S2-L13
+- text: >
+    Recognize two important real-world contexts in which a
+    vector (or function) output applies:
+     - a cash-flow stream and
+     - a probability distribution for an outcome.
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-Q28SQ
+- successor: none
+
+
+Z2-Y1DO5:
+- topic: 2021/22
+- when: S2-L13
+- text: >
+    Employ two widely used approaches for converting vector (or function) outputs into a scalar for the purposes of optimization:?
+    - Net-present value
+    - Expectation value
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-Y1DO5
+- successor: none
+
+
+Z2-JU3OX:
+- topic: 2021/22
+- when: S2-L16
+- text: >
+    Know that vectors can be represented as columns of data or graphically arrows
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-JU3OX
+- successor: none
+
+
+Z2-W4D22:
+- topic: 2021/22
+- when: S2-L16
+- text: >
+    Know how to perform scalar multiplication and vector addition
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-W4D22
+- successor: none
+
+
+Z2-DMRC2:
+- topic: 2021/22
+- when: S2-L16
+- text: >
+    Understand the transpose operator and how to compute the
+    dot product between two vectors
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-DMRC2
+- successor: none
+
+
+Z2-H32SM:
+- topic: 2021/22
+- when: S2-L16
+- text: >
+    Calculate the length of a vector
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-H32SM
+- successor: none
+
+
+Z2-EVFJ9:
+- topic: 2021/22
+- when: S2-L16
+- text: >
+    Know that computing the dot product of a vector with itself
+    is equivalent to length squared
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-EVFJ9
+- successor: none
+
+
+Z2-PXUYM:
+- topic: 2021/22
+- when: S2-L17
+- text: >
+    Write a system of linear equations as an equivalent target
+    problem involving a linear combination of vectors
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-PXUYM
+- successor: none
+
+
+Z2-VXEK5:
+- topic: 2021/22
+- when: S2-L17
+- text: >
+    Know the definition of a linear combination of vectors and be
+    able to rewrite as a matrix times a vector
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-VXEK5
+- successor: none
+
+
+Z2-ST3L3:
+- topic: 2021/22
+- when: S2-L17
+- text: >
+    Solve for a target vector algebraically or graphically in
+    two dimensions
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-ST3L3
+- successor: none
+
+
+Z2-X11RJ:
+- topic: 2021/22
+- when: S2-L17
+- text: >
+    Know how to calculate the distance between two vectors and
+    how to subtract vectors algebraically and graphically
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-X11RJ
+- successor: none
+
+
+Z2-YZZN8:
+- topic: 2021/22
+- when: S2-L18
+- text: >
+    Calculate the angle between two vectors
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-YZZN8
+- successor: none
+
+
+Z2-XTJ2M:
+- topic: 2021/22
+- when: S2-L18
+- text: >
+    Find a nonzero vector orthogonal to a given vector
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-XTJ2M
+- successor: none
+
+
+Z2-NN7RI:
+- topic: 2021/22
+- when: S2-L18
+- text: >
+    Calculate the projection of a vector onto another vector
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-NN7RI
+- successor: none
+
+
+Z2-G5ZI6:
+- topic: 2021/22
+- when: S2-L18
+- text: >
+    Sketch the projection of one vector onto another and
+    then draw the residual vector
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-G5ZI6
+- successor: none
+
+
+Z2-IIIHF:
+- topic: 2021/22
+- when: S2-L19
+- text: >
+    Write a target problem in the form
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-IIIHF
+- successor: none
+
+
+Z2-IX14A:
+- topic: 2021/22
+- when: S2-L19
+- text: >
+    Understand the relationship between b and b hat and
+    calculate the residual vector
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-IX14A
+- successor: none
+
+
+Z2-VOBOR:
+- topic: 2021/22
+- when: S2-L19
+- text: >
+    Calculate solutions to vector equations using R
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-VOBOR
+- successor: none
+
+
+Z2-2Q4WA:
+- topic: 2021/22
+- when: S2-L20
+- text: >
+    Understand applications of projections
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-2Q4WA
+- successor: none
+
+
+Z2-3SORV:
+- topic: 2021/22
+- when: S2-L20
+- text: >
+    Understand the relationship between projections and
+    Method of Least Squares
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-3SORV
+- successor: none
+
+
+Z2-0METU:
+- topic: 2021/22
+- when: S2-L20
+- text: >
+    Understand what the qr.solve() function gives you (this is testable).
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-0METU
+- successor: none
+
+
+Z2-WN86U:
+- topic: 2021/22
+- when: S2-L21
+- text: >
+    Apply projections to decompose a vector into two directions
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-WN86U
+- successor: none
+
+
+Z2-EDS4R:
+- topic: 2021/22
+- when: S2-L21
+- text: >
+    Understand the connection between projections into
+    the model space and solutions to the target problem
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-EDS4R
+- successor: none
+
+
+Z2-ALBFW:
+- topic: 2021/22
+- when: S2-L21
+- text: >
+    Know that R2 is a measure of how well the model accounts for
+    variability in the output variable
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-ALBFW
+- successor: none
+
+
+Z2-9K8TY:
+- topic: 2021/22
+- when: S2-L21
+- text: >
+    Know that R2 is the cosine of the angle between
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-9K8TY
+- successor: none
+
+
+Z2-UAUWN:
+- topic: 2021/22
+- when: S2-L22
+- text: >
+    Understand that "continuous" functions can be approximated
+    by vectors of discrete function value samples
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-UAUWN
+- successor: none
+
+
+Z2-71AP4:
+- topic: 2021/22
+- when: S2-L22
+- text: >
+    Be aware that the word "transform" in this class' context
+    relates to the "Fourier Transform."
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-71AP4
+- successor: none
+
+
+Z2-VZ2HA:
+- topic: 2021/22
+- when: S2-L22
+- text: >
+    Understand that the "transform" technique amounts to
+    designing the matrix in the target problem to break up
+    the function into meaningful components
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-VZ2HA
+- successor: none
+
+
+Z2-QW2UU:
+- topic: 2021/22
+- when: S2-L26
+- text: >
+    Explain the format in which we present dynamics as opposed
+    to trajectories
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-QW2UU
+- successor: none
+
+
+Z2-RTH05:
+- topic: 2021/22
+- when: S2-L26
+- text: >
+    Find qualitative solutions from an initial condition
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-RTH05
+- successor: none
+
+
+Z2-X8M56:
+- topic: 2021/22
+- when: S2-L26
+- text: >
+    Articulate the difference between state, dynamics, and trajectory
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-X8M56
+- successor: none
+
+
+Z2-8WCI6:
+- topic: 2021/22
+- when: S2-L28
+- text: >
+    Classify fixed points as stable/unstable given the dynamics
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-8WCI6
+- successor: none
+
+
+Z2-OFV3P:
+- topic: 2021/22
+- when: S2-L28
+- text: >
+    Identify the dynamics of constant growth
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-OFV3P
+- successor: none
+
+
+Z2-8Y0X7:
+- topic: 2021/22
+- when: S2-L28
+- text: >
+    Compute Euler solutions (format for expressing the system
+    and the format of the result)
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-8Y0X7
+- successor: none
+
+
+Z2-7VYBX:
+- topic: 2021/22
+- when: S2-L28
+- text: >
+    Analyze models in application contexts
+    (for example May's Cows - a model of bistability in ecology)
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-7VYBX
+- successor: none
+
+
+Z2-3Q1CL:
+- topic: 2021/22
+- when: S2-L29
+- text: >
+    Linear expansion around a fixed point
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-3Q1CL
+- successor: none
+
+
+Z2-BU948:
+- topic: 2021/22
+- when: S2-L29
+- text: >
+    Qualitative solution to exponential growth
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-BU948
+- successor: none
+
+
+Z2-ZS0P8:
+- topic: 2021/22
+- when: S2-L29
+- text: >
+    Understand that growth involves exponentials
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-ZS0P8
+- successor: none
+
+
+Z2-1H1LH:
+- topic: 2021/22
+- when: S2-L29
+- text: >
+    Impulse response and convolution (?)
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-1H1LH
+- successor: none
+
+
+Z2-KUDA4:
+- topic: 2021/22
+- when: S2-L29
+- text: >
+    Bang/bang control theory (?)
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-KUDA4
+- successor: none
+
+
+Z2-6G906:
+- topic: 2021/22
+- when: S2-L30
+- text: >
+    Using slope fields, understand that a differential equation has a family of solutions
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-6G906
+- successor: none
+
+
+Z2-SMS43:
+- topic: 2021/22
+- when: S2-L30
+- text: >
+    Determine a particular solution to a differential equation in one dimension
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-SMS43
+- successor: none
+
+
+Z2-ZT3NQ:
+- topic: 2021/22
+- when: S2-L30
+- text: >
+    Determine end behavior of a differential equation graphically
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-ZT3NQ
+- successor: none
+
+
+Z2-10I2K:
+- topic: 2021/22
+- when: S2-L30
+- text: >
+    Describe a scenario using proportional or inversely
+    proportional growth with a differential equation
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-10I2K
+- successor: none
+
+
+Z2-777QI:
+- topic: 2021/22
+- when: S2-L30
+- text: >
+    Understand the format of presentations of dynamics
+    (vector fields) and trajectories ( x vs t, y vs t or phase plane)
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-777QI
+- successor: none
+
+
+Z2-95YPE:
+- topic: 2021/22
+- when: S2-L30
+- text: >
+    Finding solutions graphically (flow fields)
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-95YPE
+- successor: none
+
+
+Z2-4ZSJ7:
+- topic: 2021/22
+- when: S2-L30
+- text: >
+    Dependence on initial condition
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-4ZSJ7
+- successor: none
+
+
+Z2-EJJHN:
+- topic: 2021/22
+- when: S2-L31
+- text: >
+    Apply modeling techniques (from block 2) local
+    low-order polynomials
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-EJJHN
+- successor: none
+
+
+Z2-XA7RX:
+- topic: 2021/22
+- when: S2-L31
+- text: >
+    Predatory/Prey (flow fields and the phenomena of the trajectories)
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-XA7RX
+- successor: none
+
+
+Z2-AE5T7:
+- topic: 2021/22
+- when: S2-L31
+- text: >
+    SIR (flow fields and the phenomena of the trajectories)
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-AE5T7
+- successor: none
+
+
+Z2-A59TK:
+- topic: 2021/22
+- when: S2-L31
+- text: >
+    The differences between these two models
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-A59TK
+- successor: none
+
+
+Z2-UN3WK:
+- topic: 2021/22
+- when: S2-L32
+- text: >
+    Determine a particular solution to a differential equation
+    in two dimensions
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-UN3WK
+- successor: none
+
+
+Z2-6GBAD:
+- topic: 2021/22
+- when: S2-L32
+- text: >
+    Describe a scenario using logistics growth with a differential equation
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-6GBAD
+- successor: none
+
+
+Z2-MRDHB:
+- topic: 2021/22
+- when: S2-L32
+- text: >
+    Understand the three types of dynamics stable, unstable, and saddle points
+    and how lambda values can clearly show which one is which
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-MRDHB
+- successor: none
+
+
+Z2-D0QDP:
+- topic: 2021/22
+- when: S2-L32
+- text: >
+    Richardson's arms race model and conflict model, action potentials
+    Numerics, look at the trajectories
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-D0QDP
+- successor: none
+
+
+Z2-TRNRJ:
+- topic: 2021/22
+- when: S2-L32
+- text: >
+    Analysis of phase plane with nullclines
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-TRNRJ
+- successor: none
+
+
+Z2-4SMKT:
+- topic: 2021/22
+- when: S2-L34
+- text: >
+    Eigenvalue Decomposition (in 2x2 matrices)
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-4SMKT
+- successor: none
+
+
+Z2-J6PJQ:
+- topic: 2021/22
+- when: S2-L34
+- text: >
+    Interpreting behavior of 2x2 linear systems
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-J6PJQ
+- successor: none
+
+
+Z2-5MED4:
+- topic: 2021/22
+- when: S2-L34
+- text: >
+    Introduction to complex numbers
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-5MED4
+- successor: none
+
+
+Z2-HG96H:
+- topic: 2021/22
+- when: S2-L34
+- text: >
+    Eigenvalues
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-HG96H
+- successor: none
+
+
+Z2-N985Y:
+- topic: 2021/22
+- when: S2-L34
+- text: >
+    Determine fixed points and linearize the system around
+    the fixed points
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-N985Y
+- successor: none
+
+
+Z2-EPC2L:
+- topic: 2021/22
+- when: S2-L34
+- text: >
+    Flow field of the linear approximation
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-EPC2L
+- successor: none
+
+
+Z2-7LLIX:
+- topic: 2021/22
+- when: S2-L34
+- text: >
+    Matrix representation of the flow field
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-7LLIX
+- successor: none
+
+
+Z2-TNU7G:
+- topic: 2021/22
+- when: S2-L34
+- text: >
+    Iteration of matrices
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-TNU7G
+- successor: none
+
+
+Z2-KVW34:
+- topic: 2021/22
+- when: S2-L35
+- text: >
+    Understand the geometry of the flow (what an eigenvector
+    looks like in terms of the flow, as it emerges from the image of the flow field)
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-KVW34
+- successor: none
+
+
+Z2-XZH2U:
+- topic: 2021/22
+- when: S2-L35
+- text: >
+    Trajectories as linear combinations of eigenflows
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-XZH2U
+- successor: none
+
+
+Z2-WQEY7:
+- topic: 2021/22
+- when: S2-L35
+- text: >
+    Classification of fixed points
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-WQEY7
+- successor: none
+
+
+Z2-VA0KG:
+- topic: 2021/22
+- when: S2-L36
+- text: >
+    Interpret phase plane diagrams, flow field diagrams,
+    and time series plots of nonlinear systems of differential equations
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-VA0KG
+- successor: none
+
+
+Z2-ET2YF:
+- topic: 2021/22
+- when: S2-L36
+- text: >
+    Be able to interpret individual terms in a dynamical
+    function that describes specific relationships among real-world objects
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-ET2YF
+- successor: none
+
+
+Z2-V7OST:
+- topic: 2021/22
+- when: S2-L36
+- text: >
+    (a) Predator-prey model
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-V7OST
+- successor: none
+
+
+Z2-WW07I:
+- topic: 2021/22
+- when: S2-L36
+- text: >
+    (b) Attrition model
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-WW07I
+- successor: none
+
+
+Z2-BBW5T:
+- topic: 2021/22
+- when: S2-L36
+- text: >
+    Force balance equations
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-BBW5T
+- successor: none
+
+
+Z2-5PCU8:
+- topic: 2021/22
+- when: S2-L36
+- text: >
+    Equivalence to phase plane description
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-5PCU8
+- successor: none
+
+
+Z2-Y54U3:
+- topic: 2021/22
+- when: S2-L36
+- text: >
+    Exponential Ansatz (solution is made up of exponentials, which one?)
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-Y54U3
+- successor: none
+
+
+Z2-3EHI9:
+- topic: 2021/22
+- when: S2-L36
+- text: >
+    Complex eigenvalues
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-3EHI9
+- successor: none
+
+
+Z2-6AHSY:
+- topic: 2021/22
+- when: S2-L37
+- text: >
+    Complex exponentials and their equivalency to sinusoids
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-6AHSY
+- successor: none
+
+
+Z2-KBHII:
+- topic: 2021/22
+- when: S2-L37
+- text: >
+    Sinusoids with exponential amplitudes (damping)
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-KBHII
+- successor: none
+
+
+Z2-RIBWK:
+- topic: 2021/22
+- when: S2-L37
+- text: >
+    Relation to the real and complex parts of the eigenvalues
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-RIBWK
+- successor: none
+
+
+Z2-ANME7:
+- topic: 2021/22
+- when: S2-L37
+- text: >
+    Forcing and resonance
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-ANME7
+- successor: none
+
+---

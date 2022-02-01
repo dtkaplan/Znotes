@@ -1,7 +1,7 @@
 Package: Znotes
 Type: Utility functions for the MOSAIC Calculus book 
 Title: What the Package Does (Title Case)
-Version: 0.1.0
+Version: 0.2.0
 Author: Daniel Kaplan
 Maintainer: Daniel Kaplan <dtkaplan@gmail.com>
 Description: Functions for multiple-choice questions, specialty graphics, and typography for the MOSAIC Calculus book and related materials
