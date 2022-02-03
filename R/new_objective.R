@@ -15,11 +15,11 @@ new_objective <- function() {
     if (! newID %in% IDs) break
   }
   path_components <- unlist(strsplit(this_doc$path, "/"))
-  topic <- path_components[length(path_components) - 1]
+  # topic <- path_components[length(path_components) - 1]
 
   fname <- basename(this_doc$path)
-  subtopic <- gsub("\\.y.{1,3}$", "", fname)
-
+  topic <- gsub("\\.y.{1,3}$", "", fname)
+  subtopic <- "+"
   yml <- construct_yaml(newID, topic, subtopic, fname)
 
   rstudioapi::insertText(

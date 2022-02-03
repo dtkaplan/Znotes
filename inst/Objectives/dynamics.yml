@@ -285,6 +285,19 @@ O-PKQU7:
 - ID: O-PKQU7
 - successor: none
 
+R-NDUFD:
+- topic: linear algebra
+- subtopic: +
+- text: |
+    Calculate the eigenvalues of a 2x2 matrix
+- date: "Thu Feb  3 13:50:16 2022"
+- author: kaplan
+- file: dynamics.yml
+- ID: R-NDUFD
+- successor: none
+
+
+
 B-R4YVZ:
 - topic: Dynamics
 - subtopic: eigenvalues
@@ -297,6 +310,20 @@ B-R4YVZ:
 - file: dynamics.yml
 - ID: B-R4YVZ
 - successor: none
+
+O-AS5CO:
+- topic: linear-algebra
+- subtopic: eigenvectors
+- text: |
+    From the eigenvalues of a 2x2 matrix, calculate the eigenvectors.
+- date: "Thu Feb  3 13:48:41 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: O-AS5CO
+- successor: none
+
+
+
 
 S-BOXLN:
 - topic: Dynamics

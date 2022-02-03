@@ -1,0 +1,15 @@
+---
+
+T-S3SIZ:
+- topic: programming
+- subtopic: functions
+- text: |
+    Write a vector-valued function in R.
+- date: "Thu Feb  3 14:28:10 2022"
+- author: kaplan
+- file: programming.yml
+- ID: T-S3SIZ
+- successor: none
+
+
+---

@@ -1,0 +1,746 @@
+---
+M-K61QN:
+- topic: linear-algebra
+- subtopic: basics
+- text: |
+    Determine the length of a vector arithmetically.
+- date: "Thu Feb  3 13:51:59 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: M-K61QN
+- successor: none
+
+I-G0BZU:
+- topic: linear-algebra
+- subtopic: basics
+- text: |
+    Determine the angle between two vectors arithmetically
+    (using a graph of the cosine function between 0 and pi or a
+    arccos() function available)
+- date: "Thu Feb  3 13:52:32 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: I-G0BZU
+- successor: none
+
+Q-I7FYD:
+- topic: linear-algebra
+- subtopic: projection
+- text: |
+    Project one vector onto another using dot products
+- date: "Thu Feb  3 13:54:30 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: Q-I7FYD
+- successor: none
+
+J-GBDOX:
+- topic: linear-algebra
+- subtopic: projection
+- text: |
+    Calculate the model vector from the results of `qr.solve()`
+- date: "Thu Feb  3 14:17:40 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: J-GBDOX
+- successor: none
+
+D-70W8Q:
+- topic: linear-algebra
+- subtopic: projection
+- text: |
+    Using basic matrix-vector operations, verify that the results from `qr.solve()` are an actual solution
+    to the target problem.
+- date: "Thu Feb  3 14:18:37 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: D-70W8Q
+- successor: none
+
+M-8E0C8:
+- topic: linear-algebra
+- subtopic: projection
+- text: |
+    Multiply a matrix times a vector both by hand (for simple cases) and using software.
+- date: "Thu Feb  3 14:19:50 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: M-8E0C8
+- successor: none
+
+
+
+X-X40GX:
+- topic: linear-algebra
+- subtopic: orthogonality
+- text: |
+    Determine if two vectors are orthogonal.
+- date: "Thu Feb  3 14:07:02 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: X-X40GX
+- successor: none
+
+D-82AWU:
+- topic: linear-algebra
+- subtopic: basics
+- text: |
+    Translate a set of simultaneous linear equations into a matrix format.
+- date: "Thu Feb  3 14:16:44 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: D-82AWU
+- successor: none
+
+K-0RJUW:
+- topic: linear-algebra
+- subtopic: basis sets
+- text: |
+    Decompose a vector onto members of a Fourier basis set using software.
+- date: "Thu Feb  3 14:23:26 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: K-0RJUW
+- successor: none
+
+S-YETJV:
+- topic: linear-algebra
+- subtopic: basis sets
+- text: |
+    Smooth a vector by projecting on to a natural spline basis set using software.
+- date: "Thu Feb  3 14:24:49 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: S-YETJV
+- successor: none
+
+
+
+J-CJI5W:
+- topic: linear-algebra
+- subtopic: orthogonality
+- text: |
+    Construct a vector that is orthogonal to given vector.
+- date: "Thu Feb  3 14:07:34 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: J-CJI5W
+- successor: none
+
+B-C00I0:
+- topic: linear-algebra
+- subtopic: modeling
+- text: |
+    Use `lm()` to model a variable from a data frame by a linear combination
+    of other variables in that data frame.
+- date: "Thu Feb  3 14:13:07 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: B-C00I0
+- successor: none
+
+C-SB83J:
+- topic: linear-algebra
+- subtopic: modeling
+- text: |
+    Calculate and interpret R^2^ form
+    i. a target problem solution from `qr.solve()`
+    ii. a model constructed from `lm()`
+- date: "Thu Feb  3 14:15:22 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: C-SB83J
+- successor: none
+
+
+
+
+L-0PJK5:
+- topic: linear-algebra
+- subtopic: basics
+- text: |
+    Compute a dot product by hand
+    (for simple vectors) and via software (e.g. using `%dot%`).
+- date: "Thu Feb  3 14:05:57 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: L-0PJK5
+- successor: none
+
+
+
+T-XTTY5:
+- topic: linear-algebra
+- subtopic: basics
+- text: |
+    Using software, compute the angle between two variables in a data frame.
+- date: "Thu Feb  3 13:55:57 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: T-XTTY5
+- successor: none
+
+E-PQ2SR:
+- topic: linear-algebra
+- subtopic: basics
+- text: |
+    Add and subtract two vectors presented graphically.
+- date: "Thu Feb  3 13:56:34 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: E-PQ2SR
+- successor: none
+
+L-OHK42:
+- topic: linear-algebra
+- subtopic: basics
+- text: |
+    Graphically find a linear combination of two vectors.
+- date: "Thu Feb  3 14:03:33 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: L-OHK42
+- successor: none
+
+
+
+D-TX959:
+- topic: linear-algebra
+- subtopic: target problem
+- text: |
+    Solve the two-dimension target problem graphically.
+- date: "Thu Feb  3 13:57:24 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: D-TX959
+- successor: none
+
+G-Q76M6:
+- topic: linear-algebra
+- subtopic: subspaces
+- text: |
+    Given a matrix $\mathbf{A}$ and a target $\vec{b}$, find the production onto
+    the span of $\mathbf{A}$ and the residual vector.
+- date: "Thu Feb  3 13:58:20 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: G-Q76M6
+- successor: none
+
+
+
+X-DY95N:
+- topic: linear-algebra
+- subtopic: computing
+- text: |
+    Construct a vector using `rbind()`
+- date: "Thu Feb  3 12:13:50 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: X-DY95N
+- successor: none
+
+V-N81AY:
+- topic: linear-algebra
+- subtopic: computing
+- text: |
+    Construct a matrix using `cbind()` to collect vectors
+    made with `rbind()`
+- date: "Thu Feb  3 12:14:13 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: V-N81AY
+- successor: none
+
+X-PWNTT:
+- topic: linear-algebra
+- subtopic: computing
+- text: |
+    Use `qr.solve()` to solve the target problem $A x = b$
+- date: "Thu Feb  3 12:15:24 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: X-PWNTT
+- successor: none
+
+A-2STPD:
+- topic: linear-algebra
+- subtopic: computing
+- text: |
+    Construct the residual vector using the output of `qr.solve()`
+- date: "Thu Feb  3 12:16:17 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: A-2STPD
+- successor: none
+
+
+
+
+
+
+
+
+
+WP-103-6:
+- topic: linear-algebra
+- subtopic: basics
+- text: |
+    Find the sum and difference of two vectors
+- date: "Thu Feb  3 12:11:25 2022"
+- author: West Point Core Math Book AY22
+- file: linear-algebra.yml
+- ID: WP-103-6:
+- successor: none
+
+WP-103-7:
+- topic: linear-algebra
+- subtopic: basics
+- text: |
+    Multiply vectors by a scalar or a matrix
+- date: "Thu Feb  3 12:11:25 2022"
+- author: West Point Core Math Book AY22
+- file: linear-algebra.yml
+- ID: WP-103-7:
+- successor: none
+
+WP-103-8:
+- topic: linear-algebra
+- subtopic: basics
+- text: |
+    Determine the dot project of two vectors
+- date: "Thu Feb  3 12:11:25 2022"
+- author: West Point Core Math Book AY22
+- file: linear-algebra.yml
+- ID: WP-103-8:
+- successor: none
+
+
+WP-103-9:
+- topic: linear-algebra
+- subtopic: basics
+- text: |
+    Determine the parametric (vector) equations of a line and a plane.
+- date: "Thu Feb  3 12:11:25 2022"
+- author: West Point Core Math Book AY22
+- file: linear-algebra.yml
+- ID: WP-103-9:
+- successor: none
+
+WP-103-10:
+- topic: linear-algebra
+- subtopic: basics
+- text: |
+    Multiply a matrix by a scalar, matrix, or vector.
+- date: "Thu Feb  3 12:11:25 2022"
+- author: West Point Core Math Book AY22
+- file: linear-algebra.yml
+- ID: WP-103-10:
+- successor: none
+
+WP-103-11:
+- topic: linear-algebra
+- subtopic: basics
+- text: |
+    Calculate the determinant of a matrix.
+- date: "Thu Feb  3 12:11:25 2022"
+- author: West Point Core Math Book AY22
+- file: linear-algebra.yml
+- ID: WP-103-11:
+- successor: none
+
+WP-103-12:
+- topic: linear-algebra
+- subtopic: basics
+- text: |
+    Solve (by hand) systems of equations (2x2) using
+    substitution, row reduction, and the inverse of a matrix.
+- date: "Thu Feb  3 12:11:25 2022"
+- author: West Point Core Math Book AY22
+- file: linear-algebra.yml
+- ID: WP-103-12:
+- successor: none
+
+WP-103-13:
+- topic: linear-algebra
+- subtopic: basics
+- text: |
+    Use technology to solve systems of equations of virtually any size using
+    row reduction or the inverse matrix method.
+- date: "Thu Feb  3 12:11:25 2022"
+- author: West Point Core Math Book AY22
+- file: linear-algebra.yml
+- ID: WP-103-13:
+- successor: none
+
+WP-103-14:
+- topic: linear-algebra
+- subtopic: basics
+- text: |
+    Explain the graphical interpretation of an eigenvector and eigenvalue and how to compute each
+    for a two-by-two matrix.
+- date: "Thu Feb  3 12:11:25 2022"
+- author: West Point Core Math Book AY22
+- file: linear-algebra.yml
+- ID: WP-103-14:
+- successor: none
+
+
+
+
+WP-103-15:
+- topic: linear-algebra
+- subtopic: basics
+- text: |
+    Use matrix algebra to model and solve network flow and social network problems.
+- date: "Thu Feb  3 12:11:25 2022"
+- author: West Point Core Math Book AY22
+- file: linear-algebra.yml
+- ID: WP-103-15:
+- successor: none
+
+WP-103-16:
+- topic: linear-algebra
+- subtopic: basics
+- text: |
+    Using eigenvalues, eigenvectors, and vector decomposition, develop closed form solutions
+    to initial value problems involving systems of linear equations.
+- date: "Thu Feb  3 12:11:25 2022"
+- author: West Point Core Math Book AY22
+- file: linear-algebra.yml
+- ID: WP-103-16:
+- successor: none
+
+
+
+
+
+
+Z2-JU3OX:
+- topic: Linear algebra
+- when: S2-L16
+- text: >
+    Know that vectors can be represented as columns of data or graphically arrows
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-JU3OX
+- successor: none
+
+
+Z2-W4D22:
+- topic: Linear algebra
+- when: S2-L16
+- text: >
+    Know how to perform scalar multiplication and vector addition
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-W4D22
+- successor: none
+
+
+Z2-DMRC2:
+- topic: Linear algebra
+- when: S2-L16
+- text: >
+    Understand the transpose operator and how to compute the
+    dot product between two vectors
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-DMRC2
+- successor: none
+
+
+Z2-H32SM:
+- topic: Linear algebra
+- when: S2-L16
+- text: >
+    Calculate the length of a vector
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-H32SM
+- successor: none
+
+
+Z2-EVFJ9:
+- topic: Linear algebra
+- when: S2-L16
+- text: >
+    Know that computing the dot product of a vector with itself
+    is equivalent to length squared
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-EVFJ9
+- successor: none
+
+
+Z2-PXUYM:
+- topic: Linear algebra
+- when: S2-L17
+- text: >
+    Write a system of linear equations as an equivalent target
+    problem involving a linear combination of vectors
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-PXUYM
+- successor: none
+
+
+Z2-VXEK5:
+- topic: Linear algebra
+- when: S2-L17
+- text: >
+    Know the definition of a linear combination of vectors and be
+    able to rewrite as a matrix times a vector
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-VXEK5
+- successor: none
+
+
+Z2-ST3L3:
+- topic: Linear algebra
+- when: S2-L17
+- text: >
+    Solve for a target vector algebraically or graphically in
+    two dimensions
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-ST3L3
+- successor: none
+
+
+Z2-X11RJ:
+- topic: Linear algebra
+- when: S2-L17
+- text: >
+    Know how to calculate the distance between two vectors and
+    how to subtract vectors algebraically and graphically
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-X11RJ
+- successor: none
+
+
+Z2-YZZN8:
+- topic: Linear algebra
+- when: S2-L18
+- text: >
+    Calculate the angle between two vectors
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-YZZN8
+- successor: none
+
+
+Z2-XTJ2M:
+- topic: Linear algebra
+- when: S2-L18
+- text: >
+    Find a nonzero vector orthogonal to a given vector
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-XTJ2M
+- successor: none
+
+
+Z2-NN7RI:
+- topic: Linear algebra
+- when: S2-L18
+- text: >
+    Calculate the projection of a vector onto another vector
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-NN7RI
+- successor: none
+
+
+Z2-G5ZI6:
+- topic: Linear algebra
+- when: S2-L18
+- text: >
+    Sketch the projection of one vector onto another and
+    then draw the residual vector
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-G5ZI6
+- successor: none
+
+
+Z2-IIIHF:
+- topic: Linear algebra
+- when: S2-L19
+- text: >
+    Write a target problem in the form
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-IIIHF
+- successor: none
+
+
+Z2-IX14A:
+- topic: Linear algebra
+- when: S2-L19
+- text: >
+    Understand the relationship between b and b hat and
+    calculate the residual vector
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-IX14A
+- successor: none
+
+
+Z2-VOBOR:
+- topic: Linear algebra
+- when: S2-L19
+- text: >
+    Calculate solutions to vector equations using R
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-VOBOR
+- successor: none
+
+
+Z2-2Q4WA:
+- topic: Linear algebra
+- when: S2-L20
+- text: >
+    Understand applications of projections
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-2Q4WA
+- successor: none
+
+
+Z2-3SORV:
+- topic: Linear algebra
+- when: S2-L20
+- text: >
+    Understand the relationship between projections and
+    Method of Least Squares
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-3SORV
+- successor: none
+
+
+Z2-0METU:
+- topic: Linear algebra
+- when: S2-L20
+- text: >
+    Understand what the qr.solve() function gives you (this is testable).
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-0METU
+- successor: none
+
+
+Z2-WN86U:
+- topic: Linear algebra
+- when: S2-L21
+- text: >
+    Apply projections to decompose a vector into two directions
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-WN86U
+- successor: none
+
+
+Z2-EDS4R:
+- topic: Linear algebra
+- when: S2-L21
+- text: >
+    Understand the connection between projections into
+    the model space and solutions to the target problem
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-EDS4R
+- successor: none
+
+
+Z2-ALBFW:
+- topic: Linear algebra
+- when: S2-L21
+- text: >
+    Know that R2 is a measure of how well the model accounts for
+    variability in the output variable
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-ALBFW
+- successor: none
+
+
+Z2-9K8TY:
+- topic: Linear algebra
+- when: S2-L21
+- text: >
+    Know that R2 is the cosine of the angle between
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-9K8TY
+- successor: none
+
+
+Z2-UAUWN:
+- topic: Linear algebra
+- when: S2-L22
+- text: >
+    Understand that "continuous" functions can be approximated
+    by vectors of discrete function value samples
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-UAUWN
+- successor: none
+
+
+Z2-71AP4:
+- topic: Linear algebra
+- when: S2-L22
+- text: >
+    Be aware that the word "transform" in this class' context
+    relates to the "Fourier Transform."
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-71AP4
+- successor: none
+
+
+Z2-VZ2HA:
+- topic: Linear algebra
+- when: S2-L22
+- text: >
+    Understand that the "transform" technique amounts to
+    designing the matrix in the target problem to break up
+    the function into meaningful components
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-VZ2HA
+- successor: none
+
+
+---
