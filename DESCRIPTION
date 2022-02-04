@@ -12,7 +12,9 @@ Imports:
   tibble,
   remotes,
   glue,
-  stringr
+  stringr,
+  tibble,
+  stringdist
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)

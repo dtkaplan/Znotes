@@ -1,6 +1,6 @@
 ---
 Z1-VY0UT:
-- topic: Course mechanics
+- topic: course mechanics
 - when: S1-L1
 - text: >
     Access the course textbook
@@ -11,7 +11,7 @@ Z1-VY0UT:
 - successor: none
 
 Z1-HKY4A:
-- topic: Course mechanics
+- topic: course mechanics
 - when: S1-L1
 - text: >
     Access the course Teams channel
@@ -23,7 +23,7 @@ Z1-HKY4A:
 
 
 Z1-8VV0P:
-- topic: Course mechanics
+- topic: course mechanics
 - when: S1-L1
 - text: >
     Access & submit assignments in Gradescope
@@ -35,7 +35,7 @@ Z1-8VV0P:
 
 
 Z1-QOPCP:
-- topic: Course mechanics
+- topic: course mechanics
 - when: S1-L1
 - text: >
     Know the content of the course letter
@@ -47,7 +47,7 @@ Z1-QOPCP:
 
 
 Z1-BE10J:
-- topic: Course mechanics
+- topic: course mechanics
 - when: S1-L1
 - text: >
     Describe (in broad terms) the structure of the course
@@ -59,7 +59,8 @@ Z1-BE10J:
 
 
 Z1-N6C9K:
-- topic: Functions
+- topic: functions
+- subtopic: notation
 - when: S1-L1
 - text: >
     Identify inputs and outputs of a function given in
@@ -72,7 +73,8 @@ Z1-N6C9K:
 
 
 Z1-AHXF1:
-- topic: Function
+- topic: functions
+- subtopic: evaluation
 - when: S1-L1
 - text: >
     Evaluate a function given in mathematical notation
@@ -85,7 +87,7 @@ Z1-AHXF1:
 
 
 Z1-7AQCH:
-- topic: 2021/22
+- topic: rate of change
 - when: S1-L1
 - text: >
     Estimate (model) a rate of change using a line and
@@ -98,7 +100,7 @@ Z1-7AQCH:
 
 
 Z1-VJL7J:
-- topic: 2021/22
+- topic: functions
 - when: S1-L2
 - text: >
     Describe functions as a mapping from input(s)
@@ -111,7 +113,7 @@ Z1-VJL7J:
 
 
 Z1-I5X5Y:
-- topic: 2021/22
+- topic: functions
 - when: S1-L2
 - text: >
     Understand the Input/Output (I/O) correspondence
@@ -124,7 +126,8 @@ Z1-I5X5Y:
 
 
 Z1-S1QZR:
-- topic: 2021/22
+- topic: functions
+- subtopic: programming
 - when: S1-L2
 - text: >
     Know the basic R syntax for multiplication, division,
@@ -137,7 +140,8 @@ Z1-S1QZR:
 
 
 Z1-HAK08:
-- topic: 2021/22
+- topic: functions
+- subtopic: pattern-book functions
 - when: S1-L2
 - text: >
     Know (Distinguish between) the behaviors and R commands
@@ -150,7 +154,8 @@ Z1-HAK08:
 
 
 Z1-E9QIS:
-- topic: 2021/22
+- topic: functions
+- subtopic: pattern-book functions
 - when: S1-L2
 - text: >
     Identify the Domain and Range (i.e., valid inputs and outputs)
@@ -163,7 +168,7 @@ Z1-E9QIS:
 
 
 Z1-B8SLK:
-- topic: 2021/22
+- topic: functions
 - when: S1-L3
 - text: >
     Understand the various ways functions can be given:
@@ -176,7 +181,8 @@ Z1-B8SLK:
 
 
 Z1-BLRGZ:
-- topic: 2021/22
+- topic: functions
+- subtopic: notation
 - when: S1-L3
 - text: >
     Distinguish between a mathematical expression/function and
@@ -189,7 +195,8 @@ Z1-BLRGZ:
 
 
 Z1-H4F0B:
-- topic: 2021/22
+- topic: functions
+- subtopic: notation
 - when: S1-L3
 - text: >
     Translate a function given in mathematical notation to R code and back
@@ -201,7 +208,8 @@ Z1-H4F0B:
 
 
 Z1-207N5:
-- topic: 2021/22
+- topic: function nomenclature
+- subtopic: graphs
 - when: S1-L3
 - text: >
     Determine from a graph the concavity, inflection point(s),
@@ -214,7 +222,8 @@ Z1-207N5:
 
 
 Z1-0LMZT:
-- topic: 2021/22
+- topic: functions
+- subtopic: notation
 - when: S1-L3
 - text: >
     Reflexively apply the CalcZ naming conventions
@@ -227,7 +236,8 @@ Z1-0LMZT:
 
 
 Z1-VLDC6:
-- topic: 2021/22
+- topic: functions
+- subtopic: computing
 - when: S1-L4
 - text: >
     Produce an R plot of a given function over a given graphics domain
@@ -239,7 +249,8 @@ Z1-VLDC6:
 
 
 Z1-6R3XX:
-- topic: 2021/22
+- topic: functions
+- subtopic: computing
 - when: S1-L4
 - text: >
     Apply the makeFun command in R to define a new function and
@@ -252,7 +263,8 @@ Z1-6R3XX:
 
 
 Z1-NZNIE:
-- topic: 2021/22
+- topic: graphics
+- subtopic: computing
 - when: S1-L4
 - text: >
     Apply the pipe operator (%>%) to layer multiple graphics in one plot
@@ -264,7 +276,8 @@ Z1-NZNIE:
 
 
 Z1-IG60S:
-- topic: 2021/22
+- topic: function nomenclature
+- subtopic: optimization
 - when: S1-L4
 - text: >
     Know the difference between a min/max and an argmin/argmax
@@ -276,7 +289,8 @@ Z1-IG60S:
 
 
 Z1-X6J99:
-- topic: 2021/22
+- topic: functions
+- subtopic: input scaling
 - when: S1-L5
 - text: >
     Apply input scaling to the basic modeling functions
@@ -288,7 +302,8 @@ Z1-X6J99:
 
 
 Z1-MJ80T:
-- topic: 2021/22
+- topic: functions
+- subtopic: input scaling
 - when: S1-L5
 - text: >
     Determine how input scaling was applied to a basic modeling function
@@ -300,7 +315,8 @@ Z1-MJ80T:
 
 
 Z1-L2BA6:
-- topic: 2021/22
+- topic: functions
+- subtopic: exponentials
 - when: S1-L5
 - text: >
     Know that exponential functions always have a constant
@@ -314,7 +330,8 @@ Z1-L2BA6:
 
 
 Z1-V6CE5:
-- topic: 2021/22
+- topic: functions
+- subtopic: exponentials
 - when: S1-L5
 - text: >
     Estimate the parameters (A, k, t, B) for an exponential
@@ -327,7 +344,8 @@ Z1-V6CE5:
 
 
 Z1-67FHO:
-- topic: 2021/22
+- topic: functions
+- subtopic: sinusoid
 - when: S1-L6
 - text: >
     Estimate the parameters for a periodic function (A, P, B, and t0) given a dataset or graph
@@ -339,8 +357,9 @@ Z1-67FHO:
 
 
 Z1-D7OGX:
-- topic: 2021/22
-- when: S1-L6
+- topic: functions
+- subtopic: gaussian
+- when S1-L6
 - text: >
     Estimate the parameters for a Gaussian function (A, mean, sd) given a dataset or graph
 - date: "Tue Feb  1 14:16:34 2022"
@@ -351,7 +370,8 @@ Z1-D7OGX:
 
 
 Z1-F5IYO:
-- topic: 2021/22
+- topic: functions
+- subtopic: sigmoidal
 - when: S1-L6
 - text: >
     Estimate the parameters for a Sigmoidal function (A, mean, sd) given a dataset or graph
@@ -363,7 +383,8 @@ Z1-F5IYO:
 
 
 Z1-HSHMM:
-- topic: 2021/22
+- topic: functions
+- subtopic: gaussian
 - when: S1-L6
 - text: >
     Identify related/corresponding Gaussian and Sigmoidal functions
@@ -375,7 +396,8 @@ Z1-HSHMM:
 
 
 Z1-A9YA0:
-- topic: 2021/22
+- topic: functions
+- subtopic: approximation
 - when: S1-L7
 - text: >
     Understand that for a continuous function with a curved graph, if you zoom in closely around a given point, will look like a straight line
@@ -387,7 +409,33 @@ Z1-A9YA0:
 
 
 Z1-K9W4Y:
-- topic: 2021/22
+- topic: rate of change
+- subtopic: instantaneous
+- when: S1-L7
+- text: >
+    Calculate the instantaneous rate of change for a given function in mathematical or R notation or estimate the same using a graph of the function
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-K9W4Y
+- successor: none
+
+Z1-K9WYB:
+- topic: rate of change
+- subtopic: instantaneous
+- when: S1-L7
+- text: >
+    Estimate the instantaneous rate of change from a graph of the function
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-K9W4Y
+- successor: none
+
+
+Z1-K94YW:
+- topic: rate of change
+- subtopic: average
 - when: S1-L7
 - text: >
     Calculate the average/instantaneous rate of change for a given function in mathematical or R notation or estimate the same using a graph of the function
@@ -399,7 +447,7 @@ Z1-K9W4Y:
 
 
 Z1-4TBR2:
-- topic: 2021/22
+- topic: rate of change
 - when: S1-L7
 - text: >
     Compare the rates of change of a functions or across different inputs of the same function
@@ -411,7 +459,8 @@ Z1-4TBR2:
 
 
 Z1-643QU:
-- topic: 2021/22
+- topic: functions
+- subtopic: inverse
 - when: S1-L7
 - text: >
     Use the guess and check method to estimate the inverse of a function for a particular input
@@ -423,7 +472,8 @@ Z1-643QU:
 
 
 Z1-Z0YG4:
-- topic: 2021/22
+- topic: functions
+- subtopic: linear combinations
 - when: S1-L8
 - text: >
     Graphically construct a linear combination of two given functions
@@ -447,10 +497,10 @@ Z1-7X9OT:
 
 
 Z1-UXQBW:
-- topic: 2021/22
+- topic: functions
 - when: S1-L8
 - text: >
-    Assemble multiple modeling functions by combination, composition, and/or multiplication to match a given function or graph
+    TOO BROAD: Assemble multiple modeling functions by combination, composition, and/or multiplication to match a given function or graph
 - date: "Tue Feb  1 14:16:34 2022"
 - author: Zteam
 - file: import2021-22.yml
@@ -459,10 +509,11 @@ Z1-UXQBW:
 
 
 Z1-R1DYG:
-- topic: 2021/22
+- topic: functions
+- subtopic: linear combinations
 - when: S1-L8
 - text: >
-    Decompose an assembled function into its constituent modeling functions and identify the combination, composition, and/or multiplication steps using during assembly
+    TOO BROAD: Decompose an assembled function into its constituent modeling functions and identify the combination, composition, and/or multiplication steps using during assembly
 - date: "Tue Feb  1 14:16:34 2022"
 - author: Zteam
 - file: import2021-22.yml
@@ -471,7 +522,8 @@ Z1-R1DYG:
 
 
 Z1-TWCEF:
-- topic: 2021/22
+- topic: multivariate functions
+- subtopic: tabular
 - when: S1-L9
 - text: >
     Be able to read a table representing of a multivariate function
@@ -483,7 +535,8 @@ Z1-TWCEF:
 
 
 Z1-N4DQL:
-- topic: 2021/22
+- topic: multivariate functions
+- subtopic: evaluation
 - when: S1-L9
 - text: >
     Evaluate a function with multiple inputs
@@ -495,7 +548,8 @@ Z1-N4DQL:
 
 
 Z1-NH4G1:
-- topic: 2021/22
+- topic: programming
+- subtopic: surface plot
 - when: S1-L9
 - text: >
     Read and construct (in R) surface plots
@@ -507,7 +561,8 @@ Z1-NH4G1:
 
 
 Z1-A3VUX:
-- topic: 2021/22
+- topic: programming
+- subtopic: contour plot
 - when: S1-L9
 - text: >
     Read and construct (in R) contour plots
@@ -519,7 +574,8 @@ Z1-A3VUX:
 
 
 Z1-Y5JLK:
-- topic: 2021/22
+- topic: multivariate function
+- subtopic: slices
 - when: S1-L9
 - text: >
     Sketch (by hand) a slice plot of a multivariate function
@@ -531,7 +587,8 @@ Z1-Y5JLK:
 
 
 Z1-SQFMP:
-- topic: 2021/22
+- topic: multivariate function
+- subtopic: directional slope
 - when: S1-L9
 - text: >
     Estimate if slope in a particular direction is positive or negative
@@ -543,8 +600,8 @@ Z1-SQFMP:
 
 
 Z1-SNJ03:
-- topic: 2021/22
-- when: S1-L10
+- topic: programming
+- when: piecewise
 - text: >
     Understand how ifelse() is used to define a piecewise function in R
 - date: "Tue Feb  1 14:16:34 2022"
@@ -567,8 +624,8 @@ Z1-8MT6R:
 
 
 Z1-E5U46:
-- topic: 2021/22
-- when: S1-L10
+- topic: modeling
+- when: compare to data
 - text: >
     Identify the disagreements between a model and a given dataset
 - date: "Tue Feb  1 14:16:34 2022"
@@ -579,7 +636,8 @@ Z1-E5U46:
 
 
 Z1-IQJUT:
-- topic: 2021/22
+- topic: functions
+- subtopic: exponentials
 - when: S1-L11
 - text: >
     Know and reflexively apply the properties of logarithms and exponentials
@@ -589,9 +647,21 @@ Z1-IQJUT:
 - ID: Z1-IQJUT
 - successor: none
 
+Z1-IQKUT:
+- topic: functions
+- subtopic: logarithm
+- when: S1-L11
+- text: >
+    Know and reflexively apply the properties of logarithms and exponentials
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-IQJUT
+- successor: none
 
 Z1-TNRHK:
-- topic: 2021/22
+- topic: graphics
+- subtopic: logarithmic
 - when: S1-L11
 - text: >
     Be able to read a semi-log or log-log plot
@@ -603,7 +673,8 @@ Z1-TNRHK:
 
 
 Z1-L7HXN:
-- topic: 2021/22
+- topic: graphics
+- subtopic: logarithmic
 - when: S1-L11
 - text: >
     Estimate parameters for an exponential & power function using a semi-log or log-log plot
@@ -615,7 +686,8 @@ Z1-L7HXN:
 
 
 Z1-RZ2B9:
-- topic: 2021/22
+- topic: dimensional analysis
+- subtopic: unit conversion
 - when: S1-L13
 - text: >
     Use identities to convert between units
@@ -627,7 +699,8 @@ Z1-RZ2B9:
 
 
 Z1-K94MU:
-- topic: 2021/22
+- topic: dimensional analysis
+- subtopic: fundamental dimensions
 - when: S1-L13
 - text: >
     Know the definition of fundamental and derived dimensions
@@ -637,9 +710,22 @@ Z1-K94MU:
 - ID: Z1-K94MU
 - successor: none
 
+Z1-K94MV:
+- topic: dimensional analysis
+- subtopic: derived dimensions
+- when: S1-L13
+- text: >
+    Know the definition of fundamental and derived dimensions
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-K94MV
+- successor: none
+
 
 Z1-6NPO1:
-- topic: 2021/22
+- topic: dimensional analysis
+- subtopic: physical quantities
 - when: S1-L13
 - text: >
     Use dimensional arithmetic to determine the dimension of various combinations of physical quantities
@@ -651,7 +737,8 @@ Z1-6NPO1:
 
 
 Z1-LBC89:
-- topic: 2021/22
+- topic: dimensional analysis
+- subtopic: validity of operations
 - when: S1-L13
 - text: >
     Be able to identify valid or invalid operations based on the involved quantities? dimensions
@@ -663,7 +750,7 @@ Z1-LBC89:
 
 
 Z1-G9PLP:
-- topic: 2021/22
+- topic: dimensional analysis
 - when: S1-L13
 - text: >
     Use dimensional analysis to solve for the dimension of unknown constants or quantities
@@ -675,7 +762,7 @@ Z1-G9PLP:
 
 
 Z1-G284M:
-- topic: 2021/22
+- topic: dimensional analysis
 - when: S1-L13
 - text: >
     Understand the general idea of using dimensional analysis to develop reasonable relationships between physical quantities
@@ -687,7 +774,8 @@ Z1-G284M:
 
 
 Z1-LTNO7:
-- topic: 2021/22
+- topic: derivative
+- subtopic: limit definition
 - when: S1-L17
 - text: >
     Understand the derivative as a limit where the change in inputs approaches zero
@@ -699,10 +787,16 @@ Z1-LTNO7:
 
 
 Z1-JO9WF:
-- topic: 2021/22
+- topic: derivative
+- subtopic: notation
 - when: S1-L17
 - text: >
-    Identify the original function, order of the derivative, and the ?with respect to? variable of a derivative for the following notations: one-line ?_x f , Leibniz dx/dt , Lagrange?s f'
+    Identify the original function, order of the derivative,
+    and the "with respect to"" variable of a derivative for the
+    following notations:
+        i. one-line $\partial_x f$
+        ii. Leibniz $dx/dt$
+        iii. Lagrange $f'$
 - date: "Tue Feb  1 14:16:34 2022"
 - author: Zteam
 - file: import2021-22.yml
@@ -711,10 +805,11 @@ Z1-JO9WF:
 
 
 Z1-3AH4H:
-- topic: 2021/22
+- topic: derivative
+- subtopic: monotonicity
 - when: S1-L17
 - text: >
-    Given a function?s derivative, determine if the function is (monotonically) increasing over a particular domain
+    Given a function's derivative, determine if the function is (monotonically) increasing over a particular domain
 - date: "Tue Feb  1 14:16:34 2022"
 - author: Zteam
 - file: import2021-22.yml
@@ -723,7 +818,7 @@ Z1-3AH4H:
 
 
 Z1-UIJXS:
-- topic: 2021/22
+- topic: derivative
 - when: S1-L17
 - text: >
     Understand the correspondence between a function, its derivative, and second derivative
@@ -735,7 +830,8 @@ Z1-UIJXS:
 
 
 Z1-VYLAV:
-- topic: 2021/22
+- topic: derivative
+- subtopic: dimensional analysis
 - when: S1-L17
 - text: >
     Determine the dimension of quantities involving rates and derivatives
@@ -747,7 +843,8 @@ Z1-VYLAV:
 
 
 Z1-I7IZ0:
-- topic: 2021/22
+- topic: derivative
+- subtopic: operator
 - when: S1-L18
 - text: >
     Understand differentiation as an operator which maps a function to its slope function
@@ -759,7 +856,8 @@ Z1-I7IZ0:
 
 
 Z1-NH92B:
-- topic: 2021/22
+- topic: derivative
+- subtopic: symbolic
 - when: S1-L18
 - text: >
     Use symbolic differentiation to find successive derivative functions for the pattern-book functions
@@ -771,7 +869,8 @@ Z1-NH92B:
 
 
 Z1-RABI7:
-- topic: 2021/22
+- topic: derivative
+- subtopic: numerical
 - when: S1-L18
 - text: >
     Use numerical differentiation to confirm a candidate derivative,
@@ -783,7 +882,8 @@ Z1-RABI7:
 
 
 Z1-UMYNF:
-- topic: 2021/22
+- topic: derivative
+- subtopic: symbolic
 - when: S1-L18
 - text: >
     Understand that any function that can be differentiated, can be symbolically differentiated by a computer
@@ -795,7 +895,8 @@ Z1-UMYNF:
 
 
 Z1-9O1H6:
-- topic: 2021/22
+- topic: derivative
+- subtopic: numerical
 - when: S1-L18
 - text: >
     Understand that there are practical (computational) limits of using numerical differentiation to calculate derivatives
@@ -807,7 +908,8 @@ Z1-9O1H6:
 
 
 Z1-WUVFF:
-- topic: 2021/22
+- topic: derivative
+- subtopic: convexity
 - when: S1-L19
 - text: >
     Use a derivative to identify concavity and inflection points over a given domain
@@ -819,7 +921,8 @@ Z1-WUVFF:
 
 
 Z1-ONN4N:
-- topic: 2021/22
+- topic: derivative
+- subtopic: curvature
 - when: S1-L19
 - text: >
     Recognize there exists a tangent circle to every function at every point related to the function?s curvature, be able to compare the radii between circles tangent to a given function at two or more points
@@ -831,7 +934,8 @@ Z1-ONN4N:
 
 
 Z1-6D5P7:
-- topic: 2021/22
+- topic: derivative
+- subtopic: curvature
 - when: S1-L19
 - text: >
     Distinguish between concavity and curvature
@@ -843,7 +947,8 @@ Z1-6D5P7:
 
 
 Z1-SXHQP:
-- topic: 2021/22
+- topic: continuity
+- subtopic: order
 - when: S1-L19
 - text: >
     Identify the order of continuity of a function as it relates to smoothness
@@ -855,7 +960,8 @@ Z1-SXHQP:
 
 
 Z1-M22S1:
-- topic: 2021/22
+- topic: derivative
+- subtopic: rules
 - when: S1-L20
 - text: >
     Determine the derivative of a linear combination of functions
@@ -867,7 +973,8 @@ Z1-M22S1:
 
 
 Z1-4H935:
-- topic: 2021/22
+- topic: derivative
+- subtopic: rules
 - when: S1-L21
 - text: >
     Determine the derivative of a product of functions
@@ -879,7 +986,8 @@ Z1-4H935:
 
 
 Z1-EDATP:
-- topic: 2021/22
+- topic: derivative
+- subtopic: rules
 - when: S1-L22
 - text: >
     Determine the derivative of a composition of functions
@@ -891,7 +999,8 @@ Z1-EDATP:
 
 
 Z1-GN4XU:
-- topic: 2021/22
+- topic: optimization
+- subtopic: critical points
 - when: S1-L23
 - text: >
     Find critical points given a function or its graph, and relate the critical points to the function?s argmax and argmin
@@ -903,10 +1012,11 @@ Z1-GN4XU:
 
 
 Z1-9IFZ5:
-- topic: 2021/22
+- topic: zero-finding
+- subtopic: Newton method
 - when: S1-L23
 - text: >
-    Perform one (or more) Newton?s step(s) to refine a guess when finding zeros
+    Perform one (or more) Newton step(s) to refine a guess when finding zeros
 - date: "Tue Feb  1 14:16:34 2022"
 - author: Zteam
 - file: import2021-22.yml
@@ -915,7 +1025,8 @@ Z1-9IFZ5:
 
 
 Z1-766WK:
-- topic: 2021/22
+- topic: derivative
+- subtopic: partial
 - when: S1-L25
 - text: >
     Recognize partial derivatives can involve any number of variables, but in this class, we focus on partial derivatives of 2-variable functions
@@ -927,7 +1038,8 @@ Z1-766WK:
 
 
 Z1-R3WWE:
-- topic: 2021/22
+- topic: derivative
+- subtopic: partial
 - when: S1-L25
 - text: >
     Compute a partial derivative at a given point using algebra
@@ -939,7 +1051,8 @@ Z1-R3WWE:
 
 
 Z1-A11W2:
-- topic: 2021/22
+- topic: derivative
+- subtopic: partial
 - when: S1-L25
 - text: >
     Estimate the partial derivative at a given point based on a contour plot
@@ -951,7 +1064,8 @@ Z1-A11W2:
 
 
 Z1-A4L73:
-- topic: 2021/22
+- topic: approximation
+- subtopic: polynomial
 - when: S1-L26
 - text: >
     Determine which basis elements of a quadratic polynomial are used in the construction of a physical process based on a contour plot of said process
@@ -963,7 +1077,8 @@ Z1-A4L73:
 
 
 Z1-BBB1P:
-- topic: 2021/22
+- topic: approximation
+- subtopic: polynomial
 - when: S1-L26
 - text: >
     Use a quadratic polynomial of multiple variables to model a physical phenomenon
@@ -975,7 +1090,8 @@ Z1-BBB1P:
 
 
 Z1-TODD0:
-- topic: 2021/22
+- topic: approximation
+- subtopic: polynomial
 - when: S1-L26
 - text: >
     Leverage first-order, second-order, and interaction terms in the modeling process
@@ -987,10 +1103,15 @@ Z1-TODD0:
 
 
 Z1-LK4GY:
-- topic: 2021/22
+- topic: approximation
+- subtopic: polynomial
 - when: S1-L27
 - text: >
-    Memorize Taylor polynomials for several pattern book functions (e^x, sin?(x), cos?(x))
+    Memorize Taylor polynomials for these pattern book
+    functions
+        i. $e^x$
+        ii. $\sin(x)$
+        iii. $\cos(x)$
 - date: "Tue Feb  1 14:16:34 2022"
 - author: Zteam
 - file: import2021-22.yml
@@ -999,7 +1120,8 @@ Z1-LK4GY:
 
 
 Z1-PPA0T:
-- topic: 2021/22
+- topic: approximation
+- subtopic: polynomial
 - when: S1-L27
 - text: >
     Understand the weaknesses of using polynomials for approximation
@@ -1011,7 +1133,8 @@ Z1-PPA0T:
 
 
 Z1-8JA3E:
-- topic: 2021/22
+- topic: approximation
+- subtopic: polynomial
 - when: S1-L27
 - text: >
     Compute the error of a Taylor polynomial at a given input
@@ -1023,7 +1146,21 @@ Z1-8JA3E:
 
 
 Z1-A7DY6:
-- topic: 2021/22
+- topic: dimensional analysis
+- subtopic: derivative
+- when: S1-L29
+- text: >
+    Identify the units and dimension of the result of
+    differentiation and antidifferentiation
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z1-A7DY6
+- successor: none
+
+Z1-A7DY7:
+- topic: dimensional analysis
+- subtopic: anti-derivatives
 - when: S1-L29
 - text: >
     Identify the units and dimension of the result of
@@ -1036,7 +1173,8 @@ Z1-A7DY6:
 
 
 Z1-5ZTU9:
-- topic: 2021/22
+- topic: differentiation
+- subtopic: anti-differentiation
 - when: S1-L29
 - text: >
     Identify differentiation and antidifferentiation as
@@ -1049,7 +1187,8 @@ Z1-5ZTU9:
 
 
 Z1-PJ0RI:
-- topic: 2021/22
+- topic: anti-differentiation
+- subtopic: notation
 - when: S1-L29
 - text: >
     Use appropriate notation for the antiderivative and the
@@ -1062,7 +1201,8 @@ Z1-PJ0RI:
 
 
 Z1-2J192:
-- topic: 2021/22
+- topic: operations
+- subtopic: calculus ops
 - when: S1-L29
 - text: >
     Given a scenario, identify units, dimension, and whether
@@ -1075,7 +1215,8 @@ Z1-2J192:
 
 
 Z1-1Y6C1:
-- topic: 2021/22
+- topic: anti-differentiation
+- subtopic: symbolic
 - when: S1-L31
 - text: >
     Know the antiderivatives of the pattern book functions
@@ -1087,7 +1228,8 @@ Z1-1Y6C1:
 
 
 Z1-T407H:
-- topic: 2021/22
+- topic: anti-differentiation
+- subtopic: graphics
 - when: S1-L31
 - text: >
     Given the graph of a function, draw a graph of an
@@ -1100,7 +1242,8 @@ Z1-T407H:
 
 
 Z1-QPHVB:
-- topic: 2021/22
+- topic: computing
+- subtopic: anti-differentiation
 - when: S1-L31
 - text: >
     Utilize the antiD() operator in R to compute an antiderivative
@@ -1112,7 +1255,8 @@ Z1-QPHVB:
 
 
 Z1-3SEPZ:
-- topic: 2021/22
+- topic: anti-differentiation
+- subtopic: confirming
 - when: S1-L31
 - text: >
     Given a candidate for an antiderivative verify it
@@ -1125,7 +1269,8 @@ Z1-3SEPZ:
 
 
 Z1-SGPQZ:
-- topic: 2021/22
+- topic: anti-differentiation
+- subtopic: versus integration
 - when: S1-L32
 - text: >
     Recognize the difference between antidifferentiation and
@@ -1138,7 +1283,8 @@ Z1-SGPQZ:
 
 
 Z1-I7NFZ:
-- topic: 2021/22
+- topic: fundamental theorem
+- subtopic: integration
 - when: S1-L32
 - text: >
     Use the algebraic properties to calculate definite integrals
@@ -1150,7 +1296,8 @@ Z1-I7NFZ:
 
 
 Z1-9UNSM:
-- topic: 2021/22
+- topic: fundamental theorem
+- subtopic: integration
 - when: S1-L32
 - text: >
     Use the Fundamental Theorem of Calculus to compute a
@@ -1163,7 +1310,8 @@ Z1-9UNSM:
 
 
 Z1-FPNO3:
-- topic: 2021/22
+- topic: anti-differentiation
+- subtopic: accumulation
 - when: S1-L32
 - text: >
     Understand the "area under a curve" (i.e. net change)
@@ -1176,7 +1324,8 @@ Z1-FPNO3:
 
 
 Z1-U0PN3:
-- topic: 2021/22
+- topic: anti-differentiation
+- subtopic: symbolic
 - when: S1-L34
 - text: >
     Compute antiderivatives by applying basic rules to
@@ -1189,7 +1338,8 @@ Z1-U0PN3:
 
 
 Z1-GZOOD:
-- topic: 2021/22
+- topic: anti-differentiation
+- subtopic: rules
 - when: S1-L35
 - text: >
     Compute the antiderivative of composed functions
@@ -1201,7 +1351,8 @@ Z1-GZOOD:
 
 
 Z1-QXXZC:
-- topic: 2021/22
+- topic: anti-differentiation
+- subtopic: rules
 - when: S1-L35
 - text: >
     Compute the antiderivative of products of functions
@@ -1213,7 +1364,8 @@ Z1-QXXZC:
 
 
 Z1-B08YX:
-- topic: 2021/22
+- topic: anti-differentiation
+- subtopic: rules
 - when: S1-L36
 - text: >
     Compute the antiderivative of composed functions
@@ -1225,7 +1377,8 @@ Z1-B08YX:
 
 
 Z1-BMGW8:
-- topic: 2021/22
+- topic: anti-differentiation
+- subtopic: rules
 - when: S1-L36
 - text: >
     Compute the antiderivative of products of functions
@@ -1237,7 +1390,8 @@ Z1-BMGW8:
 
 
 Z2-4EIXW:
-- topic: 2021/22
+- topic: vectors
+- subtopic: physical quantities
 - when: S2-L1
 - text: >
     Understand that vectors can be used to represent
@@ -1250,7 +1404,8 @@ Z2-4EIXW:
 
 
 Z2-CVX9Z:
-- topic: 2021/22
+- topic: differentiation
+- subtopic: gradient vector
 - when: S2-L1
 - text: >
     Describe the relationship between contours and gradient vectors
@@ -1262,7 +1417,8 @@ Z2-CVX9Z:
 
 
 Z2-QKMB6:
-- topic: 2021/22
+- topic: vectors
+- subtopic: basics
 - when: S2-L1
 - text: >
     Interpret the arrow-representation of a vector
@@ -1274,7 +1430,8 @@ Z2-QKMB6:
 
 
 Z2-SD2KQ:
-- topic: 2021/22
+- topic: optimization
+- subtopic: gradient vector
 - when: S2-L1
 - text: >
     Contrast a gradient vector from a vector that points to an argmax
@@ -1286,7 +1443,8 @@ Z2-SD2KQ:
 
 
 Z2-NHR13:
-- topic: 2021/22
+- topic: differentiation
+- subtopic: gradient vector
 - when: S2-L1
 - text: >
     Compute the gradient vector for a given function
@@ -1298,7 +1456,8 @@ Z2-NHR13:
 
 
 Z2-J9BQP:
-- topic: 2021/22
+- topic: operations
+- subtopic: iteration
 - when: S2-L2
 - text: >
     Describe iteration as the repeated application of a
@@ -1311,7 +1470,8 @@ Z2-J9BQP:
 
 
 Z2-S89UK:
-- topic: 2021/22
+- topic: operations
+- subtopic: iteration
 - when: S2-L2
 - text: >
     Iterate a function from a given starting point by hand
@@ -1324,7 +1484,7 @@ Z2-S89UK:
 
 
 Z2-R6Y45:
-- topic: 2021/22
+- topic: approximation
 - when: S2-L2
 - text: >
     Compute the 1st-order linear approximation of a function
@@ -1337,7 +1497,8 @@ Z2-R6Y45:
 
 
 Z2-DR9L7:
-- topic: 2021/22
+- topic: operations
+- subtopic: zero-finding
 - when: S2-L2
 - text: >
     Solve a linear equation
@@ -1349,7 +1510,8 @@ Z2-DR9L7:
 
 
 Z2-PTHHD:
-- topic: 2021/22
+- topic: operations
+- subtopic: zero-finding
 - when: S2-L3
 - text: >
     Describe in your own words how Newton's method works
@@ -1361,7 +1523,8 @@ Z2-PTHHD:
 
 
 Z2-TQES3:
-- topic: 2021/22
+- topic: operations
+- subtopic: zero-finding
 - when: S2-L3
 - text: >
     Create the function that corresponds to a single Newton step
@@ -1373,7 +1536,8 @@ Z2-TQES3:
 
 
 Z2-T2E7N:
-- topic: 2021/22
+- topic: operations
+- subtopic: zero-finding
 - when: S2-L3
 - text: >
     Apply Newton's method to solve an equation
@@ -1385,7 +1549,8 @@ Z2-T2E7N:
 
 
 Z2-OD4G6:
-- topic: 2021/22
+- topic: operations
+- subtopic: argmax/min
 - when: S2-L3
 - text: >
     Apply Newton's method to derivative to find argmax/argmin
@@ -1397,7 +1562,8 @@ Z2-OD4G6:
 
 
 Z2-OJMZ7:
-- topic: 2021/22
+- topic: interpolation
+- subtopic: splines
 - when: S2-L4
 - text: >
     Given a set of XY-coordinates, connect them with a
@@ -1410,10 +1576,13 @@ Z2-OJMZ7:
 
 
 Z2-D9S33:
-- topic: 2021/22
+- topic: parametric curves
 - when: S2-L4
 - text: >
-    Given a graph of horizontal position versus vertical position, sketch the graphs of the functions x(t) and y(t) to independently represent the horizontal and vertical positions versus time, respectively.
+    Given a graph of horizontal position versus vertical position,
+    sketch the graphs of the functions x(t) and y(t) to
+    independently represent the horizontal and vertical positions
+    versus time, respectively.
 - date: "Tue Feb  1 14:16:34 2022"
 - author: Zteam
 - file: import2021-22.yml
@@ -1434,7 +1603,8 @@ Z2-1W5AZ:
 
 
 Z2-ISXDB:
-- topic: 2021/22
+- topic: continuity
+- subtopic: smoothness
 - when: S2-L5
 - text: >
     Recognize when smoothness is or is not necessary
@@ -1446,7 +1616,8 @@ Z2-ISXDB:
 
 
 Z2-G880N:
-- topic: 2021/22
+- topic: interpolation
+- subtopic: splines
 - when: S2-L5
 - text: >
     Distinguish between cubic and quadratic splines given a graph
@@ -1458,7 +1629,8 @@ Z2-G880N:
 
 
 Z2-OETXQ:
-- topic: 2021/22
+- topic: computing
+- subtopic: splines
 - when: S2-L5
 - text: >
     Use spliner() to produce a smooth spline
@@ -1470,7 +1642,8 @@ Z2-OETXQ:
 
 
 Z2-V0KOR:
-- topic: 2021/22
+- topic: optimization
+- subtopic: gradient
 - when: S2-L6
 - text: >
     Read and interpret a gradient field
@@ -1482,7 +1655,8 @@ Z2-V0KOR:
 
 
 Z2-FNLLM:
-- topic: 2021/22
+- topic: optimization
+- subtopic: gradient
 - when: S2-L6
 - text: >
     Determine if a gradient field corresponds to an objective
@@ -1494,8 +1668,22 @@ Z2-FNLLM:
 - successor: none
 
 
+L-NLS0Y:
+- topic: optimization
+- subtopic: objective function
+- text: >
+    Recognize that the gradient function gives the score to be optimized.
+- date: "Fri Feb  4 13:26:20 2022"
+- author: dtkaplan
+- file: import2021-22.yml
+- ID: L-NLS0Y
+- successor: none
+
+
+
 Z2-8JJI8:
-- topic: 2021/22
+- topic: optimization
+- subtopic: gradient
 - when: S2-L6
 - text: >
     Understand the role played by the gradient of the objective
@@ -1508,7 +1696,8 @@ Z2-8JJI8:
 
 
 Z2-T1OX2:
-- topic: 2021/22
+- topic: optimization
+- subtopic: gradient
 - when: S2-L6
 - text: >
     Know gradient ascent is used to find an argmax whereas gradient
@@ -1521,7 +1710,8 @@ Z2-T1OX2:
 
 
 Z2-F5KXC:
-- topic: 2021/22
+- topic: optimization
+- subtopic: gradient
 - when: S2-L6
 - text: >
     Determine if a given path follows gradient ascent, descent,
@@ -1534,7 +1724,8 @@ Z2-F5KXC:
 
 
 Z2-AL99J:
-- topic: 2021/22
+- topic: optimization
+- subtopic: gradient
 - when: S2-L6
 - text: >
     Approximate the argmin/argmax of an objective function
@@ -1547,7 +1738,8 @@ Z2-AL99J:
 
 
 Z2-X4ZZQ:
-- topic: 2021/22
+- topic: optimization
+- subtopic: constraints
 - when: S2-L7
 - text: >
     Given a word problem with an objective function,
@@ -1560,7 +1752,8 @@ Z2-X4ZZQ:
 
 
 Z2-2L7Q4:
-- topic: 2021/22
+- topic: optimization
+- subtopic: constraints
 - when: S2-L7
 - text: >
     Distinguish between equality constraints and inequality constraints
@@ -1572,7 +1765,8 @@ Z2-2L7Q4:
 
 
 Z2-TV12K:
-- topic: 2021/22
+- topic: optimization
+- subtopic: constraints
 - when: S2-L7
 - text: >
     If given a feasible region, determine the optimal solution
@@ -1584,7 +1778,8 @@ Z2-TV12K:
 
 
 Z2-6HT6U:
-- topic: 2021/22
+- topic: optimization
+- subtopic: constraints
 - when: S2-L8
 - text: >
     Be able to calculate the Lagrange Multiplier
@@ -1597,7 +1792,8 @@ Z2-6HT6U:
 
 
 Z2-FOYH9:
-- topic: 2021/22
+- topic: optimization
+- subtopic: constraints
 - when: S2-L8
 - text: >
     Determine whether a constraint is active or inactive
@@ -1609,7 +1805,8 @@ Z2-FOYH9:
 
 
 Z2-SPUK1:
-- topic: 2021/22
+- topic: optimization
+- subtopic: multi-objective
 - when: S2-L8
 - text: >
     Understand there is no purely mathematical solution
@@ -1622,7 +1819,8 @@ Z2-SPUK1:
 
 
 Z2-3Q2H1:
-- topic: 2021/22
+- topic: physics
+- subtopic: energy
 - when: S2-L9
 - text: >
     Understand that energy is conserved, neither created or destroyed
@@ -1634,7 +1832,8 @@ Z2-3Q2H1:
 
 
 Z2-OYHA9:
-- topic: 2021/22
+- topic: physics
+- subtopic: work
 - when: S2-L9
 - text: >
     Solve work, energy and momentum problems for given mass,
@@ -1647,7 +1846,8 @@ Z2-OYHA9:
 
 
 Z2-2TNI2:
-- topic: 2021/22
+- topic: physics
+- subtopic: center of mass
 - when: S2-L10
 - text: >
     Find the moments of a system about an axis
@@ -1659,7 +1859,8 @@ Z2-2TNI2:
 
 
 Z2-3YZ8F:
-- topic: 2021/22
+- topic: physics
+- subtopic: center of mass
 - when: S2-L10
 - text: >
     Use integrals to calculate the centroid (center of mass) of a
@@ -1672,7 +1873,8 @@ Z2-3YZ8F:
 
 
 Z2-SVT2D:
-- topic: 2021/22
+- topic: physics
+- subtopic: center of mass
 - when: S2-L10
 - text: >
     Find the centroid of a region that lies between two curves
@@ -1684,7 +1886,8 @@ Z2-SVT2D:
 
 
 Z2-I7DMC:
-- topic: 2021/22
+- topic: probability
+- subtopic: nomenclature
 - when: S2-L11
 - text: >
     Understand what a random variable represents
@@ -1696,7 +1899,7 @@ Z2-I7DMC:
 
 
 Z2-JRTYI:
-- topic: 2021/22
+- topic: probability
 - when: S2-L11
 - text: >
     Discuss the scientific application of probability density
@@ -1709,7 +1912,8 @@ Z2-JRTYI:
 
 
 Z2-YQKS3:
-- topic: 2021/22
+- topic: probability
+- subtopic: PDF/CDF
 - when: S2-L11
 - text: >
     Be able to compute the probability of a continuous random
@@ -1722,10 +1926,11 @@ Z2-YQKS3:
 
 
 Z2-ADIZ4:
-- topic: 2021/22
+- topic: probability
+- subtopic: expectation value
 - when: S2-L12
 - text: >
-    Understand the concept of expected value
+    Understand the concept of expectation value
 - date: "Tue Feb  1 14:16:34 2022"
 - author: Zteam
 - file: import2021-22.yml
@@ -1734,10 +1939,11 @@ Z2-ADIZ4:
 
 
 Z2-7CU94:
-- topic: 2021/22
+- topic: probability
+- subtopic: expectation
 - when: S2-L12
 - text: >
-    Be able to compute the expected value of a
+    Be able to compute the expectation value of a
     continuous random variable
 - date: "Tue Feb  1 14:16:34 2022"
 - author: Zteam
@@ -1747,13 +1953,12 @@ Z2-7CU94:
 
 
 Z2-Q28SQ:
-- topic: 2021/22
+- topic: function to scalar
 - when: S2-L13
-- text: >
-    Recognize two important real-world contexts in which a
-    vector (or function) output applies:
-     - a cash-flow stream and
-     - a probability distribution for an outcome.
+- text: |
+    Recognize two important real-world contexts in which a vector (or function) output applies:
+        - a cash-flow stream and
+        - a probability distribution for an outcome.
 - date: "Tue Feb  1 14:16:34 2022"
 - author: Zteam
 - file: import2021-22.yml
@@ -1762,12 +1967,12 @@ Z2-Q28SQ:
 
 
 Z2-Y1DO5:
-- topic: 2021/22
+- topic: function to scalar
 - when: S2-L13
 - text: >
     Employ two widely used approaches for converting vector (or function) outputs into a scalar for the purposes of optimization:?
-    - Net-present value
-    - Expectation value
+        - Net-present value
+        - Expectation value
 - date: "Tue Feb  1 14:16:34 2022"
 - author: Zteam
 - file: import2021-22.yml
@@ -1776,7 +1981,8 @@ Z2-Y1DO5:
 
 
 Z2-JU3OX:
-- topic: 2021/22
+- topic: vectors
+- subtopic: data
 - when: S2-L16
 - text: >
     Know that vectors can be represented as columns of data or graphically arrows
@@ -1788,7 +1994,8 @@ Z2-JU3OX:
 
 
 Z2-W4D22:
-- topic: 2021/22
+- topic: vectors
+- subtopic: basics
 - when: S2-L16
 - text: >
     Know how to perform scalar multiplication and vector addition
@@ -1800,10 +2007,12 @@ Z2-W4D22:
 
 
 Z2-DMRC2:
-- topic: 2021/22
+- topic: vectors
+- subtopic: dot product
 - when: S2-L16
 - text: >
-    Understand the transpose operator and how to compute the
+    [Understand the transpose operator][We aren't treating the
+    dot product as a special case of matrix multiplication.] and how to compute the
     dot product between two vectors
 - date: "Tue Feb  1 14:16:34 2022"
 - author: Zteam
@@ -1813,7 +2022,8 @@ Z2-DMRC2:
 
 
 Z2-H32SM:
-- topic: 2021/22
+- topic: vectors
+- subtopic: basics
 - when: S2-L16
 - text: >
     Calculate the length of a vector
@@ -1825,7 +2035,8 @@ Z2-H32SM:
 
 
 Z2-EVFJ9:
-- topic: 2021/22
+- topic: vectors
+- subtopic: basics
 - when: S2-L16
 - text: >
     Know that computing the dot product of a vector with itself
@@ -1838,7 +2049,8 @@ Z2-EVFJ9:
 
 
 Z2-PXUYM:
-- topic: 2021/22
+- topic: linear algebra
+- subtopic: target problem
 - when: S2-L17
 - text: >
     Write a system of linear equations as an equivalent target
@@ -1851,7 +2063,8 @@ Z2-PXUYM:
 
 
 Z2-VXEK5:
-- topic: 2021/22
+- topic: linear algebra
+- subtopic: matrices
 - when: S2-L17
 - text: >
     Know the definition of a linear combination of vectors and be
@@ -1864,7 +2077,8 @@ Z2-VXEK5:
 
 
 Z2-ST3L3:
-- topic: 2021/22
+- topic: linear algebra
+- subtopic: target problem
 - when: S2-L17
 - text: >
     Solve for a target vector algebraically or graphically in
@@ -1877,10 +2091,12 @@ Z2-ST3L3:
 
 
 Z2-X11RJ:
-- topic: 2021/22
+- topic: vectors
+- subtopic: basics
 - when: S2-L17
 - text: >
-    Know how to calculate the distance between two vectors and
+    Know how to calculate the distance between two vectors [What is meant
+    by the "distance"] and
     how to subtract vectors algebraically and graphically
 - date: "Tue Feb  1 14:16:34 2022"
 - author: Zteam
@@ -1890,7 +2106,8 @@ Z2-X11RJ:
 
 
 Z2-YZZN8:
-- topic: 2021/22
+- topic: vectors
+- subtopic: basics
 - when: S2-L18
 - text: >
     Calculate the angle between two vectors
@@ -1902,7 +2119,8 @@ Z2-YZZN8:
 
 
 Z2-XTJ2M:
-- topic: 2021/22
+- topic: vectors
+- subtopic: orthogonality
 - when: S2-L18
 - text: >
     Find a nonzero vector orthogonal to a given vector
@@ -1914,7 +2132,8 @@ Z2-XTJ2M:
 
 
 Z2-NN7RI:
-- topic: 2021/22
+- topic: vectors
+- subtopic: projection
 - when: S2-L18
 - text: >
     Calculate the projection of a vector onto another vector
@@ -1926,7 +2145,8 @@ Z2-NN7RI:
 
 
 Z2-G5ZI6:
-- topic: 2021/22
+- topic: vectors
+- subtopic: projection
 - when: S2-L18
 - text: >
     Sketch the projection of one vector onto another and
@@ -1939,10 +2159,11 @@ Z2-G5ZI6:
 
 
 Z2-IIIHF:
-- topic: 2021/22
+- topic: linear algebra
+- subtopic: target problem
 - when: S2-L19
 - text: >
-    Write a target problem in the form
+    Write a target problem in the form [Something got cut-off here.]
 - date: "Tue Feb  1 14:16:34 2022"
 - author: Zteam
 - file: import2021-22.yml
@@ -1951,10 +2172,11 @@ Z2-IIIHF:
 
 
 Z2-IX14A:
-- topic: 2021/22
+- topic: linear algebra
+- subtopic: target problem
 - when: S2-L19
 - text: >
-    Understand the relationship between b and b hat and
+    Understand the relationship between b and b-hat and
     calculate the residual vector
 - date: "Tue Feb  1 14:16:34 2022"
 - author: Zteam
@@ -1964,7 +2186,8 @@ Z2-IX14A:
 
 
 Z2-VOBOR:
-- topic: 2021/22
+- topic: linear algebra
+- subtopic: target problem
 - when: S2-L19
 - text: >
     Calculate solutions to vector equations using R
@@ -1976,7 +2199,8 @@ Z2-VOBOR:
 
 
 Z2-2Q4WA:
-- topic: 2021/22
+- topic: linear algebra
+- subtopic: least squares
 - when: S2-L20
 - text: >
     Understand applications of projections
@@ -1988,7 +2212,8 @@ Z2-2Q4WA:
 
 
 Z2-3SORV:
-- topic: 2021/22
+- topic: linear algebra
+- subtopic: least squares
 - when: S2-L20
 - text: >
     Understand the relationship between projections and
@@ -2001,7 +2226,8 @@ Z2-3SORV:
 
 
 Z2-0METU:
-- topic: 2021/22
+- topic: linear algebra
+- subtopic: computatation
 - when: S2-L20
 - text: >
     Understand what the qr.solve() function gives you (this is testable).
@@ -2013,7 +2239,8 @@ Z2-0METU:
 
 
 Z2-WN86U:
-- topic: 2021/22
+- topic: linear algebra
+- subtopic: projection
 - when: S2-L21
 - text: >
     Apply projections to decompose a vector into two directions
@@ -2025,7 +2252,8 @@ Z2-WN86U:
 
 
 Z2-EDS4R:
-- topic: 2021/22
+- topic: linear algebra
+- subtopic: target problem
 - when: S2-L21
 - text: >
     Understand the connection between projections into
@@ -2038,7 +2266,8 @@ Z2-EDS4R:
 
 
 Z2-ALBFW:
-- topic: 2021/22
+- topic: linear algebra
+- subtopic: R-squared
 - when: S2-L21
 - text: >
     Know that R2 is a measure of how well the model accounts for
@@ -2051,7 +2280,8 @@ Z2-ALBFW:
 
 
 Z2-9K8TY:
-- topic: 2021/22
+- topic: linear algebra
+- subtopic: R-squared
 - when: S2-L21
 - text: >
     Know that R2 is the cosine of the angle between
@@ -2063,7 +2293,8 @@ Z2-9K8TY:
 
 
 Z2-UAUWN:
-- topic: 2021/22
+- topic: vectors
+- subtopic: representing functions
 - when: S2-L22
 - text: >
     Understand that "continuous" functions can be approximated
@@ -2076,7 +2307,8 @@ Z2-UAUWN:
 
 
 Z2-71AP4:
-- topic: 2021/22
+- topic: linear algebra
+- subtopic: basis sets
 - when: S2-L22
 - text: >
     Be aware that the word "transform" in this class' context
@@ -2089,7 +2321,8 @@ Z2-71AP4:
 
 
 Z2-VZ2HA:
-- topic: 2021/22
+- topic: linear algebra
+- subtopic: basis sets
 - when: S2-L22
 - text: >
     Understand that the "transform" technique amounts to
@@ -2103,7 +2336,8 @@ Z2-VZ2HA:
 
 
 Z2-QW2UU:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: nomenclature
 - when: S2-L26
 - text: >
     Explain the format in which we present dynamics as opposed
@@ -2116,7 +2350,8 @@ Z2-QW2UU:
 
 
 Z2-RTH05:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: solving differential equations
 - when: S2-L26
 - text: >
     Find qualitative solutions from an initial condition
@@ -2128,7 +2363,8 @@ Z2-RTH05:
 
 
 Z2-X8M56:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: nomenclature
 - when: S2-L26
 - text: >
     Articulate the difference between state, dynamics, and trajectory
@@ -2140,7 +2376,8 @@ Z2-X8M56:
 
 
 Z2-8WCI6:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: stability
 - when: S2-L28
 - text: >
     Classify fixed points as stable/unstable given the dynamics
@@ -2152,7 +2389,8 @@ Z2-8WCI6:
 
 
 Z2-OFV3P:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: modeling
 - when: S2-L28
 - text: >
     Identify the dynamics of constant growth
@@ -2164,7 +2402,8 @@ Z2-OFV3P:
 
 
 Z2-8Y0X7:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: solving differential equations
 - when: S2-L28
 - text: >
     Compute Euler solutions (format for expressing the system
@@ -2177,7 +2416,8 @@ Z2-8Y0X7:
 
 
 Z2-7VYBX:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: stability
 - when: S2-L28
 - text: >
     Analyze models in application contexts
@@ -2190,7 +2430,8 @@ Z2-7VYBX:
 
 
 Z2-3Q1CL:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: stability
 - when: S2-L29
 - text: >
     Linear expansion around a fixed point
@@ -2202,7 +2443,8 @@ Z2-3Q1CL:
 
 
 Z2-BU948:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: solving differential equations
 - when: S2-L29
 - text: >
     Qualitative solution to exponential growth
@@ -2214,7 +2456,8 @@ Z2-BU948:
 
 
 Z2-ZS0P8:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: solving differential equations
 - when: S2-L29
 - text: >
     Understand that growth involves exponentials
@@ -2226,7 +2469,7 @@ Z2-ZS0P8:
 
 
 Z2-1H1LH:
-- topic: 2021/22
+- topic: dynamics
 - when: S2-L29
 - text: >
     Impulse response and convolution (?)
@@ -2238,7 +2481,7 @@ Z2-1H1LH:
 
 
 Z2-KUDA4:
-- topic: 2021/22
+- topic: dynamics
 - when: S2-L29
 - text: >
     Bang/bang control theory (?)
@@ -2250,7 +2493,8 @@ Z2-KUDA4:
 
 
 Z2-6G906:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: solving differential equations
 - when: S2-L30
 - text: >
     Using slope fields, understand that a differential equation has a family of solutions
@@ -2262,7 +2506,8 @@ Z2-6G906:
 
 
 Z2-SMS43:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: solving differential equations
 - when: S2-L30
 - text: >
     Determine a particular solution to a differential equation in one dimension
@@ -2274,7 +2519,8 @@ Z2-SMS43:
 
 
 Z2-ZT3NQ:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: solving differential equations
 - when: S2-L30
 - text: >
     Determine end behavior of a differential equation graphically
@@ -2286,7 +2532,8 @@ Z2-ZT3NQ:
 
 
 Z2-10I2K:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: modeling
 - when: S2-L30
 - text: >
     Describe a scenario using proportional or inversely
@@ -2299,7 +2546,8 @@ Z2-10I2K:
 
 
 Z2-777QI:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: nomenclature
 - when: S2-L30
 - text: >
     Understand the format of presentations of dynamics
@@ -2312,7 +2560,8 @@ Z2-777QI:
 
 
 Z2-95YPE:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: solving differential equations
 - when: S2-L30
 - text: >
     Finding solutions graphically (flow fields)
@@ -2324,7 +2573,8 @@ Z2-95YPE:
 
 
 Z2-4ZSJ7:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: solving differential equations
 - when: S2-L30
 - text: >
     Dependence on initial condition
@@ -2336,7 +2586,8 @@ Z2-4ZSJ7:
 
 
 Z2-EJJHN:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: modeling
 - when: S2-L31
 - text: >
     Apply modeling techniques (from block 2) local
@@ -2349,7 +2600,8 @@ Z2-EJJHN:
 
 
 Z2-XA7RX:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: modeling
 - when: S2-L31
 - text: >
     Predatory/Prey (flow fields and the phenomena of the trajectories)
@@ -2361,7 +2613,8 @@ Z2-XA7RX:
 
 
 Z2-AE5T7:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: modeling
 - when: S2-L31
 - text: >
     SIR (flow fields and the phenomena of the trajectories)
@@ -2373,7 +2626,7 @@ Z2-AE5T7:
 
 
 Z2-A59TK:
-- topic: 2021/22
+- topic: dynamics
 - when: S2-L31
 - text: >
     The differences between these two models
@@ -2385,7 +2638,8 @@ Z2-A59TK:
 
 
 Z2-UN3WK:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: forcing
 - when: S2-L32
 - text: >
     Determine a particular solution to a differential equation
@@ -2398,7 +2652,8 @@ Z2-UN3WK:
 
 
 Z2-6GBAD:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: modeling
 - when: S2-L32
 - text: >
     Describe a scenario using logistics growth with a differential equation
@@ -2410,7 +2665,8 @@ Z2-6GBAD:
 
 
 Z2-MRDHB:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: stability
 - when: S2-L32
 - text: >
     Understand the three types of dynamics stable, unstable, and saddle points
@@ -2423,7 +2679,8 @@ Z2-MRDHB:
 
 
 Z2-D0QDP:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: modeling
 - when: S2-L32
 - text: >
     Richardson's arms race model and conflict model, action potentials
@@ -2436,7 +2693,8 @@ Z2-D0QDP:
 
 
 Z2-TRNRJ:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: solving differential equations
 - when: S2-L32
 - text: >
     Analysis of phase plane with nullclines
@@ -2448,7 +2706,8 @@ Z2-TRNRJ:
 
 
 Z2-4SMKT:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: stability
 - when: S2-L34
 - text: >
     Eigenvalue Decomposition (in 2x2 matrices)
@@ -2459,8 +2718,21 @@ Z2-4SMKT:
 - successor: none
 
 
+Z2-4SMKU:
+- topic: linear algebra
+- subtopic: eigenvalues
+- when: S2-L34
+- text: >
+    Eigenvalue Decomposition (in 2x2 matrices)
+- date: "Tue Feb  1 14:16:34 2022"
+- author: Zteam
+- file: import2021-22.yml
+- ID: Z2-4SMKU
+- successor: none
+
 Z2-J6PJQ:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: stability
 - when: S2-L34
 - text: >
     Interpreting behavior of 2x2 linear systems
@@ -2472,7 +2744,8 @@ Z2-J6PJQ:
 
 
 Z2-5MED4:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: complex exponentials
 - when: S2-L34
 - text: >
     Introduction to complex numbers
@@ -2484,10 +2757,11 @@ Z2-5MED4:
 
 
 Z2-HG96H:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: eigenvalues
 - when: S2-L34
 - text: >
-    Eigenvalues
+    Eigenvalues [What about them?]
 - date: "Tue Feb  1 14:16:34 2022"
 - author: Zteam
 - file: import2021-22.yml
@@ -2496,7 +2770,8 @@ Z2-HG96H:
 
 
 Z2-N985Y:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: stability
 - when: S2-L34
 - text: >
     Determine fixed points and linearize the system around
@@ -2509,7 +2784,8 @@ Z2-N985Y:
 
 
 Z2-EPC2L:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: stability
 - when: S2-L34
 - text: >
     Flow field of the linear approximation
@@ -2521,7 +2797,8 @@ Z2-EPC2L:
 
 
 Z2-7LLIX:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: stability
 - when: S2-L34
 - text: >
     Matrix representation of the flow field
@@ -2533,10 +2810,10 @@ Z2-7LLIX:
 
 
 Z2-TNU7G:
-- topic: 2021/22
+- topic: dynamics
 - when: S2-L34
 - text: >
-    Iteration of matrices
+    Iteration of matrices [we're not doing this ]
 - date: "Tue Feb  1 14:16:34 2022"
 - author: Zteam
 - file: import2021-22.yml
@@ -2545,7 +2822,8 @@ Z2-TNU7G:
 
 
 Z2-KVW34:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: eigenvalues
 - when: S2-L35
 - text: >
     Understand the geometry of the flow (what an eigenvector
@@ -2558,7 +2836,8 @@ Z2-KVW34:
 
 
 Z2-XZH2U:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: solving differential equations
 - when: S2-L35
 - text: >
     Trajectories as linear combinations of eigenflows
@@ -2570,7 +2849,8 @@ Z2-XZH2U:
 
 
 Z2-WQEY7:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: stability
 - when: S2-L35
 - text: >
     Classification of fixed points
@@ -2582,7 +2862,8 @@ Z2-WQEY7:
 
 
 Z2-VA0KG:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: solutions
 - when: S2-L36
 - text: >
     Interpret phase plane diagrams, flow field diagrams,
@@ -2595,7 +2876,8 @@ Z2-VA0KG:
 
 
 Z2-ET2YF:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: modeling
 - when: S2-L36
 - text: >
     Be able to interpret individual terms in a dynamical
@@ -2608,10 +2890,11 @@ Z2-ET2YF:
 
 
 Z2-V7OST:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: modeling
 - when: S2-L36
 - text: >
-    (a) Predator-prey model
+     Demonstrate familiarity with predator-prey model
 - date: "Tue Feb  1 14:16:34 2022"
 - author: Zteam
 - file: import2021-22.yml
@@ -2620,10 +2903,11 @@ Z2-V7OST:
 
 
 Z2-WW07I:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: modeling
 - when: S2-L36
-- text: >
-    (b) Attrition model
+- text: |
+    Demonstrate familiarity with force attrition model
 - date: "Tue Feb  1 14:16:34 2022"
 - author: Zteam
 - file: import2021-22.yml
@@ -2632,7 +2916,8 @@ Z2-WW07I:
 
 
 Z2-BBW5T:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: force-balance equations
 - when: S2-L36
 - text: >
     Force balance equations
@@ -2644,7 +2929,8 @@ Z2-BBW5T:
 
 
 Z2-5PCU8:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: force-balance equations
 - when: S2-L36
 - text: >
     Equivalence to phase plane description
@@ -2656,7 +2942,8 @@ Z2-5PCU8:
 
 
 Z2-Y54U3:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: solving differential equations
 - when: S2-L36
 - text: >
     Exponential Ansatz (solution is made up of exponentials, which one?)
@@ -2668,7 +2955,8 @@ Z2-Y54U3:
 
 
 Z2-3EHI9:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: eigenvalues
 - when: S2-L36
 - text: >
     Complex eigenvalues
@@ -2680,7 +2968,8 @@ Z2-3EHI9:
 
 
 Z2-6AHSY:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: complex exponentials
 - when: S2-L37
 - text: >
     Complex exponentials and their equivalency to sinusoids
@@ -2692,7 +2981,8 @@ Z2-6AHSY:
 
 
 Z2-KBHII:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: complex exponentials
 - when: S2-L37
 - text: >
     Sinusoids with exponential amplitudes (damping)
@@ -2704,7 +2994,8 @@ Z2-KBHII:
 
 
 Z2-RIBWK:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: eigenvalues
 - when: S2-L37
 - text: >
     Relation to the real and complex parts of the eigenvalues
@@ -2716,7 +3007,8 @@ Z2-RIBWK:
 
 
 Z2-ANME7:
-- topic: 2021/22
+- topic: dynamics
+- subtopic: forcing
 - when: S2-L37
 - text: >
     Forcing and resonance

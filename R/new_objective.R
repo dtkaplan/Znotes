@@ -63,7 +63,7 @@ construct_yaml <- function(newID, topic, subtopic,fname, text="Indent text") {
     '{newID}:\n',
     '- topic: {topic}\n',
     '- subtopic: {subtopic}\n',
-    '- text: |\n    {text}\n',
+    '- text: >\n    {text}\n',
     '- date: \"{date()}\"\n',
     '- author: {Sys.info()["user"]}\n',
     '- file: {fname}\n',
@@ -88,6 +88,38 @@ skills_table <- function() {
   }
   assign("Skills", Skills, envir = Skill_env)
   Skills
+}
+
+#' @export
+format_objectives <- function(){
+  Res <- rep("", 10000)
+  counter <- 0
+  Skills <- skills_table() %>%
+    dplyr::arrange(topic, subtopic)
+  Skills$topic[is.na(Skills$topic)] <- "Unassigned"
+  Skills$subtopic[is.na(Skills$subtopic)] <- "Unassigned"
+  for (top in unique(Skills$topic)) {
+    TSubset <- Skills %>% dplyr::filter(topic == top)
+    Res[counter <- counter + 1] <- glue::glue("\n\n## Topic: {top}\n\n")
+    for (subtop in unique(TSubset$subtopic)){
+      SSubset <- TSubset %>% dplyr::filter(subtopic == subtop)
+      Res[counter <- counter + 1] <- glue::glue("\n\nSubtopic: **{subtop}**\n\n\n")
+      for (k in 1:nrow(SSubset)) {
+        Res[counter <- counter + 1] <-
+          format_one_objective(SSubset[k, ])
+      }
+    }
+  }
+  paste(Res, collapse="")
+}
+
+
+format_one_objective <- function(obj) {
+  successor_str <-
+    ifelse(obj$successor == "none",
+           "",
+           glue(" --> {obj$successor}"))
+  glue::glue("#. {obj$text}**{obj$ID}** {successor_str}\n\n")
 }
 
 #' @export

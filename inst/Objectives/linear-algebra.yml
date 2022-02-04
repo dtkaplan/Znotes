@@ -1,6 +1,6 @@
 ---
 M-K61QN:
-- topic: linear-algebra
+- topic: linear algebra
 - subtopic: basics
 - text: |
     Determine the length of a vector arithmetically.
@@ -11,7 +11,7 @@ M-K61QN:
 - successor: none
 
 I-G0BZU:
-- topic: linear-algebra
+- topic: linear algebra
 - subtopic: basics
 - text: |
     Determine the angle between two vectors arithmetically
@@ -24,7 +24,7 @@ I-G0BZU:
 - successor: none
 
 Q-I7FYD:
-- topic: linear-algebra
+- topic: linear algebra
 - subtopic: projection
 - text: |
     Project one vector onto another using dot products
@@ -35,7 +35,7 @@ Q-I7FYD:
 - successor: none
 
 J-GBDOX:
-- topic: linear-algebra
+- topic: linear algebra
 - subtopic: projection
 - text: |
     Calculate the model vector from the results of `qr.solve()`
@@ -46,7 +46,7 @@ J-GBDOX:
 - successor: none
 
 D-70W8Q:
-- topic: linear-algebra
+- topic: linear algebra
 - subtopic: projection
 - text: |
     Using basic matrix-vector operations, verify that the results from `qr.solve()` are an actual solution
@@ -58,7 +58,7 @@ D-70W8Q:
 - successor: none
 
 M-8E0C8:
-- topic: linear-algebra
+- topic: linear algebra
 - subtopic: projection
 - text: |
     Multiply a matrix times a vector both by hand (for simple cases) and using software.
@@ -71,7 +71,7 @@ M-8E0C8:
 
 
 X-X40GX:
-- topic: linear-algebra
+- topic: linear algebra
 - subtopic: orthogonality
 - text: |
     Determine if two vectors are orthogonal.
@@ -82,7 +82,7 @@ X-X40GX:
 - successor: none
 
 D-82AWU:
-- topic: linear-algebra
+- topic: linear algebra
 - subtopic: basics
 - text: |
     Translate a set of simultaneous linear equations into a matrix format.
@@ -93,7 +93,7 @@ D-82AWU:
 - successor: none
 
 K-0RJUW:
-- topic: linear-algebra
+- topic: linear algebra
 - subtopic: basis sets
 - text: |
     Decompose a vector onto members of a Fourier basis set using software.
@@ -104,7 +104,7 @@ K-0RJUW:
 - successor: none
 
 S-YETJV:
-- topic: linear-algebra
+- topic: linear algebra
 - subtopic: basis sets
 - text: |
     Smooth a vector by projecting on to a natural spline basis set using software.
@@ -117,7 +117,7 @@ S-YETJV:
 
 
 J-CJI5W:
-- topic: linear-algebra
+- topic: linear algebra
 - subtopic: orthogonality
 - text: |
     Construct a vector that is orthogonal to given vector.
@@ -128,7 +128,7 @@ J-CJI5W:
 - successor: none
 
 B-C00I0:
-- topic: linear-algebra
+- topic: linear algebra
 - subtopic: modeling
 - text: |
     Use `lm()` to model a variable from a data frame by a linear combination
@@ -140,7 +140,7 @@ B-C00I0:
 - successor: none
 
 C-SB83J:
-- topic: linear-algebra
+- topic: linear algebra
 - subtopic: modeling
 - text: |
     Calculate and interpret R^2^ form
@@ -156,7 +156,7 @@ C-SB83J:
 
 
 L-0PJK5:
-- topic: linear-algebra
+- topic: linear algebra
 - subtopic: basics
 - text: |
     Compute a dot product by hand
@@ -170,7 +170,7 @@ L-0PJK5:
 
 
 T-XTTY5:
-- topic: linear-algebra
+- topic: linear algebra
 - subtopic: basics
 - text: |
     Using software, compute the angle between two variables in a data frame.
@@ -181,7 +181,7 @@ T-XTTY5:
 - successor: none
 
 E-PQ2SR:
-- topic: linear-algebra
+- topic: linear algebra
 - subtopic: basics
 - text: |
     Add and subtract two vectors presented graphically.
@@ -192,7 +192,7 @@ E-PQ2SR:
 - successor: none
 
 L-OHK42:
-- topic: linear-algebra
+- topic: linear algebra
 - subtopic: basics
 - text: |
     Graphically find a linear combination of two vectors.
@@ -205,7 +205,7 @@ L-OHK42:
 
 
 D-TX959:
-- topic: linear-algebra
+- topic: linear algebra
 - subtopic: target problem
 - text: |
     Solve the two-dimension target problem graphically.
@@ -216,7 +216,7 @@ D-TX959:
 - successor: none
 
 G-Q76M6:
-- topic: linear-algebra
+- topic: linear algebra
 - subtopic: subspaces
 - text: |
     Given a matrix $\mathbf{A}$ and a target $\vec{b}$, find the production onto
@@ -230,7 +230,7 @@ G-Q76M6:
 
 
 X-DY95N:
-- topic: linear-algebra
+- topic: linear algebra
 - subtopic: computing
 - text: |
     Construct a vector using `rbind()`
@@ -241,7 +241,7 @@ X-DY95N:
 - successor: none
 
 V-N81AY:
-- topic: linear-algebra
+- topic: linear algebra
 - subtopic: computing
 - text: |
     Construct a matrix using `cbind()` to collect vectors
@@ -253,7 +253,7 @@ V-N81AY:
 - successor: none
 
 X-PWNTT:
-- topic: linear-algebra
+- topic: linear algebra
 - subtopic: computing
 - text: |
     Use `qr.solve()` to solve the target problem $A x = b$
@@ -264,7 +264,7 @@ X-PWNTT:
 - successor: none
 
 A-2STPD:
-- topic: linear-algebra
+- topic: linear algebra
 - subtopic: computing
 - text: |
     Construct the residual vector using the output of `qr.solve()`
@@ -283,7 +283,7 @@ A-2STPD:
 
 
 WP-103-6:
-- topic: linear-algebra
+- topic: linear algebra
 - subtopic: basics
 - text: |
     Find the sum and difference of two vectors
@@ -294,7 +294,7 @@ WP-103-6:
 - successor: none
 
 WP-103-7:
-- topic: linear-algebra
+- topic: linear algebra
 - subtopic: basics
 - text: |
     Multiply vectors by a scalar or a matrix
@@ -305,7 +305,7 @@ WP-103-7:
 - successor: none
 
 WP-103-8:
-- topic: linear-algebra
+- topic: linear algebra
 - subtopic: basics
 - text: |
     Determine the dot project of two vectors
@@ -317,7 +317,7 @@ WP-103-8:
 
 
 WP-103-9:
-- topic: linear-algebra
+- topic: linear algebra
 - subtopic: basics
 - text: |
     Determine the parametric (vector) equations of a line and a plane.
@@ -328,7 +328,7 @@ WP-103-9:
 - successor: none
 
 WP-103-10:
-- topic: linear-algebra
+- topic: linear algebra
 - subtopic: basics
 - text: |
     Multiply a matrix by a scalar, matrix, or vector.
@@ -339,7 +339,7 @@ WP-103-10:
 - successor: none
 
 WP-103-11:
-- topic: linear-algebra
+- topic: linear algebra
 - subtopic: basics
 - text: |
     Calculate the determinant of a matrix.
@@ -350,7 +350,7 @@ WP-103-11:
 - successor: none
 
 WP-103-12:
-- topic: linear-algebra
+- topic: linear algebra
 - subtopic: basics
 - text: |
     Solve (by hand) systems of equations (2x2) using
@@ -362,7 +362,7 @@ WP-103-12:
 - successor: none
 
 WP-103-13:
-- topic: linear-algebra
+- topic: linear algebra
 - subtopic: basics
 - text: |
     Use technology to solve systems of equations of virtually any size using
@@ -374,7 +374,7 @@ WP-103-13:
 - successor: none
 
 WP-103-14:
-- topic: linear-algebra
+- topic: linear algebra
 - subtopic: basics
 - text: |
     Explain the graphical interpretation of an eigenvector and eigenvalue and how to compute each
@@ -389,7 +389,7 @@ WP-103-14:
 
 
 WP-103-15:
-- topic: linear-algebra
+- topic: linear algebra
 - subtopic: basics
 - text: |
     Use matrix algebra to model and solve network flow and social network problems.
@@ -400,7 +400,7 @@ WP-103-15:
 - successor: none
 
 WP-103-16:
-- topic: linear-algebra
+- topic: linear algebra
 - subtopic: basics
 - text: |
     Using eigenvalues, eigenvectors, and vector decomposition, develop closed form solutions
@@ -417,7 +417,7 @@ WP-103-16:
 
 
 Z2-JU3OX:
-- topic: Linear algebra
+- topic: linear algebra
 - when: S2-L16
 - text: >
     Know that vectors can be represented as columns of data or graphically arrows
@@ -429,7 +429,7 @@ Z2-JU3OX:
 
 
 Z2-W4D22:
-- topic: Linear algebra
+- topic: linear algebra
 - when: S2-L16
 - text: >
     Know how to perform scalar multiplication and vector addition
@@ -441,7 +441,7 @@ Z2-W4D22:
 
 
 Z2-DMRC2:
-- topic: Linear algebra
+- topic: linear algebra
 - when: S2-L16
 - text: >
     Understand the transpose operator and how to compute the
@@ -454,7 +454,7 @@ Z2-DMRC2:
 
 
 Z2-H32SM:
-- topic: Linear algebra
+- topic: linear algebra
 - when: S2-L16
 - text: >
     Calculate the length of a vector
@@ -466,7 +466,7 @@ Z2-H32SM:
 
 
 Z2-EVFJ9:
-- topic: Linear algebra
+- topic: linear algebra
 - when: S2-L16
 - text: >
     Know that computing the dot product of a vector with itself
@@ -479,7 +479,7 @@ Z2-EVFJ9:
 
 
 Z2-PXUYM:
-- topic: Linear algebra
+- topic: linear algebra
 - when: S2-L17
 - text: >
     Write a system of linear equations as an equivalent target
@@ -492,7 +492,7 @@ Z2-PXUYM:
 
 
 Z2-VXEK5:
-- topic: Linear algebra
+- topic: linear algebra
 - when: S2-L17
 - text: >
     Know the definition of a linear combination of vectors and be
@@ -505,7 +505,7 @@ Z2-VXEK5:
 
 
 Z2-ST3L3:
-- topic: Linear algebra
+- topic: linear algebra
 - when: S2-L17
 - text: >
     Solve for a target vector algebraically or graphically in
@@ -518,7 +518,7 @@ Z2-ST3L3:
 
 
 Z2-X11RJ:
-- topic: Linear algebra
+- topic: linear algebra
 - when: S2-L17
 - text: >
     Know how to calculate the distance between two vectors and
@@ -531,7 +531,7 @@ Z2-X11RJ:
 
 
 Z2-YZZN8:
-- topic: Linear algebra
+- topic: linear algebra
 - when: S2-L18
 - text: >
     Calculate the angle between two vectors
@@ -543,7 +543,7 @@ Z2-YZZN8:
 
 
 Z2-XTJ2M:
-- topic: Linear algebra
+- topic: linear algebra
 - when: S2-L18
 - text: >
     Find a nonzero vector orthogonal to a given vector
@@ -555,7 +555,7 @@ Z2-XTJ2M:
 
 
 Z2-NN7RI:
-- topic: Linear algebra
+- topic: linear algebra
 - when: S2-L18
 - text: >
     Calculate the projection of a vector onto another vector
@@ -567,7 +567,7 @@ Z2-NN7RI:
 
 
 Z2-G5ZI6:
-- topic: Linear algebra
+- topic: linear algebra
 - when: S2-L18
 - text: >
     Sketch the projection of one vector onto another and
@@ -580,7 +580,7 @@ Z2-G5ZI6:
 
 
 Z2-IIIHF:
-- topic: Linear algebra
+- topic: linear algebra
 - when: S2-L19
 - text: >
     Write a target problem in the form
@@ -592,7 +592,7 @@ Z2-IIIHF:
 
 
 Z2-IX14A:
-- topic: Linear algebra
+- topic: linear algebra
 - when: S2-L19
 - text: >
     Understand the relationship between b and b hat and
@@ -605,7 +605,7 @@ Z2-IX14A:
 
 
 Z2-VOBOR:
-- topic: Linear algebra
+- topic: linear algebra
 - when: S2-L19
 - text: >
     Calculate solutions to vector equations using R
@@ -617,7 +617,7 @@ Z2-VOBOR:
 
 
 Z2-2Q4WA:
-- topic: Linear algebra
+- topic: linear algebra
 - when: S2-L20
 - text: >
     Understand applications of projections
@@ -629,7 +629,7 @@ Z2-2Q4WA:
 
 
 Z2-3SORV:
-- topic: Linear algebra
+- topic: linear algebra
 - when: S2-L20
 - text: >
     Understand the relationship between projections and
@@ -642,7 +642,7 @@ Z2-3SORV:
 
 
 Z2-0METU:
-- topic: Linear algebra
+- topic: linear algebra
 - when: S2-L20
 - text: >
     Understand what the qr.solve() function gives you (this is testable).
@@ -654,7 +654,7 @@ Z2-0METU:
 
 
 Z2-WN86U:
-- topic: Linear algebra
+- topic: linear algebra
 - when: S2-L21
 - text: >
     Apply projections to decompose a vector into two directions
@@ -666,7 +666,7 @@ Z2-WN86U:
 
 
 Z2-EDS4R:
-- topic: Linear algebra
+- topic: linear algebra
 - when: S2-L21
 - text: >
     Understand the connection between projections into
@@ -679,7 +679,7 @@ Z2-EDS4R:
 
 
 Z2-ALBFW:
-- topic: Linear algebra
+- topic: linear algebra
 - when: S2-L21
 - text: >
     Know that R2 is a measure of how well the model accounts for
@@ -692,7 +692,7 @@ Z2-ALBFW:
 
 
 Z2-9K8TY:
-- topic: Linear algebra
+- topic: linear algebra
 - when: S2-L21
 - text: >
     Know that R2 is the cosine of the angle between
@@ -704,7 +704,7 @@ Z2-9K8TY:
 
 
 Z2-UAUWN:
-- topic: Linear algebra
+- topic: linear algebra
 - when: S2-L22
 - text: >
     Understand that "continuous" functions can be approximated
@@ -717,7 +717,7 @@ Z2-UAUWN:
 
 
 Z2-71AP4:
-- topic: Linear algebra
+- topic: linear algebra
 - when: S2-L22
 - text: >
     Be aware that the word "transform" in this class' context
@@ -730,7 +730,7 @@ Z2-71AP4:
 
 
 Z2-VZ2HA:
-- topic: Linear algebra
+- topic: linear algebra
 - when: S2-L22
 - text: >
     Understand that the "transform" technique amounts to
