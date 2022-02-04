@@ -574,7 +574,7 @@ Z1-A3VUX:
 
 
 Z1-Y5JLK:
-- topic: multivariate function
+- topic: multivariate functions
 - subtopic: slices
 - when: S1-L9
 - text: >
@@ -587,7 +587,7 @@ Z1-Y5JLK:
 
 
 Z1-SQFMP:
-- topic: multivariate function
+- topic: multivariate functions
 - subtopic: directional slope
 - when: S1-L9
 - text: >
@@ -625,7 +625,8 @@ Z1-8MT6R:
 
 Z1-E5U46:
 - topic: modeling
-- when: compare to data
+- subtopic: compare to data
+- when: S1-L11
 - text: >
     Identify the disagreements between a model and a given dataset
 - date: "Tue Feb  1 14:16:34 2022"
@@ -1468,14 +1469,29 @@ Z2-J9BQP:
 - ID: Z2-J9BQP
 - successor: none
 
+G-KSEUG:
+- topic: operations
+- subtopic: iteration
+- byhand: yes
+- text: >
+    Iterate simple functions by hand
+- date: "Fri Feb  4 15:33:50 2022"
+- author: dtkaplan
+- file: import2021-22.yml
+- ID: G-KSEUG
+- successor: none
+
+
+
 
 Z2-S89UK:
 - topic: operations
 - subtopic: iteration
+- computing: yes
 - when: S2-L2
 - text: >
     Iterate a function from a given starting point by hand
-    and using R's Iterate() operator
+    and using R/mosaic `Iterate()` operator
 - date: "Tue Feb  1 14:16:34 2022"
 - author: Zteam
 - file: import2021-22.yml
@@ -1551,9 +1567,10 @@ Z2-T2E7N:
 Z2-OD4G6:
 - topic: operations
 - subtopic: argmax/min
+- computing: yes
 - when: S2-L3
 - text: >
-    Apply Newton's method to derivative to find argmax/argmin
+    Use Newton's method to find argmax/min
 - date: "Tue Feb  1 14:16:34 2022"
 - author: Zteam
 - file: import2021-22.yml
@@ -1672,11 +1689,23 @@ L-NLS0Y:
 - topic: optimization
 - subtopic: objective function
 - text: >
-    Recognize that the gradient function gives the score to be optimized.
+    Recognize that the objective function gives the score to be optimized.
 - date: "Fri Feb  4 13:26:20 2022"
 - author: dtkaplan
 - file: import2021-22.yml
 - ID: L-NLS0Y
+- successor: none
+
+Q-W7KVR:
+- topic: optimization
+- subtopic: objective function
+- text: >
+    Construct objective functions for simple geometrical situations (e.g. find the altitude of
+    the cone of maximum volume that can be inscribed in a sphere of radius $r$.)
+- date: "Fri Feb  4 15:35:10 2022"
+- author: dtkaplan
+- file: import2021-22.yml
+- ID: Q-W7KVR
 - successor: none
 
 
@@ -1979,20 +2008,6 @@ Z2-Y1DO5:
 - ID: Z2-Y1DO5
 - successor: none
 
-
-Z2-JU3OX:
-- topic: vectors
-- subtopic: data
-- when: S2-L16
-- text: >
-    Know that vectors can be represented as columns of data or graphically arrows
-- date: "Tue Feb  1 14:16:34 2022"
-- author: Zteam
-- file: import2021-22.yml
-- ID: Z2-JU3OX
-- successor: none
-
-
 Z2-W4D22:
 - topic: vectors
 - subtopic: basics
@@ -2003,251 +2018,6 @@ Z2-W4D22:
 - author: Zteam
 - file: import2021-22.yml
 - ID: Z2-W4D22
-- successor: none
-
-
-Z2-DMRC2:
-- topic: vectors
-- subtopic: dot product
-- when: S2-L16
-- text: >
-    [Understand the transpose operator][We aren't treating the
-    dot product as a special case of matrix multiplication.] and how to compute the
-    dot product between two vectors
-- date: "Tue Feb  1 14:16:34 2022"
-- author: Zteam
-- file: import2021-22.yml
-- ID: Z2-DMRC2
-- successor: none
-
-
-Z2-H32SM:
-- topic: vectors
-- subtopic: basics
-- when: S2-L16
-- text: >
-    Calculate the length of a vector
-- date: "Tue Feb  1 14:16:34 2022"
-- author: Zteam
-- file: import2021-22.yml
-- ID: Z2-H32SM
-- successor: none
-
-
-Z2-EVFJ9:
-- topic: vectors
-- subtopic: basics
-- when: S2-L16
-- text: >
-    Know that computing the dot product of a vector with itself
-    is equivalent to length squared
-- date: "Tue Feb  1 14:16:34 2022"
-- author: Zteam
-- file: import2021-22.yml
-- ID: Z2-EVFJ9
-- successor: none
-
-
-Z2-PXUYM:
-- topic: linear algebra
-- subtopic: target problem
-- when: S2-L17
-- text: >
-    Write a system of linear equations as an equivalent target
-    problem involving a linear combination of vectors
-- date: "Tue Feb  1 14:16:34 2022"
-- author: Zteam
-- file: import2021-22.yml
-- ID: Z2-PXUYM
-- successor: none
-
-
-Z2-VXEK5:
-- topic: linear algebra
-- subtopic: matrices
-- when: S2-L17
-- text: >
-    Know the definition of a linear combination of vectors and be
-    able to rewrite as a matrix times a vector
-- date: "Tue Feb  1 14:16:34 2022"
-- author: Zteam
-- file: import2021-22.yml
-- ID: Z2-VXEK5
-- successor: none
-
-
-Z2-ST3L3:
-- topic: linear algebra
-- subtopic: target problem
-- when: S2-L17
-- text: >
-    Solve for a target vector algebraically or graphically in
-    two dimensions
-- date: "Tue Feb  1 14:16:34 2022"
-- author: Zteam
-- file: import2021-22.yml
-- ID: Z2-ST3L3
-- successor: none
-
-
-Z2-X11RJ:
-- topic: vectors
-- subtopic: basics
-- when: S2-L17
-- text: >
-    Know how to calculate the distance between two vectors [What is meant
-    by the "distance"] and
-    how to subtract vectors algebraically and graphically
-- date: "Tue Feb  1 14:16:34 2022"
-- author: Zteam
-- file: import2021-22.yml
-- ID: Z2-X11RJ
-- successor: none
-
-
-Z2-YZZN8:
-- topic: vectors
-- subtopic: basics
-- when: S2-L18
-- text: >
-    Calculate the angle between two vectors
-- date: "Tue Feb  1 14:16:34 2022"
-- author: Zteam
-- file: import2021-22.yml
-- ID: Z2-YZZN8
-- successor: none
-
-
-Z2-XTJ2M:
-- topic: vectors
-- subtopic: orthogonality
-- when: S2-L18
-- text: >
-    Find a nonzero vector orthogonal to a given vector
-- date: "Tue Feb  1 14:16:34 2022"
-- author: Zteam
-- file: import2021-22.yml
-- ID: Z2-XTJ2M
-- successor: none
-
-
-Z2-NN7RI:
-- topic: vectors
-- subtopic: projection
-- when: S2-L18
-- text: >
-    Calculate the projection of a vector onto another vector
-- date: "Tue Feb  1 14:16:34 2022"
-- author: Zteam
-- file: import2021-22.yml
-- ID: Z2-NN7RI
-- successor: none
-
-
-Z2-G5ZI6:
-- topic: vectors
-- subtopic: projection
-- when: S2-L18
-- text: >
-    Sketch the projection of one vector onto another and
-    then draw the residual vector
-- date: "Tue Feb  1 14:16:34 2022"
-- author: Zteam
-- file: import2021-22.yml
-- ID: Z2-G5ZI6
-- successor: none
-
-
-Z2-IIIHF:
-- topic: linear algebra
-- subtopic: target problem
-- when: S2-L19
-- text: >
-    Write a target problem in the form [Something got cut-off here.]
-- date: "Tue Feb  1 14:16:34 2022"
-- author: Zteam
-- file: import2021-22.yml
-- ID: Z2-IIIHF
-- successor: none
-
-
-Z2-IX14A:
-- topic: linear algebra
-- subtopic: target problem
-- when: S2-L19
-- text: >
-    Understand the relationship between b and b-hat and
-    calculate the residual vector
-- date: "Tue Feb  1 14:16:34 2022"
-- author: Zteam
-- file: import2021-22.yml
-- ID: Z2-IX14A
-- successor: none
-
-
-Z2-VOBOR:
-- topic: linear algebra
-- subtopic: target problem
-- when: S2-L19
-- text: >
-    Calculate solutions to vector equations using R
-- date: "Tue Feb  1 14:16:34 2022"
-- author: Zteam
-- file: import2021-22.yml
-- ID: Z2-VOBOR
-- successor: none
-
-
-Z2-2Q4WA:
-- topic: linear algebra
-- subtopic: least squares
-- when: S2-L20
-- text: >
-    Understand applications of projections
-- date: "Tue Feb  1 14:16:34 2022"
-- author: Zteam
-- file: import2021-22.yml
-- ID: Z2-2Q4WA
-- successor: none
-
-
-Z2-3SORV:
-- topic: linear algebra
-- subtopic: least squares
-- when: S2-L20
-- text: >
-    Understand the relationship between projections and
-    Method of Least Squares
-- date: "Tue Feb  1 14:16:34 2022"
-- author: Zteam
-- file: import2021-22.yml
-- ID: Z2-3SORV
-- successor: none
-
-
-Z2-0METU:
-- topic: linear algebra
-- subtopic: computatation
-- when: S2-L20
-- text: >
-    Understand what the qr.solve() function gives you (this is testable).
-- date: "Tue Feb  1 14:16:34 2022"
-- author: Zteam
-- file: import2021-22.yml
-- ID: Z2-0METU
-- successor: none
-
-
-Z2-WN86U:
-- topic: linear algebra
-- subtopic: projection
-- when: S2-L21
-- text: >
-    Apply projections to decompose a vector into two directions
-- date: "Tue Feb  1 14:16:34 2022"
-- author: Zteam
-- file: import2021-22.yml
-- ID: Z2-WN86U
 - successor: none
 
 
@@ -2262,76 +2032,6 @@ Z2-EDS4R:
 - author: Zteam
 - file: import2021-22.yml
 - ID: Z2-EDS4R
-- successor: none
-
-
-Z2-ALBFW:
-- topic: linear algebra
-- subtopic: R-squared
-- when: S2-L21
-- text: >
-    Know that R2 is a measure of how well the model accounts for
-    variability in the output variable
-- date: "Tue Feb  1 14:16:34 2022"
-- author: Zteam
-- file: import2021-22.yml
-- ID: Z2-ALBFW
-- successor: none
-
-
-Z2-9K8TY:
-- topic: linear algebra
-- subtopic: R-squared
-- when: S2-L21
-- text: >
-    Know that R2 is the cosine of the angle between
-- date: "Tue Feb  1 14:16:34 2022"
-- author: Zteam
-- file: import2021-22.yml
-- ID: Z2-9K8TY
-- successor: none
-
-
-Z2-UAUWN:
-- topic: vectors
-- subtopic: representing functions
-- when: S2-L22
-- text: >
-    Understand that "continuous" functions can be approximated
-    by vectors of discrete function value samples
-- date: "Tue Feb  1 14:16:34 2022"
-- author: Zteam
-- file: import2021-22.yml
-- ID: Z2-UAUWN
-- successor: none
-
-
-Z2-71AP4:
-- topic: linear algebra
-- subtopic: basis sets
-- when: S2-L22
-- text: >
-    Be aware that the word "transform" in this class' context
-    relates to the "Fourier Transform."
-- date: "Tue Feb  1 14:16:34 2022"
-- author: Zteam
-- file: import2021-22.yml
-- ID: Z2-71AP4
-- successor: none
-
-
-Z2-VZ2HA:
-- topic: linear algebra
-- subtopic: basis sets
-- when: S2-L22
-- text: >
-    Understand that the "transform" technique amounts to
-    designing the matrix in the target problem to break up
-    the function into meaningful components
-- date: "Tue Feb  1 14:16:34 2022"
-- author: Zteam
-- file: import2021-22.yml
-- ID: Z2-VZ2HA
 - successor: none
 
 
