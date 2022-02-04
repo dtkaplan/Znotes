@@ -7,3 +7,13 @@ Name: new_objective
 Description: Create a blank objective with a unique ID
 Binding: new_objective
 Interactive: true
+
+Name: add_skills
+Description: Adds a template for listing the skills served by a document
+Binding: add_skills
+Interactive: true
+
+Name: add_hash
+Description: Generate a new hash and insert into the current document
+Binding: add_hash
+Interactive: true

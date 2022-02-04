@@ -288,9 +288,9 @@ WP-103-6:
 - text: |
     Find the sum and difference of two vectors
 - date: "Thu Feb  3 12:11:25 2022"
-- author: West Point Core Math Book AY22
+- author: "West Point Core Math Book AY22"
 - file: linear-algebra.yml
-- ID: WP-103-6:
+- ID: WP-103-6
 - successor: none
 
 WP-103-7:
@@ -301,7 +301,7 @@ WP-103-7:
 - date: "Thu Feb  3 12:11:25 2022"
 - author: West Point Core Math Book AY22
 - file: linear-algebra.yml
-- ID: WP-103-7:
+- ID: WP-103-7
 - successor: none
 
 WP-103-8:
@@ -312,7 +312,7 @@ WP-103-8:
 - date: "Thu Feb  3 12:11:25 2022"
 - author: West Point Core Math Book AY22
 - file: linear-algebra.yml
-- ID: WP-103-8:
+- ID: WP-103-8
 - successor: none
 
 
@@ -324,7 +324,7 @@ WP-103-9:
 - date: "Thu Feb  3 12:11:25 2022"
 - author: West Point Core Math Book AY22
 - file: linear-algebra.yml
-- ID: WP-103-9:
+- ID: WP-103-9
 - successor: none
 
 WP-103-10:
@@ -335,7 +335,7 @@ WP-103-10:
 - date: "Thu Feb  3 12:11:25 2022"
 - author: West Point Core Math Book AY22
 - file: linear-algebra.yml
-- ID: WP-103-10:
+- ID: WP-103-10
 - successor: none
 
 WP-103-11:
@@ -346,7 +346,7 @@ WP-103-11:
 - date: "Thu Feb  3 12:11:25 2022"
 - author: West Point Core Math Book AY22
 - file: linear-algebra.yml
-- ID: WP-103-11:
+- ID: WP-103-11
 - successor: none
 
 WP-103-12:
@@ -358,7 +358,7 @@ WP-103-12:
 - date: "Thu Feb  3 12:11:25 2022"
 - author: West Point Core Math Book AY22
 - file: linear-algebra.yml
-- ID: WP-103-12:
+- ID: WP-103-12
 - successor: none
 
 WP-103-13:
@@ -370,7 +370,7 @@ WP-103-13:
 - date: "Thu Feb  3 12:11:25 2022"
 - author: West Point Core Math Book AY22
 - file: linear-algebra.yml
-- ID: WP-103-13:
+- ID: WP-103-13
 - successor: none
 
 WP-103-14:
@@ -382,7 +382,7 @@ WP-103-14:
 - date: "Thu Feb  3 12:11:25 2022"
 - author: West Point Core Math Book AY22
 - file: linear-algebra.yml
-- ID: WP-103-14:
+- ID: WP-103-14
 - successor: none
 
 
@@ -396,7 +396,7 @@ WP-103-15:
 - date: "Thu Feb  3 12:11:25 2022"
 - author: West Point Core Math Book AY22
 - file: linear-algebra.yml
-- ID: WP-103-15:
+- ID: WP-103-15
 - successor: none
 
 WP-103-16:
@@ -408,7 +408,7 @@ WP-103-16:
 - date: "Thu Feb  3 12:11:25 2022"
 - author: West Point Core Math Book AY22
 - file: linear-algebra.yml
-- ID: WP-103-16:
+- ID: WP-103-16
 - successor: none
 
 
