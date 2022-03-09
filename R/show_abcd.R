@@ -7,6 +7,10 @@
 #'
 #' @details `pow` can be used to make the very short flow vectors near the origin look
 #' bigger. Default is 0.3.
+#'
+#' @examples
+#' Znotes::show_abcd(-.5, -1, 1, .7)
+#'
 #' @export
 show_abcd <- function(a, b, c, d, which=c("both", "x", "y"),
                       show_sign=FALSE, pow=0.3) {

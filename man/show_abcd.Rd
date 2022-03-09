@@ -30,3 +30,7 @@ Draw ABCD linear dynamics phase plane flow
 \code{pow} can be used to make the very short flow vectors near the origin look
 bigger. Default is 0.3.
 }
+\examples{
+Znotes::show_abcd(-.5, -1, 1, .7)
+
+}
