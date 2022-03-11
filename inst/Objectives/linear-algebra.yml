@@ -23,6 +23,41 @@ I-G0BZU:
 - ID: I-G0BZU
 - successor: none
 
+I-O0HLH:
+- topic: linear-algebra
+- subtopic: basics
+- text: >
+    Construct a vector through discrete sampling of a continuous function.
+- date: "Mon Feb  7 13:47:43 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: I-O0HLH
+- successor: none
+
+I-6M5PC:
+- topic: linear-algebra
+- subtopic: basics
+- text: >
+    Recognize that vectors can be represented as arrows or as columns of numbers.
+- date: "Mon Feb  7 13:50:52 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: I-6M5PC
+- successor: none
+
+A-GIDUU:
+- topic: linear-algebra
+- subtopic: basics
+- text: >
+    Determine arithmetically if two vectors are orthogonal (dot product = 0)
+- date: "Mon Feb  7 13:52:54 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: A-GIDUU
+- successor: none
+
+
+
 Q-I7FYD:
 - topic: linear algebra
 - subtopic: projection
@@ -272,6 +307,114 @@ A-2STPD:
 - author: kaplan
 - file: linear-algebra.yml
 - ID: A-2STPD
+- successor: none
+
+Y-ZF4TD:
+- topic: linear-algebra
+- subtopic: linear combinations
+- text: >
+    Construct a matrix as a collection of vectors, both in traditional notation and using `cbind()`
+- date: "Mon Feb  7 13:56:24 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: Y-ZF4TD
+- successor: none
+R-F1HH3:
+- topic: linear-algebra
+- subtopic: basics
+- text: >
+    Subtract one vector from another, graphically and arithmetically.
+- date: "Mon Feb  7 13:58:10 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: R-F1HH3
+- successor: none
+
+D-JOH85:
+- topic: linear-algebra
+- subtopic: linear combinations
+- text: >
+    Translate a system of simultaneous linear equations into a matrix-vector format.
+- date: "Mon Feb  7 13:58:48 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: D-JOH85
+- successor: none
+
+N-52UC3:
+- topic: linear-algebra
+- subtopic: projection
+- text: >
+    Be able to verify computationally that b-hat and residual
+        i. add up to b
+        ii. are orthogonal to each other
+        iii. residual is orthogonal to every vector in the subspaceO-U8LB7:
+- topic: linear-algebra
+- subtopic: projection
+- text: >
+    Sketch the projection of one vector onto another and draw the residual.
+- date: "Mon Feb  7 14:09:23 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: O-U8LB7
+- successor: none
+
+X-OHM8T:
+- topic: linear-algebra
+- subtopic: projection
+- text: >
+    Use correctly the terminology of projection and be able to confirm computationally the correct relationships of the
+    target vector, model space, residual, and model vector.
+- date: "Mon Feb  7 14:10:15 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: X-OHM8T
+- successor: none
+
+C-BMPIX:
+- topic: linear-algebra
+- subtopic: statistical modeling
+- text: >
+    Associate the x in Ax = b with the coefficients in a linear model.
+- date: "Mon Feb  7 14:29:30 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: C-BMPIX
+- successor: none
+
+
+
+- date: "Mon Feb  7 14:06:44 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: N-52UC3
+- successor: none
+
+
+
+E-3NDEZ:
+- topic: linear-algebra
+- subtopic: projection
+- text: >
+    Construct a Q matrix one vector at a time computationally and confirm that the vectors
+    in Q are mutually orthogonal.
+- date: "Mon Feb  7 13:59:56 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: E-3NDEZ
+- successor: none
+
+
+
+D-OCDKT:
+- topic: linear-algebra
+- subtopic: linear combinations
+- text: >
+    Be able arithmetically and graphically to construct a linear combination of vectors.
+- date: "Mon Feb  7 13:54:55 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: D-OCDKT
 - successor: none
 
 
