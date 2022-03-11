@@ -4,7 +4,7 @@
 \alias{latex_vec}
 \title{Construct latex markup for vectors}
 \usage{
-latex_vec(n = 3, name = "v", digits = 3, seed = 152, v = NULL)
+latex_vec(n = 3, name = "v", digits = 3, seed = NULL, v = NULL)
 }
 \arguments{
 \item{n}{How many components}
