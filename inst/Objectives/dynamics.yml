@@ -55,7 +55,7 @@ S-1IMMA:
 - topic: dynamics
 - subtopic: math format
 - text: >
-    Identify the components of a system of differential equation
+    Identify the components of a system of differential equations
     - state variable
     - dynamical function
     - time derivative of state variable
@@ -126,6 +126,59 @@ F-QSK86:
 - author: kaplan
 - file: dynamics.yml
 - ID: F-QSK86
+- successor: none
+
+D-JJBYA:
+- topic: dynamics
+- subtopic: ansatz
+- text: >
+    Use an exponential ansatz in a second-order linear DE to find the exponential
+    rate constants on the two exponential solutions (with real eigenvalues).
+- date: "Mon Mar 14 12:38:49 2022"
+- author: dtkaplan
+- file: dynamics.yml
+- ID: D-JJBYA
+- successor: none
+
+
+
+
+H-HAND6:
+- topic: dynamics
+- subtopic: numerics
+- text: >
+    Convert a second-order differential equation into two first-order equations in
+    order to integrate numerically the second-order DE.
+- date: "Mon Mar 14 12:33:30 2022"
+- author: dtkaplan
+- file: dynamics.yml
+- ID: H-HAND6
+- successor: none
+
+G-I8BZJ:
+- topic: dynamics
+- subtopic: eigenvalues
+- text: >
+    Convert a pair of linear, first-order equations, where one of the coefficients
+    is zero, into a linear second-order differential equation.
+- date: "Mon Mar 14 12:55:30 2022"
+- author: dtkaplan
+- file: dynamics.yml
+- ID: G-I8BZJ
+- successor: none
+
+
+
+L-CGDLK:
+- topic: dynamics
+- subtopic: oscillation
+- text: >
+    Understand "coupling" and why oscillation requires that the dynamical functions
+    in a two-state variable system must each take the other state variable as an input.
+- date: "Mon Mar 14 12:27:18 2022"
+- author: dtkaplan
+- file: dynamics.yml
+- ID: L-CGDLK
 - successor: none
 
 
@@ -218,6 +271,20 @@ N-O88YI:
 - file: dynamics.yml
 - ID: N-O88YI
 - successor: none
+
+K-UAHR5:
+- topic: dynamics
+- subtopic: solutions
+- text: >
+    Demonstrate that a linear combination of two solutions to a differential equation
+    is itself a solution.
+- date: "Mon Mar 14 13:21:26 2022"
+- author: dtkaplan
+- file: dynamics.yml
+- ID: K-UAHR5
+- successor: none
+
+
 
 V-LUM9X:
 - topic: dynamics
