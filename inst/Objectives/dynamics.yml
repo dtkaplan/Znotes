@@ -10,11 +10,38 @@ X-LG744:
 - ID: X-LG744
 - successor: none
 
+X-8PMUP:
+- topic: dynamics
+- subtopic: trajectory
+- text: >
+    Translate between trajectories in the phase plane and the corresponding
+    time-series plot (and vice versa).
+- date: "Mon Mar 14 13:39:49 2022"
+- author: kaplan
+- file: dynamics.yml
+- ID: X-8PMUP
+- successor: none
+
+D-4PMCY:
+- topic: dynamics
+- subtopic: differential equations
+- text: >
+    Distinguish between a dynamical system as an "autonomous differential equation"
+    $\partial_t y = g(y)$ and an anti-differentiation problem  $\partial_x y = f(x)$.
+- date: "Mon Mar 14 13:58:27 2022"
+- author: kaplan
+- file: dynamics.yml
+- ID: D-4PMCY
+- successor: none
+
+
+
 X-KZLDP:
 - topic: dynamics
 - subtopic: basic concepts
 - text: >
-    Distinguish between the **instantaneous state** and the **state space**.
+    Given a state space, identify what a point in that space corresponds
+    to in terms of the instantaneous configuration of the system.
 - date: "Thu Mar 10 14:54:06 2022"
 - author: kaplan
 - file: dynamics.yml
