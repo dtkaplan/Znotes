@@ -22,7 +22,6 @@ long enough to stand out. Try \code{transform=sqrt}.}
 Draw a one-dimensional phase space with arrows.
 }
 \examples{
-phase_line(4*x*(1-x) ~ x, domain(x=0:1),
-   nix_dyn=FALSE, narrows=20, transform=sqrt)
+phase_line(4*x*(1-x) ~ x, domain(x=0:1), narrows=10)
 
 }

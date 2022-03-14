@@ -8,8 +8,7 @@
 #' long enough to stand out. Try `transform=sqrt`.
 #'
 #' @examples
-#' phase_line(4*x*(1-x) ~ x, domain(x=0:1),
-#'    nix_dyn=FALSE, narrows=20, transform=sqrt)
+#' phase_line(4*x*(1-x) ~ x, domain(x=0:1), narrows=10)
 #'
 #' @export
 phase_line <- function(tilde, domain, narrows=15,

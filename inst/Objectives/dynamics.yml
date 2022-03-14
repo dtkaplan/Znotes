@@ -10,6 +10,47 @@ X-LG744:
 - ID: X-LG744
 - successor: none
 
+X-KZLDP:
+- topic: dynamics
+- subtopic: basic concepts
+- text: >
+    Distinguish between the **instantaneous state** and the **state space**.
+- date: "Thu Mar 10 14:54:06 2022"
+- author: kaplan
+- file: dynamics.yml
+- ID: X-KZLDP
+- successor: none
+
+X-MO2V8:
+- topic: dynamics
+- subtopic: +
+- text: >
+    Understand these terms and describe the relationships among
+    them in the context of dynamics: instantaneous state,
+    state space, state variable, dynamical function,
+    flow field, trajectory, time-series, differential equation,
+    initial condition, solution
+- date: "Thu Mar 10 15:02:10 2022"
+- author: kaplan
+- file: dynamics.yml
+- ID: X-MO2V8
+- successor: none
+
+
+
+G-MC8XJ:
+- topic: dynamics
+- subtopic: flow field
+- text: >
+    Recognize and explain why two trajectories can not cross one another.
+- date: "Thu Mar 10 14:55:34 2022"
+- author: kaplan
+- file: dynamics.yml
+- ID: G-MC8XJ
+- successor: none
+
+
+
 S-1IMMA:
 - topic: dynamics
 - subtopic: math format
@@ -159,7 +200,7 @@ D-93XWJ:
 - topic: dynamics
 - subtopic: solutions
 - text: >
-    Given a flow field, draw a plausible trajectory
+    Given a flow field in one or two dimensions, draw a plausible trajectory
 - date: "Wed Feb  2 07:31:56 2022"
 - author: kaplan
 - file: dynamics.yml
