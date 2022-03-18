@@ -69,7 +69,8 @@ G-MC8XJ:
 - topic: dynamics
 - subtopic: flow field
 - text: >
-    Recognize and explain why two trajectories can not cross one another.
+    Explain why determinism rules out two different trajectories passing through
+    any single point in state space.
 - date: "Thu Mar 10 14:55:34 2022"
 - author: kaplan
 - file: dynamics.yml
