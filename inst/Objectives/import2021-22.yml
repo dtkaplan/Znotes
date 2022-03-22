@@ -359,7 +359,7 @@ Z1-67FHO:
 Z1-D7OGX:
 - topic: functions
 - subtopic: gaussian
-- when S1-L6
+- when: S1-L6
 - text: >
     Estimate the parameters for a Gaussian function (A, mean, sd) given a dataset or graph
 - date: "Tue Feb  1 14:16:34 2022"

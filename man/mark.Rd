@@ -7,7 +7,7 @@
 \usage{
 mark(id)
 
-exercise_navpoint(num, perm_id, fname = "no file specified")
+exercise_navpoint(num, perm_id, fname = "no file specified", skills = "")
 }
 \arguments{
 \item{id}{character or numeric. Id for the milestone. For proper functionality

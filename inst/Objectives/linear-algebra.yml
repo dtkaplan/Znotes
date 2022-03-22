@@ -348,7 +348,14 @@ N-52UC3:
     Be able to verify computationally that b-hat and residual
         i. add up to b
         ii. are orthogonal to each other
-        iii. residual is orthogonal to every vector in the subspaceO-U8LB7:
+        iii. residual is orthogonal to every vector in the subspace
+- date: "Mon Feb  7 14:09:23 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: N-52UC3
+- successor: none
+
+O-U8LB7:
 - topic: linear-algebra
 - subtopic: projection
 - text: >
@@ -381,15 +388,6 @@ C-BMPIX:
 - file: linear-algebra.yml
 - ID: C-BMPIX
 - successor: none
-
-
-
-- date: "Mon Feb  7 14:06:44 2022"
-- author: kaplan
-- file: linear-algebra.yml
-- ID: N-52UC3
-- successor: none
-
 
 
 E-3NDEZ:

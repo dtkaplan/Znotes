@@ -1,4 +1,132 @@
 ---
+unassigned:
+- topic: none
+- subtopic: none
+- text: "No specific skill tied to this exercise"
+- date: "Sat Mar 19 19:00:57 2022"
+- author: kaplan
+- file: dynamics.yml
+- ID: unassigned
+- successor: none
+
+N-CB2LE:
+- topic: dynamics
+- subtopic: +
+- text: >
+    Linearize a dynamical function of two state variables at
+    a fixed point by constructing a first-order polynomial
+    approximation in two variables.
+- date: "Mon Mar 21 15:50:46 2022"
+- author: kaplan
+- file: dynamics.yml
+- ID: N-CB2LE
+- successor: none
+
+A-JD4OX:
+- topic: general
+- subtopic: notation
+- text: >
+    Read and interpret commonly used forms in mathematical notation.
+- date: "Sat Mar 19 19:00:57 2022"
+- author: kaplan
+- file: dynamics.yml
+- ID: A-JD4OX
+- successor: none
+
+O-TEOG4:
+- topic: dynamics
+- subtopic: formalism
+- text: >
+    Recognize a first-order differential equation.
+- date: "Sun Mar 20 11:59:18 2022"
+- author: kaplan
+- file: dynamics.yml
+- ID: O-TEOG4
+- successor: none
+
+U-EJM13:
+- topic: dynamics
+- subtopic: formalism
+- text: >
+    Given a set of state variables, write down the framework
+    for a system of first-order differential equations.
+- date: "Sun Mar 20 12:00:08 2022"
+- author: kaplan
+- file: dynamics.yml
+- ID: U-EJM13
+- successor: none
+
+V-4KF8Q:
+- topic: dynamics
+- subtopic: solutions
+- text: >
+    Understand that there can be (infinitely) many **solutions**
+    to a differential equation.
+- date: "Sun Mar 20 12:01:06 2022"
+- author: kaplan
+- file: dynamics.yml
+- ID: V-4KF8Q
+- successor: none
+
+K-LH9CX:
+- topic: dynamics
+- subtopic: solutions
+- text: >
+    Each solution has its individual **initial condition**.
+- date: "Sun Mar 20 12:01:59 2022"
+- author: kaplan
+- file: dynamics.yml
+- ID: K-LH9CX
+- successor: none
+
+N-SUJO3:
+- topic: dynamics
+- subtopic: flow field
+- text: >
+    Given dynamical functions, use the computer to sketch the flow field.
+- date: "Sun Mar 20 12:03:07 2022"
+- author: kaplan
+- file: dynamics.yml
+- ID: N-SUJO3
+- successor: none
+
+U-5PMG7:
+- topic: dynamics
+- subtopic: solution
+- text: >
+    Given dynamical functions, find a trajectory numerically and plot it.
+- date: "Sun Mar 20 12:03:58 2022"
+- author: kaplan
+- file: dynamics.yml
+- ID: U-5PMG7
+- successor: none
+
+N-9IU5J:
+- topic: dynamics
+- subtopic: time series
+- text: >
+    Plot out the individual time series from a numerically computed trajectory.
+- date: "Sun Mar 20 12:04:34 2022"
+- author: kaplan
+- file: dynamics.yml
+- ID: N-9IU5J
+- successor: none
+
+
+
+H-9Y7WP:
+- topic: dynamics
+- subtopic: +
+- text: >
+    Indent text
+- date: "Sun Mar 20 12:03:35 2022"
+- author: kaplan
+- file: dynamics.yml
+- ID: H-9Y7WP
+- successor: none
+
+
+
 X-LG744:
 - topic: dynamics
 - subtopic: overall
@@ -366,8 +494,6 @@ L-ZPTTA:
 - file: dynamics.yml
 - ID: L-ZPTTA
 - successor: none
-
-
 
 L-ZPDIJ:
 - topic: dynamics

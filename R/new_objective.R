@@ -74,14 +74,16 @@ construct_yaml <- function(newID, topic, subtopic,fname, text="Indent text") {
 # Create a data frame of objectives
 Skill_env <- new.env()
 #' @export
-skills_table <- function() {
+skills_table <- function(force=FALSE) {
   # Check if this has already been done
-  if ("Skills" %in% names(Skill_env)) return(Skill_env$Skills)
+  if (!force) {
+    if ("Skills" %in% names(Skill_env)) return(Skill_env$Skills)
+  }
   # If not, read in the files
   yml_files <- dir(system.file("Objectives", package="Znotes"),
                   full.names=TRUE)
   keepers <- yml_files[grepl(".yml$|.yaml$", yml_files)]
-  Skills <- tibble()
+  Skills <- tibble::tibble()
   for (fname in keepers) {
     tmp <- objective2dataframe(fname)
     Skills <- dplyr::bind_rows(Skills, tmp)
