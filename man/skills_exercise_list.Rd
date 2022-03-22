@@ -4,7 +4,10 @@
 \alias{skills_exercise_list}
 \title{Format exercise-by-exercise skill list}
 \usage{
-skills_exercise_list(fname = "Skill_list.csv")
+skills_exercise_list(
+  fname = "Skill_list.csv",
+  doc_link = "http://www.mosaic-web.org/MOSAIC-Calculus/"
+)
 }
 \description{
 Format exercise-by-exercise skill list

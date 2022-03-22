@@ -24,6 +24,6 @@ mark <- function(id) {
 #' @rdname mark
 #' @export
 exercise_navpoint <- function(num, perm_id, fname="no file specified") {
-  glue::glue('**Exercise {num}**: <span><a name="File: {fname}" href="#{perm_id}"><img src="www/icons8-signpost.png" title="Location: {fname}" width="12px"/></a><span style="color: red; font-size: 9pt;">{perm_id}</red></span>')
+  glue::glue('**Exercise {num}**: <span><img src="www/icons8-signpost.png" title="Location:{fname}" width="12px"/><span id="{perm_id}" style="color: red; font-size: 9pt;">{perm_id}</red></span>')
 }
 

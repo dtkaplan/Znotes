@@ -1,7 +1,8 @@
 #' Format exercise-by-exercise skill list
 #'
 #' @export
-skills_exercise_list <- function(fname = "Skill_list.csv") {
+skills_exercise_list <- function(fname = "Skill_list.csv",
+                                 doc_link="http://www.mosaic-web.org/MOSAIC-Calculus/") {
   Exercises <- readr::read_csv(fname)
   Exercises$exercise <- as.character(Exercises$exercise)
 
@@ -34,7 +35,7 @@ skills_exercise_list <- function(fname = "Skill_list.csv") {
 
     exercise_links <-
       with(These_exercises,
-           glue::glue("    - [{exercise}]({link}#{hash}) {file}")
+           glue::glue("    - [{exercise}]({doc_link}{link}#{hash}) {file}")
       ) |> paste( collapse="\n")
 
     Results[counter] <-
