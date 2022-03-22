@@ -254,7 +254,7 @@ G-Q76M6:
 - topic: linear algebra
 - subtopic: target problem
 - text: |
-    Given a matrix $\mathbf{A}$ and a target $\vec{b}$, find the production onto
+    Given a matrix $\mathbf{A}$ and a target $\vec{b}$, find the projection onto
     the span of $\mathbf{A}$ and the residual vector $\hat{b}$.
 - date: "Thu Feb  3 13:58:20 2022"
 - author: kaplan
@@ -551,6 +551,19 @@ WP-103-16:
 - file: linear-algebra.yml
 - ID: WP-103-16
 - successor: none
+
+D-BRUPM:
+- topic: linear-algebra
+- subtopic: eigenvalues
+- text: >
+    Calculate the eigenvalues of a 2x2 numerical matrix.
+- date: "Tue Mar 22 15:13:46 2022"
+- author: kaplan
+- file: linear-algebra.yml
+- ID: D-BRUPM
+- successor: none
+
+
 
 U-OFCIJ:
 - topic: linear-algebra

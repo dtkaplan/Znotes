@@ -44,6 +44,20 @@ O-TEOG4:
 - ID: O-TEOG4
 - successor: none
 
+R-208IA:
+- topic: dynamics
+- subtopic: flow field
+- text: >
+    Establish whether a proposed flow field and a system of differential equations
+    are consistent with each other.
+- date: "Tue Mar 22 09:47:20 2022"
+- author: kaplan
+- file: dynamics.yml
+- ID: R-208IA
+- successor: none
+
+
+
 U-EJM13:
 - topic: dynamics
 - subtopic: formalism
@@ -113,17 +127,6 @@ N-9IU5J:
 - successor: none
 
 
-
-H-9Y7WP:
-- topic: dynamics
-- subtopic: +
-- text: >
-    Indent text
-- date: "Sun Mar 20 12:03:35 2022"
-- author: kaplan
-- file: dynamics.yml
-- ID: H-9Y7WP
-- successor: none
 
 
 
@@ -432,7 +435,7 @@ K-UAHR5:
 - topic: dynamics
 - subtopic: solutions
 - text: >
-    Demonstrate that a linear combination of two solutions to a differential equation
+    Demonstrate that a linear combination of two solutions to a linear differential equation
     is itself a solution.
 - date: "Mon Mar 14 13:21:26 2022"
 - author: dtkaplan
