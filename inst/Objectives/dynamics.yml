@@ -115,6 +115,20 @@ U-5PMG7:
 - ID: U-5PMG7
 - successor: none
 
+T-ZO94U:
+- topic: dynamics
+- subtopic: force-balance
+- text: >
+    Identify the components of a force-balance differential equation: mass, acceleration, friction (damping, air resistence),
+    restorative force.)
+- date: "Tue Mar 22 16:15:42 2022"
+- author: kaplan
+- file: dynamics.yml
+- ID: T-ZO94U
+- successor: none
+
+
+
 N-9IU5J:
 - topic: dynamics
 - subtopic: time series
@@ -636,7 +650,7 @@ W-5ZT92:
 - text: >
     Construct and solve numerically a system of two first-order differential equations
     that represent a vertically rising or falling object in the presence of gravity and
-    air resistence.
+    air resistance.
 - date: "Wed Feb  2 07:55:45 2022"
 - author: kaplan
 - file: dynamics.yml
