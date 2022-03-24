@@ -22,6 +22,19 @@ N-CB2LE:
 - ID: N-CB2LE
 - successor: none
 
+F-189B3:
+- topic: dynamics
+- subtopic: complex exponentials
+- text: >
+    Interpret the complex exponential $e^{i\omega t}$ as a sinusoid of frequency $\omega$.
+- date: "Wed Mar 23 10:33:27 2022"
+- author: kaplan
+- file: dynamics.yml
+- ID: F-189B3
+- successor: none
+
+
+
 A-JD4OX:
 - topic: general
 - subtopic: notation
@@ -618,7 +631,7 @@ S-BOXLN:
 
 P-7PXE3:
 - topic: dynamics
-- subtopic: force-mass
+- subtopic: force-balance
 - text: >
     Identify a differential equation in force-mass form and, for linear equations, determine
     if the solution is stable or unstable and, if oscillatory, what the frequency of oscillation
@@ -631,9 +644,9 @@ P-7PXE3:
 
 Z-DPT7M:
 - topic: dynamics
-- subtopic: force-mass
+- subtopic: force-balance
 - text: >
-    For a linear differential equation in force-mass form, use the ansatz
+    For a linear differential equation in force-balance form, use the ansatz
     $e^{kt}$ to find the quadratic polynomial in $k$ ("characteristic equation")
     that describes the eigenvalues of the differential equation.
 - date: "Wed Feb  2 08:51:42 2022"

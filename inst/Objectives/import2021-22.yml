@@ -648,17 +648,7 @@ Z1-IQJUT:
 - ID: Z1-IQJUT
 - successor: none
 
-Z1-IQKUT:
-- topic: functions
-- subtopic: logarithm
-- when: S1-L11
-- text: >
-    Know and reflexively apply the properties of logarithms and exponentials
-- date: "Tue Feb  1 14:16:34 2022"
-- author: Zteam
-- file: import2021-22.yml
-- ID: Z1-IQJUT
-- successor: none
+
 
 Z1-TNRHK:
 - topic: graphics

@@ -518,7 +518,7 @@ WP-103-14:
 - topic: linear algebra
 - subtopic: basics
 - text: |
-    Explain the graphical interpretation of an eigenvector and eigenvalue and how to compute each
+    Explain the graphical/geometric interpretation of an eigenvector and eigenvalue and how to compute each
     for a two-by-two matrix.
 - date: "Thu Feb  3 12:11:25 2022"
 - author: West Point Core Math Book AY22
@@ -556,7 +556,7 @@ D-BRUPM:
 - topic: linear-algebra
 - subtopic: eigenvalues
 - text: >
-    Calculate the eigenvalues of a 2x2 numerical matrix.
+    Calculate the eigenvalues of a 2x2 numerical matrix by hand, and larger matrices by computer.
 - date: "Tue Mar 22 15:13:46 2022"
 - author: kaplan
 - file: linear-algebra.yml

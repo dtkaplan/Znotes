@@ -1,0 +1,268 @@
+# Thinking about skills/objectives
+
+The idea is to divide along two directions:
+
+1. The kind of action the student should be able to perform.
+2. The topic to which (1) applies
+
+
+## Basic categories of action
+
+- Graphical interpretation
+- Graphics construction
+- Symbolic computation
+- Notation reading
+- Numeric computation
+- Hand computation
+- Establish consistency
+- Conceptual relationship
+- Recognize and use vocabulary appropriately
+
+
+# Topics
+
+## Functions
+
+- Notation for function creation: inputs, output, parameters, $\equiv$, `makeFun()`
+
+- Notation conventions: scalars vs functions
+
+- Evaluation of function
+    - from formula
+    - on computer
+- Shapes of functions
+    - slope, concavity, curvature, discontinuity, extrema, monotonic, inflection point
+- Pattern-book functions
+- Domain and range
+- Parameters (basic modeling functions)
+    - parameters with `makeFun()
+- Input centering e.g $[x - x_0]$
+- Input scaling 
+- Slope at a point
+    - Directional slope at a point
+    - Working with contours
+- Piecewise functions 
+- Vector-valued functions (e.g. gradient)
+
+- Table as a function, graph as a function [be able to evaluate, find slope, accumulate]
+
+- Assembling functions
+    - linear combination (coefficients, scalar multipliers)
+    - composition
+    - product
+- Partial evaluation (e.g. in anti-derivatives or taking a slice)
+- Functions from data
+    - Splines and other interpolants
+        - constructing by software
+        - when is smoothness necessary (cubic spline) or not wanted (Bezier)
+    - Fitting by eye for basic modeling functions
+    - Least squares fitting
+    - Evaluate function from a table (including multivariate)
+- Exponentials
+    - Interpretation as half-life, doubling-time
+    - Complex exponentials and interpretation as damped (or growing) sinusoid
+        - determine frequency from eigenvalues
+    
+- Logarithms
+    - Graphical uses
+    
+- Graphics for functions
+    - slice plot
+    - contour plot
+    - surface plot
+    - vector field
+    - graphical domain
+    - paths and constraints
+    
+- Parametric description of path as a set of functions of $t$.    
+    
+## Optimization
+
+- Vocabulary: argmax vs max
+- Objective function
+- Incommensurate objectives
+- Constraints
+    - Active or not
+    - Equality and inequality
+    - Shadow price (Lagrange multiplier)
+    - constraint functions
+    - parallel gradients for constraint function and objective function at argmax
+- Numerical techniques 
+- Derivatives and critical points
+- Gradient vector points uphill, not necessarily toward optimum
+- Gradient ascent/descent algorithm
+- Find argmax/min from gradient field
+- Find argmax/min from contour plot
+
+    
+## Data
+
+- Organization of a data frame
+- Point plot
+- Estimating function parameters (linear and nonlinear for basic modeling functions)
+    - straight-line
+    - exponential
+    - sinusoid
+    - gaussian and sigmoid
+    - distinguish between power-law and exponential
+    - log axes
+- Function as a table
+- Residual between response var and output of a model function
+
+## Dimension analysis
+
+- Fundamental dimensions
+- Compound dimensions and dimensional arithmetic
+    - invalid operations on dimensional quantities
+    - Know dimension of basic physical quantities (acceleration, force, energy, power, pressure, area, volume, work=force x distance, energy = power x time, power = force x velocity)
+- Determine dimensional consistency
+- Unit conversion and flavors of 1
+- Dimension of derivatives and anti-derivatives
+- Power-law functions
+
+## Calculus operations
+
+- Vocabulary
+- With-respect-to input
+- Notations: $\partial_t x$, $\dot{x}$, $\frac{dx}{dt}$, $\frac{\partial x}{\partial t}$
+- Accumulation
+    - Symbolic anti-differentation
+        - pattern book functions
+        - basic modeling functions (simple chain rule)
+    - Appropriate notation
+    - Constant of integration (also form from `antiD()`)
+    - Definite integral, net change
+    - Numerical integration and anti-differentiation
+    - "Area under a curve" and why it's signed area
+    - Fundamental theorem
+        - relationship between differentiation and anti-differentiation
+        - confirm anti-derivative by differentiation
+    - Estimate from graph
+    - anti-differentiation: output is a function
+    - integration: output is a quantity
+    - `antiD()` in R and how to evaluate it for definite integral 
+    - calculating work by integrating force over distance
+    - calculate energy by integrating power over time
+    - calculate center of mass, centroid, moment of inertia
+    - find probability that random variable is in a range
+    - discounting
+    
+- Differentiation
+    - Symbolic differentiation
+        - pattern book functions
+        - basic modeling functions (simple chain rule)
+        - chain rule
+        - product rule
+        - sum rule
+        - by computer
+    - Numerical differentiation
+    - Second and higher-order derivatives
+    - Partial derivatives
+        - first order
+        - second-order, including mixed partials
+    - Gradient vector
+        - relationship to contours
+        
+    - Order of smoothness
+    - Relationship to velocity and acceleration
+    - output is a function
+    - identifying monotonicity, concavity, curvature, critical points
+    - tangents: line, circle, polynomial
+    
+- Argmax finding
+
+## Other operations
+
+- Zero finding (and inversion, solution)
+- Find zeros of linear functions by hand
+- Simultaneous zeros (e.g. crossings of nullclines)
+- Iteration
+    - improvement
+    - Newton method
+
+## Calculus theory
+
+- Vocabulary
+- Slope function
+- Finite-difference approximation to derivative
+    - limit definition of a derivative
+- Euler accumulation
+- Value/Existence for a limit
+- Taylor polynomials
+    - Pick center $x_0$
+    - Memorize for sin(), cos(), exp()
+    - Compute error for a given input, characterize error as a function of $x - x_0$.
+- Local linear approximation 
+- Differentials
+- Instantaneous vs average rate of change
+
+## Approximation
+
+- Vocabulary
+- Polynomials
+    - linear, interaction, quadratic terms
+- Linearization
+- Low-order polynomial approximation
+
+## Linear algebra
+
+- Vocabulary
+- Acceleration, position, momentum, velocity are vector quantities
+- Vectors are rootless, have just direction and magnitude
+- Vector operations (add, scale, dot product)
+- Matrices
+- Target problem
+- Eigenvectors and eigenvalues
+- Subspace
+    - Is a vector a member of a subspace? (numerically)
+    - Projection
+    - Residual
+
+## Dynamics
+
+- Dynamical system as set of first-order differential equations
+- Numerical integration from initial condition
+- Symbolic integration: 
+    - first-order linear
+    - eigenvalues, characteristic values and stability
+    - exponential ansatz
+    - linear combinations of solutions are solutions in linear systems
+- Flows
+- Trajectories
+- Time series
+- Nullclines 
+- Unlimited and limited growth models, logistic growth
+- Bifurcation (appearance and disappearance of fixed points in 1-D)
+- Classic models: predator-prey, SIR
+- Force-balance and equivalence to pair of first-order differential equations
+- Identify physical quantities (resistance, restoring force) in force-balance 
+
+## Probability
+
+- meaning of random variable, event
+- probability density vs relative density
+- normalization of relative density
+- expected value, variance, standard deviation,
+
+
+
+
+## Computer
+
+- Translate math formula into R formula and vice versa
+- Construct a function with parameters
+    - set default values for parameters
+- Graphics layers
+    
+## Modeling concepts
+
+- Different models for different purposes
+- Frameworks:
+    - low-order polynomials
+        - which terms are appropriate
+        - constructing from first principles
+        - constructing from data
+        - limitations for modeling (dog chasing squirrel)
+    - differential equations
+- Modeling cycle
+    
