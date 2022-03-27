@@ -22,6 +22,20 @@ N-CB2LE:
 - ID: N-CB2LE
 - successor: none
 
+P-3LIKO:
+- topic: dynamics
+- subtopic: conservation
+- text: >
+    Recognize that dynamics may, in some circumstances, produce ***conserved quantities***
+    that remain constant over time even though the state changes.
+- date: "Sun Mar 27 11:14:55 2022"
+- author: kaplan
+- file: dynamics.yml
+- ID: P-3LIKO
+- successor: none
+
+
+
 F-189B3:
 - topic: dynamics
 - subtopic: complex exponentials
