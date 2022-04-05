@@ -26,11 +26,11 @@
 #' @returns a ggplot2 object
 #'
 #' @examples
-#' scale_shift(-40, 100, 9/5, 32, 10 )
+#' scale_shift(-40, 100, 9/5, 32, 10, color="magenta")
 #' plot_scaled_input(exp(x) ~ x, domain(x=c(-2,2)), 2.4, 1)
 #'
 #' @export
-scale_shift <- function(min, max, r, x0=0, nticks=10,color="blue", ratio=0.1) {
+scale_shift <- function(min, max, r, x0=0, nticks=10,color="blue") {
   tick_height = (max-min)/5
   nudge = (max-min)/15
   Orig <- tibble::tibble(
@@ -61,7 +61,7 @@ scale_shift <- function(min, max, r, x0=0, nticks=10,color="blue", ratio=0.1) {
     gf_errorbar(end + vert ~ horiz, width=0, data=New,
                 color=color) %>%
     gf_theme(theme_void()) %>%
-    gf_refine(coord_fixed(ratio = ratio)) %>%
+    gf_refine(coord_fixed(ratio = 0.1)) %>%
     gf_lims(
       y= extendrange(
         r=c(min-tick_height, max+tick_height),
