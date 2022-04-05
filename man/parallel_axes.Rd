@@ -5,7 +5,7 @@
 \alias{plot_scaled_input}
 \title{Draw parallel axes with a linear transform}
 \usage{
-scale_shift(min, max, r, x0 = 0, nticks = 10)
+scale_shift(min, max, r, x0 = 0, nticks = 10, color = "blue", ratio = 0.1)
 
 plot_scaled_input(ftilde, domain, r, x0, nticks = 10, color = "blue")
 }
@@ -20,11 +20,11 @@ plot_scaled_input(ftilde, domain, r, x0, nticks = 10, color = "blue")
 
 \item{nticks}{number of ticks on new axis (add_scale)}
 
+\item{color}{color of new axis (e.g. "blue")}
+
 \item{ftilde}{tilde expression as in \code{slice_plot()}}
 
 \item{domain}{domain specifier as in \code{slice_plot()}}
-
-\item{color}{color of new axis (e.g. "blue")}
 }
 \value{
 a ggplot2 object

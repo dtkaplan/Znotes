@@ -30,7 +30,7 @@
 #' plot_scaled_input(exp(x) ~ x, domain(x=c(-2,2)), 2.4, 1)
 #'
 #' @export
-scale_shift <- function(min, max, r, x0=0, nticks=10) {
+scale_shift <- function(min, max, r, x0=0, nticks=10,color="blue", ratio=0.1) {
   tick_height = (max-min)/5
   nudge = (max-min)/15
   Orig <- tibble::tibble(
@@ -54,14 +54,14 @@ scale_shift <- function(min, max, r, x0=0, nticks=10) {
   gf_line(vert ~ horiz, data = Orig) %>%
     gf_text(vert ~ horiz, label = ~ as.character(horiz), vjust=1, nudge_y = -nudge) %>%
     gf_errorbar(end + vert ~ horiz, width=0) %>%
-    gf_line(vert ~ horiz, data = New, color="blue") %>%
+    gf_line(vert ~ horiz, data = New, color=color) %>%
     gf_text(vert ~ horiz, label = ~ as.character(yvals),
             data = New, vjust=0, nudge_y = nudge,
-            color="blue") %>%
+            color=color) %>%
     gf_errorbar(end + vert ~ horiz, width=0, data=New,
-                color="blue") %>%
+                color=color) %>%
     gf_theme(theme_void()) %>%
-    gf_refine(coord_fixed(ratio = 0.1)) %>%
+    gf_refine(coord_fixed(ratio = ratio)) %>%
     gf_lims(
       y= extendrange(
         r=c(min-tick_height, max+tick_height),
