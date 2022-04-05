@@ -178,10 +178,17 @@ dots_to_answers <- function(..., right_one = "",
 #' @export
 letter_counter <- function() {
   counter <- 0
-  names <- c(LETTERS, paste0(LETTERS, 1), paste0(LETTERS, 2),
+  uppercase <- c(LETTERS, paste0(LETTERS, 1), paste0(LETTERS, 2),
              paste0(LETTERS, 3), paste0(LETTERS, 4), paste0(LETTERS, 5))
+  lowercase <- tolower(uppercase)
+  numbers <- 1:5000
+  ROMAN <- utils::as.roman(numbers)
+  roman <- tolower(ROMAN)
+  names <- uppercase
   res <- list()
-  res$reset <- function(s = 0) {
+  res$reset <- function(s = 0, labels=c("uppercase", "lowercase", "numbers", "ROMAN", "roman")) {
+    labels <- match.arg(labels)
+    names <<- parent.env(environment())[[labels]]
     counter <<- s
   }
   res$get   <- function() {
