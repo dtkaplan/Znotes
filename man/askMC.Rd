@@ -4,6 +4,7 @@
 \alias{askMC}
 \alias{askGS}
 \alias{fix_dollar_signs}
+\alias{format_latex_answers}
 \alias{letter_counter}
 \title{Formatting multiple-choice questions for the book}
 \usage{
@@ -29,6 +30,8 @@ askMC(
 askGS(...)
 
 fix_dollar_signs(str)
+
+format_latex_answers(AT, linechars = 50)
 
 letter_counter()
 }

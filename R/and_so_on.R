@@ -20,3 +20,9 @@ and_so_on <- function(data, top=3, bottom=2, message="... and so on ...") {
 
   structure(res, format = "html", class = "knitr_kable")
 }
+
+#' @export
+and_so_on_latex <- function(data, top=3, bottom=2,
+                            message="... and so on ...") {
+  "Implement LaTeX version of and_so_on()."
+}

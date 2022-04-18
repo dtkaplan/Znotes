@@ -43,20 +43,11 @@ askMC <- function (prompt = "The question prompt", ..., id = NULL, right_one = N
 
   ## latex/PDF output module
   if (out_format == "PDF") {
-
-    feedback <- paste0("[*", answer_table$feedback, "*]")
-    feedback[nchar(feedback)==4] <- " "
-    answers <- paste0("a. ", answer_table$item,
-                      ifelse(answer_table$correct, " $\\heartsuit$ ", " "),
-                      feedback,
-                      collapse="\n")
-
-    total <- paste(out, answers,  sep="\n\n")
-
+    choices <- format_answers_markdown(answer_table)
     Res <- knitr::asis_output(paste0(
-      "\n\\hrulefill\n",
-      "**Question ", MC_counter$get(), "**  ",
-      total, "\n\n"))
+      "\n",
+      "\t**Part ", MC_counter$get(), "**  ", out, " ",
+      paste0(choices, collapse="\n"), "\n"))
 
     return(Res)
   }
@@ -129,6 +120,67 @@ fix_dollar_signs <- function(str) {
 }
 
 
+split_rows <- function(nchars, max_width = 25) {
+  row <- 1
+  rows <- rep(1, length(nchars))
+  sofar <- 0
+  for (k in 1:length(nchars)) {
+    if (sofar + nchars[k] < max_width) {
+      sofar <- sofar + nchars[k]
+      rows[k] <- row
+    } else {
+      row <- row+1
+      sofar <- nchars[k]
+      rows[k] <- row
+    }
+  }
+  rows
+}
+
+format_answers_markdown <- function(answer_table, width=40, seed=NA, padding=2) {
+  Ans <- tibble::tibble(
+    text = answer_table$item
+  )
+  cell_width <- max(nchar(Ans$text)) + 2
+  Ans <- Ans %>% mutate(nletters = cell_width) # making them all equally wide
+  if (!is.na(seed)) {
+    set.seed(seed)
+    Ans <- sample_n(Ans, size=nrow(Ans))
+  }
+  if (any(Ans$nletters > width/2)) {
+    # lay them out one to a line
+    paste(paste0(letters[1:nrow(Ans)], ". ", Ans$text), collapse="\n")
+  } else {
+    # break them up into groups according to length
+    Ans$group=split_rows(Ans$nletters, width)
+
+    Ans <- Ans %>% group_by(group) |>
+      mutate(col=row_number()) |>
+      ungroup()
+    Mat <- matrix("", ncol=max(Ans$col), nrow=max(Ans$group))
+    for (k in 1:nrow(Ans)) {
+      Mat[(Ans$group[k]), (Ans$col[k])] <- Ans$text[k]
+    }
+    if (knitr::is_latex_output()) format <- "latex"
+    else if (knitr::is_html_output()) format <- "html"
+    else format <- "latex"
+    row_width <- paste0(cell_width, "em")
+    Res <- knitr::kable(Mat, format=format, align="c") %>%
+      kableExtra::kable_paper("hover", full_width = FALSE)
+    if (knitr::is_latex_output()) {
+      # strip off the tabular environment
+      Res %>%
+        gsub("\\end{table}", "", ., fixed=TRUE) %>%
+        gsub("\\begin{table}", "", ., fixed=TRUE) %>%
+        gsub("\\centering", "", ., fixed=TRUE)
+    } else {
+      Res %>%
+        kableExtra::column_spec(1:ncol(Mat), width = row_width, border_left=TRUE)
+    }
+
+  }
+}
+
 # return a data frame with one row for each element of ...
 dots_to_answers <- function(..., right_one = "",
                             allow_multiple_correct = FALSE) {
@@ -173,6 +225,13 @@ dots_to_answers <- function(..., right_one = "",
 
   answers
 }
+
+#' @rdname askMC
+#' @export
+format_latex_answers <- function(AT, linechars=50) {
+
+}
+
 
 #' @rdname askMC
 #' @export

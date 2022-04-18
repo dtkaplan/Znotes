@@ -62,9 +62,12 @@ insert_calcZ_exercise <- function(number, hash, file_name, skill="unassigned") {
     MC_counter$reset()
     knitr::knit_child(file_name)
   }
-  html_text <- '<details>
-    <summary>{nav_point}</summary>
-    {contents}</details>'
+  #### place exercise in an aside
+  # html_text <- '<details>
+  #   <summary>{nav_point}</summary>
+  #   {contents}</details>'
+  html_text <- "::: {{.column-body-outset-left data-latex=''}}\n{nav_point}\n:::\n  {contents}"
+
   if (exists("book_file_name")) {
     skill <- strsplit(skill, "[ *|, ]", fixed=FALSE)[[1]]
     skill <- skill[nchar(skill) != 0]

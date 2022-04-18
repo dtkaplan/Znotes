@@ -5,7 +5,7 @@
 \alias{plot_scaled_input}
 \title{Draw parallel axes with a linear transform}
 \usage{
-scale_shift(min, max, r, x0 = 0, nticks = 10, color = "blue", ratio = 0.1)
+scale_shift(min, max, r, x0 = 0, nticks = 10, color = "blue")
 
 plot_scaled_input(ftilde, domain, r, x0, nticks = 10, color = "blue")
 }
@@ -43,7 +43,7 @@ that shows the input to the scaled function.
 Only handles linear transformations: r*(x-x0)
 }
 \examples{
-scale_shift(-40, 100, 9/5, 32, 10 )
+scale_shift(-40, 100, 9/5, 32, 10, color="magenta")
 plot_scaled_input(exp(x) ~ x, domain(x=c(-2,2)), 2.4, 1)
 
 }
