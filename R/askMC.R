@@ -4,9 +4,13 @@ askMC <- function (prompt = "The question prompt", ..., id = NULL, right_one = N
                    inline = FALSE, random_answer_order = FALSE, allow_retry = TRUE,
                    correct = "Right!", incorrect = "Sorry.", message = NULL,
                    post_message = NULL, submit_button = "Check answer", try_again_button = "Try again",
-                   allow_multiple_correct = FALSE, show_feedback=TRUE, out_format=c("Markdown", "GradeScope", "PDF")) {
-  out <- paste(prompt, "\n\n")
+                   allow_multiple_correct = FALSE, show_feedback=TRUE,
+                   out_format=c("Markdown", "GradeScope", "PDF"),
+                   item_label = "Part ") {
   out_format <- match.arg(out_format)
+
+  out <- paste(prompt, "\n\n")
+
   raw_labels <- c("i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix", "x")
   answer_labels <- c(raw_labels,
                      paste0("x", raw_labels),
@@ -43,10 +47,12 @@ askMC <- function (prompt = "The question prompt", ..., id = NULL, right_one = N
 
   ## latex/PDF output module
   if (out_format == "PDF") {
-    choices <- format_answers_markdown(answer_table)
+    # choices <- format_answers_markdown(answer_table)
+    choices <- format_answers_PDF(answer_table, width=40,
+                                  seed=ifelse(random_answer_order, 435, NA))
     Res <- knitr::asis_output(paste0(
       "\n",
-      "\t**Part ", MC_counter$get(), "**  ", out, " ",
+      "\t**", item_label, MC_counter$get(), "**  ", out, "\n",
       paste0(choices, collapse="\n"), "\n"))
 
     return(Res)
@@ -119,67 +125,82 @@ fix_dollar_signs <- function(str) {
   str
 }
 
-
-split_rows <- function(nchars, max_width = 25) {
-  row <- 1
-  rows <- rep(1, length(nchars))
-  sofar <- 0
-  for (k in 1:length(nchars)) {
-    if (sofar + nchars[k] < max_width) {
-      sofar <- sofar + nchars[k]
-      rows[k] <- row
-    } else {
-      row <- row+1
-      sofar <- nchars[k]
-      rows[k] <- row
+format_answers_PDF <- function(answer_table, width=40, seed=NA) {
+    Ans <- tibble::tibble(
+      text = answer_table$item
+    )
+    if (!is.na(seed)) {
+      set.seed(seed)
+      Ans <- sample_n(Ans, size=nrow(Ans))
     }
-  }
-  rows
+    if (max(nchar(Ans$text), na.rm = TRUE) > width/2) {
+      # lay them out one to a line
+      paste(paste0(letters[1:nrow(Ans)], ". ", Ans$text), collapse="\n")
+    } else {
+      paste(Ans$text, collapse="\\hspace{3em}")
+    }
 }
 
-format_answers_markdown <- function(answer_table, width=40, seed=NA, padding=2) {
-  Ans <- tibble::tibble(
-    text = answer_table$item
-  )
-  cell_width <- max(nchar(Ans$text)) + 2
-  Ans <- Ans %>% mutate(nletters = cell_width) # making them all equally wide
-  if (!is.na(seed)) {
-    set.seed(seed)
-    Ans <- sample_n(Ans, size=nrow(Ans))
-  }
-  if (any(Ans$nletters > width/2)) {
-    # lay them out one to a line
-    paste(paste0(letters[1:nrow(Ans)], ". ", Ans$text), collapse="\n")
-  } else {
-    # break them up into groups according to length
-    Ans$group=split_rows(Ans$nletters, width)
+# split_rows <- function(nchars, max_width = 25) {
+#   row <- 1
+#   rows <- rep(1, length(nchars))
+#   sofar <- 0
+#   for (k in 1:length(nchars)) {
+#     if (sofar + nchars[k] < max_width) {
+#       sofar <- sofar + nchars[k]
+#       rows[k] <- row
+#     } else {
+#       row <- row+1
+#       sofar <- nchars[k]
+#       rows[k] <- row
+#     }
+#   }
+#   rows
+# }
 
-    Ans <- Ans %>% group_by(group) |>
-      mutate(col=row_number()) |>
-      ungroup()
-    Mat <- matrix("", ncol=max(Ans$col), nrow=max(Ans$group))
-    for (k in 1:nrow(Ans)) {
-      Mat[(Ans$group[k]), (Ans$col[k])] <- Ans$text[k]
-    }
-    if (knitr::is_latex_output()) format <- "latex"
-    else if (knitr::is_html_output()) format <- "html"
-    else format <- "latex"
-    row_width <- paste0(cell_width, "em")
-    Res <- knitr::kable(Mat, format=format, align="c") %>%
-      kableExtra::kable_paper("hover", full_width = FALSE)
-    if (knitr::is_latex_output()) {
-      # strip off the tabular environment
-      Res %>%
-        gsub("\\end{table}", "", ., fixed=TRUE) %>%
-        gsub("\\begin{table}", "", ., fixed=TRUE) %>%
-        gsub("\\centering", "", ., fixed=TRUE)
-    } else {
-      Res %>%
-        kableExtra::column_spec(1:ncol(Mat), width = row_width, border_left=TRUE)
-    }
-
-  }
-}
+# format_answers_markdown <- function(answer_table, width=40, seed=NA, padding=2) {
+#   Ans <- tibble::tibble(
+#     text = answer_table$item
+#   )
+#   cell_width <- max(nchar(Ans$text)) + 2
+#   Ans <- Ans %>% mutate(nletters = cell_width) # making them all equally wide
+#   if (!is.na(seed)) {
+#     set.seed(seed)
+#     Ans <- sample_n(Ans, size=nrow(Ans))
+#   }
+#   if (any(Ans$nletters > width/2)) {
+#     # lay them out one to a line
+#     paste(paste0(letters[1:nrow(Ans)], ". ", Ans$text), collapse="\n")
+#   } else {
+#     # break them up into groups according to length
+#     Ans$group=split_rows(Ans$nletters, width)
+#
+#     Ans <- Ans %>% group_by(group) |>
+#       mutate(col=row_number()) |>
+#       ungroup()
+#     Mat <- matrix("", ncol=max(Ans$col), nrow=max(Ans$group))
+#     for (k in 1:nrow(Ans)) {
+#       Mat[(Ans$group[k]), (Ans$col[k])] <- Ans$text[k]
+#     }
+#     if (knitr::is_latex_output()) format <- "latex"
+#     else if (knitr::is_html_output()) format <- "html"
+#     else format <- "latex"
+#     row_width <- paste0(cell_width, "em")
+#     Res <- knitr::kable(Mat, format=format, align="c") %>%
+#       kableExtra::kable_paper("hover", full_width = FALSE)
+#     if (knitr::is_latex_output()) {
+#       # strip off the tabular environment
+#       Res %>%
+#         gsub("\\end{table}", "", ., fixed=TRUE) %>%
+#         gsub("\\begin{table}", "", ., fixed=TRUE) %>%
+#         gsub("\\centering", "", ., fixed=TRUE)
+#     } else {
+#       Res %>%
+#         kableExtra::column_spec(1:ncol(Mat), width = row_width, border_left=TRUE)
+#     }
+#
+#   }
+# }
 
 # return a data frame with one row for each element of ...
 dots_to_answers <- function(..., right_one = "",

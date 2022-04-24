@@ -14,7 +14,7 @@ graph_with_boxes <- function(fn,
   }
   intervals <- intervals %>% mutate(color = rainbow(nrow(.), start=0.6),
                                     label = my_letters[1:nrow(.)])
-  slice_plot(fn(x) ~ x, domain=domain, ...) %>%
+  slice_plot(fn(x) ~ x, domain, ...) %>%
     gf_rect(y + ytop ~ x + xend, data=intervals,
             color = ~color,
             alpha = 0.2, inherit=FALSE) %>%

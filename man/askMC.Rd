@@ -24,7 +24,8 @@ askMC(
   try_again_button = "Try again",
   allow_multiple_correct = FALSE,
   show_feedback = TRUE,
-  out_format = c("Markdown", "GradeScope", "PDF")
+  out_format = c("Markdown", "GradeScope", "PDF"),
+  item_label = "Part "
 )
 
 askGS(...)
