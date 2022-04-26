@@ -6,10 +6,8 @@
 \usage{
 format_exercises(
   Roster,
-  chap = 99,
-  start_num = 1,
   label_format = c("numeric", "alpha", "ALPHA", "roman", "ROMAN"),
-  template = "## Exer. {number}\\n\\n Exer. {number}\\n\\n{contents}\\n\\n"
+  template = "## Exer. {number}\\n\\n **Exercise {number}**\\n\\n{contents}\\n\\n"
 )
 }
 \arguments{
