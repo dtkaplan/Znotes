@@ -6,17 +6,20 @@
 \usage{
 format_exercises(
   Roster,
-  label_format = c("numeric", "alpha", "ALPHA", "roman", "ROMAN"),
-  template = "## Exer. {number}\\n\\n **Exercise {number}**\\n\\n{contents}\\n\\n"
+  askMC = Znotes::askMC,
+ 
+    template = "## Exer. {number} {{-}}\\n\\n **Exercise {number}** {file_name}\\n\\n{contents}\\n\\n"
 )
 }
 \arguments{
 \item{Roster}{A data frame with a \code{fname} column
 containing the file name of the exercise}
 
-\item{chap}{A character string identifying the chapter in the exercise label}
+\item{askMC}{function name for the askMC() typesetting}
 
-\item{start_num}{Integer > 0 or letter "a" to "z" specifying where to start in the label sequence}
+\item{template}{Glue string setting formatting for each exercise}
+
+\item{show_answers}{Logical: whether to show the answers}
 }
 \description{
 Utilities for laying out exercises
