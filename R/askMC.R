@@ -1,5 +1,29 @@
 #' Formatting multiple-choice questions for the book
 #' @export
+MC_simple_format <- function(prompt="The question prompt", ..., item_label="Part",
+                             out_format = c("Markdown", "PDF")) {
+  out_format <- match.arg(out_format)
+  out <- paste(prompt, "\n\n")
+
+  answer_table <- dots_to_answers(..., right_one = right_one,
+                                  allow_multiple_correct = allow_multiple_correct)
+
+  choices <- format_choices_simple(
+    answer_table,
+    width=40,
+    out_format = out_format,
+    seed=ifelse(random_answer_order, 435, NA))
+  Res <- knitr::asis_output(paste0(
+    "\n",
+    "\t**", item_label, MC_counter$get(), "**  ", out, "\n",
+    paste0(choices, collapse="\n"), "\n"))
+
+  return(Res)
+
+
+}
+#'
+#' @export
 askMC <- function (prompt = "The question prompt", ..., id = NULL, right_one = NULL,
                    inline = FALSE, random_answer_order = FALSE, allow_retry = TRUE,
                    correct = "Right!", incorrect = "Sorry.", message = NULL,
@@ -11,13 +35,6 @@ askMC <- function (prompt = "The question prompt", ..., id = NULL, right_one = N
 
   out <- paste(prompt, "\n\n")
 
-  raw_labels <- c("i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix", "x")
-  answer_labels <- c(raw_labels,
-                     paste0("x", raw_labels),
-                     paste0("xx", raw_labels),
-                     paste0("xl", raw_labels),
-                     paste0("l", raw_labels),
-                     letters, LETTERS, paste0(letters, "2"))
   answer_table <- dots_to_answers(..., right_one = right_one,
                                            allow_multiple_correct = allow_multiple_correct)
 
@@ -45,11 +62,12 @@ askMC <- function (prompt = "The question prompt", ..., id = NULL, right_one = N
   }
   ## End of GradeScope module
 
+
   ## latex/PDF output module
   if (out_format == "PDF") {
-    # choices <- format_answers_markdown(answer_table)
-    choices <- format_answers_PDF(answer_table, width=40,
-                                  seed=ifelse(random_answer_order, 435, NA))
+    choices <- format_choices_simple(
+      answer_table, width=40,
+      seed=ifelse(random_answer_order, 435, NA))
     Res <- knitr::asis_output(paste0(
       "\n",
       "\t**", item_label, MC_counter$get(), "**  ", out, "\n",
@@ -60,48 +78,48 @@ askMC <- function (prompt = "The question prompt", ..., id = NULL, right_one = N
   ## End of latex/PDF module
 
 
-  # make all feedback strings the same length, so items will be
-  # evenly spaced
-  raw_feedback <- answer_table$feedback
-  # raw_feedback <- stringr::str_pad(raw_feedback,
-  #                                  max(nchar(raw_feedback)),
-  #                                  side="right", pad=".") # pad="‥")
-
-
-  place_inline <- inline || (sum(nchar(answer_table$item) + nchar(raw_feedback)) < 80)
-
-  if (place_inline) {
-    answer_labels <- paste0(rep("    ", nrow(answer_table)))
-    newline <- "   "
-    success <- "$\\heartsuit\\ $"
-    container <- "span"
-  } else {
-    answer_labels <- paste0(answer_labels, ". ")[1:nrow(answer_table)]
-    newline <- "     \n"
-    success <- paste0(random_success(), " ")
-    container <- "span"
-
-  }
-
-  if (show_feedback) {
-    feedback <- paste0("<", container, " class='mcanswer'>",
-                      ifelse(answer_table$correct, success, "︎✘ "),
-                      raw_feedback) # haven't yet closed <span>
-    feedback <- paste0(feedback, "</", container, "></span>") # close it up
-  } else {
-    feedback <- ""
-  }
-
-
-  answers <- paste0(answer_labels[1:nrow(answer_table)],
-                    "<span class='Zchoice'>",
-                    answer_table$item,
-                    feedback,
-                    collapse = newline)
-
-  knitr::asis_output(paste0(
-    "**Question ", MC_counter$get(), "**  ",
-    out, answers))
+  # # make all feedback strings the same length, so items will be
+  # # evenly spaced
+  # raw_feedback <- answer_table$feedback
+  # # raw_feedback <- stringr::str_pad(raw_feedback,
+  # #                                  max(nchar(raw_feedback)),
+  # #                                  side="right", pad=".") # pad="‥")
+  #
+  #
+  # place_inline <- inline || (sum(nchar(answer_table$item) + nchar(raw_feedback)) < 80)
+  #
+  # if (place_inline) {
+  #   answer_labels <- paste0(rep("    ", nrow(answer_table)))
+  #   newline <- "   "
+  #   success <- "$\\heartsuit\\ $"
+  #   container <- "span"
+  # } else {
+  #   answer_labels <- paste0(answer_labels, ". ")[1:nrow(answer_table)]
+  #   newline <- "     \n"
+  #   success <- paste0(random_success(), " ")
+  #   container <- "span"
+  #
+  # }
+  #
+  # if (show_feedback) {
+  #   feedback <- paste0("<", container, " class='mcanswer'>",
+  #                     ifelse(answer_table$correct, success, "︎✘ "),
+  #                     raw_feedback) # haven't yet closed <span>
+  #   feedback <- paste0(feedback, "</", container, "></span>") # close it up
+  # } else {
+  #   feedback <- ""
+  # }
+  #
+  #
+  # answers <- paste0(answer_labels[1:nrow(answer_table)],
+  #                   "<span class='Zchoice'>",
+  #                   answer_table$item,
+  #                   feedback,
+  #                   collapse = newline)
+  #
+  # knitr::asis_output(paste0(
+  #   "**Question ", MC_counter$get(), "**  ",
+  #   out, answers))
 }
 
 
@@ -125,7 +143,8 @@ fix_dollar_signs <- function(str) {
   str
 }
 
-format_answers_PDF <- function(answer_table, width=40, seed=NA) {
+
+format_choices_simple <- function(answer_table, width=40, seed=NA, out_format="Markdown") {
     Ans <- tibble::tibble(
       text = answer_table$item
     )
@@ -137,7 +156,8 @@ format_answers_PDF <- function(answer_table, width=40, seed=NA) {
       # lay them out one to a line
       paste(paste0(letters[1:nrow(Ans)], ". ", Ans$text), collapse="\n")
     } else {
-      paste(Ans$text, collapse="\\hspace{3em}")
+      spacer <- ifelse(out_format=="Markdown", "&emsp;", "\\hspace{3em}")
+      paste(Ans$text, collapse= spacer)
     }
 }
 

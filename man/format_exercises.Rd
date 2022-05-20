@@ -7,7 +7,8 @@
 format_exercises(
   Roster,
   label_format = c("numeric", "alpha", "ALPHA", "roman", "ROMAN"),
-  template = "## Exer. {number}\\n\\n **Exercise {number}**\\n\\n{contents}\\n\\n"
+  template = "## Exer. {number}\\n\\n **Exercise {number}**\\n\\n{contents}\\n\\n",
+  askMC = Znotes::askMC
 )
 }
 \arguments{

@@ -8,7 +8,8 @@
 format_exercises <- function(
     Roster,
     label_format = c("numeric", "alpha", "ALPHA", "roman", "ROMAN"),
-    template = "## Exer. {number}\n\n **Exercise {number}**\n\n{contents}\n\n") {
+    template = "## Exer. {number}\n\n **Exercise {number}**\n\n{contents}\n\n",
+    askMC = Znotes::askMC) {
 
   # label_format <- match.arg(label_format)
   # # Generate a sequence of labels, either numeric or alpha
@@ -31,9 +32,13 @@ format_exercises <- function(
   Res <- character(nrow(Roster))
 
   for (k in 1:nrow(Roster)) {
-    markup <- try(add_exercise(paste0(Roster$block[k],"/", Roster$fname[k]),
-                           Roster$number[k],
-                           template=template))
+    markup <- try(add_exercise(
+      Roster$fname[k],
+      #paste0(Roster$block[k],"/", Roster$fname[k]),
+      Roster$number[k],
+      template=template,askMC=askMC)
+      )
+
     Res[k] <- if (inherits(markup, "try-error")) {
       glue::glue("\n\nProblem with {Roster$block[k]} {Roster$fname[k]}\n\n")
     } else {
@@ -41,10 +46,7 @@ format_exercises <- function(
     }
   }
 
-  cat(paste(Res, collapse="\n\n"))
-
-  return(NULL)
-
+  paste(Res, collapse="\n\n")
 }
 
 
