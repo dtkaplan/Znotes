@@ -15,9 +15,11 @@ format_exercises(
 \item{Roster}{A data frame with a \code{fname} column
 containing the file name of the exercise}
 
-\item{chap}{A character string identifying the chapter in the exercise label}
+\item{template}{Glue string setting formatting for each exercise}
 
-\item{start_num}{Integer > 0 or letter "a" to "z" specifying where to start in the label sequence}
+\item{askMC}{function name for the askMC() typesetting}
+
+\item{show_answers}{Logical: whether to show the answers}
 }
 \description{
 Utilities for laying out exercises

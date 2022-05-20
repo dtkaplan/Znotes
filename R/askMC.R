@@ -29,8 +29,9 @@ askMC <- function (prompt = "The question prompt", ..., id = NULL, right_one = N
                    correct = "Right!", incorrect = "Sorry.", message = NULL,
                    post_message = NULL, submit_button = "Check answer", try_again_button = "Try again",
                    allow_multiple_correct = FALSE, show_feedback=TRUE,
-                   out_format=c("Markdown", "GradeScope", "PDF"),
-                   item_label = "Part ") {
+                   out_format=c("PDF", "Markdown", "GradeScope"),
+                   item_label = "Part ",
+                   show_answers=FALSE) {
   out_format <- match.arg(out_format)
 
   out <- paste(prompt, "\n\n")
@@ -68,6 +69,7 @@ askMC <- function (prompt = "The question prompt", ..., id = NULL, right_one = N
     choices <- format_choices_simple(
       answer_table, width=40,
       seed=ifelse(random_answer_order, 435, NA))
+
     Res <- knitr::asis_output(paste0(
       "\n",
       "\t**", item_label, MC_counter$get(), "**  ", out, "\n",
@@ -142,7 +144,6 @@ fix_dollar_signs <- function(str) {
   str <- gsub("\\${4}", "\\$\\$\\$", str)
   str
 }
-
 
 format_choices_simple <- function(answer_table, width=40, seed=NA, out_format="Markdown") {
     Ans <- tibble::tibble(

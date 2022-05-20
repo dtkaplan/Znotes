@@ -2,8 +2,9 @@
 #'
 #' @param Roster A data frame with a `fname` column
 #' containing the file name of the exercise
-#' @param chap A character string identifying the chapter in the exercise label
-#' @param start_num Integer > 0 or letter "a" to "z" specifying where to start in the label sequence
+#' @param show_answers Logical: whether to show the answers
+#' @param askMC function name for the askMC() typesetting
+#' @param template Glue string setting formatting for each exercise
 #' @export
 format_exercises <- function(
     Roster,
@@ -39,6 +40,7 @@ format_exercises <- function(
       template=template,askMC=askMC)
       )
 
+
     Res[k] <- if (inherits(markup, "try-error")) {
       glue::glue("\n\nProblem with {Roster$block[k]} {Roster$fname[k]}\n\n")
     } else {
@@ -54,9 +56,11 @@ add_exercise <- function(file_name, number,
                          template="## Exer. {number}\n\n {contents}\n\n",
                          # typesetter for individual exercises
                          askMC=Znotes::askMC) {
+  where <- new.env()
+  where$askMC <- askMC
   contents <- {
     Znotes:::MC_counter$reset()
-    knitr::knit_child(file_name)
+    knitr::knit_child(file_name, quiet=TRUE)
   }
   glue::glue(template)
 }
