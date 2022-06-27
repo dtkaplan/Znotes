@@ -4,7 +4,18 @@
 \alias{and_so_on}
 \title{Formats tables to show top and bottom rows.}
 \usage{
-and_so_on(data, top = 3, bottom = 2, message = "... and so on ...")
+and_so_on(
+  data,
+  top = 3,
+  bottom = 2,
+  message = ifelse(bottom == 0, "... until row {nrows}",
+    "... {nrows} rows in total ..."),
+  format = c(NULL, "html", "latex"),
+  row.names = FALSE,
+  full_width = TRUE,
+  position = c("center", "left", "right", "float_left", "float_right"),
+  options
+)
 }
 \arguments{
 \item{data}{A data frame to display}
@@ -14,6 +25,19 @@ and_so_on(data, top = 3, bottom = 2, message = "... and so on ...")
 \item{bottom}{Like \code{top}, for for the bottom rows.}
 
 \item{message}{Character string to place between the top and bottom rows.}
+
+\item{format}{Either \code{"html"} or \code{"latex"}.}
+
+\item{row.names}{If \code{TRUE}, will include row.names in table}
+
+\item{full_width}{If \code{FALSE}, table will be condensed}
+
+\item{position}{can be "center", "left", "right", "float_left", or "float_right"}
+
+\item{options}{For compatibility with knitr \verb{render=} chunk option
+
+For Rmd documents, the format will be detected automatically if you don't use the
+format argument.`}
 }
 \description{
 Formats tables to show top and bottom rows.
