@@ -27,20 +27,20 @@ were plotted on top of the slice_plot() of the function.
 \examples{
 \dontrun{
 fun <- sin(x) ~ x
-dom <- domain(x = c(-5,5))
+dom <- bounds(x = c(-5,5))
 segments <- create_segments(fun, domain=dom, nsegs=20)
-slice_plot(fun, domain=dom) \%>\%
+slice_plot(fun, dom) \%>\%
   # show the slope function as slopes
   gf_segment(y + yend ~ x + xend, data = segments, color=~slope) \%>\%
   gf_refine(scale_color_viridis_c())
 
-slice_plot(fun, domain=dom) \%>\%
+slice_plot(fun, dom) \%>\%
   # piecewise linear approximations
   gf_segment(yf + yfend ~ x + xend, data = segments, color=~slope,
   size=2, alpha=0.5) \%>\%
   gf_refine(scale_color_viridis_c())
 
-slice_plot(fun, domain=dom) \%>\%
+slice_plot(fun, dom) \%>\%
   # show the approximate slope function
   gf_line(slope ~ x , data = segments, color=~slope) \%>\%
   gf_refine(scale_color_viridis_c())

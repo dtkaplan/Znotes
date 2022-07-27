@@ -7,7 +7,7 @@
 graph_with_boxes(
   fn,
   intervals = tibble::tibble(x = -1:1, xend = x + 0.6),
-  domain = c(-3, 3),
+  dom = domain(x = -3:3),
   my_letters = LETTERS,
   ...
 )

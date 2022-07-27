@@ -3,8 +3,7 @@
 #' @export
 graph_with_boxes <- function(fn,
                              intervals = tibble::tibble(x=-1:1, xend=x+0.6),
-                             domain = c(-3,3), my_letters = LETTERS, ...) {
-  domain <- list(x=domain)
+                             dom = domain(x=-3:3), my_letters = LETTERS, ...) {
   intervals <- intervals %>% mutate(y=0, ytop=1)
   for (k in 1:nrow(intervals)) {
     yvals <- fn(seq(intervals$x[k], intervals$xend[k], length=10))
@@ -14,7 +13,7 @@ graph_with_boxes <- function(fn,
   }
   intervals <- intervals %>% mutate(color = rainbow(nrow(.), start=0.6),
                                     label = my_letters[1:nrow(.)])
-  slice_plot(fn(x) ~ x, domain, ...) %>%
+  slice_plot(fn(x) ~ x, dom, ...) %>%
     gf_rect(y + ytop ~ x + xend, data=intervals,
             color = ~color,
             alpha = 0.2, inherit=FALSE) %>%
@@ -27,10 +26,9 @@ graph_with_boxes <- function(fn,
 graph_with_tangents <- function(fn,
                              touches = c(-2, 0, 1.5),
                              offsets = c(.9, 1, 1.1),
-                             domain = c(-3,3), ...) {
+                             dom = domain(x=-3:3), ...) {
   if (length(touches) != length(offsets)) stop("offsets and touches must be the same length.")
-  width <- diff(domain)/(3*length(touches))
-  domain <- list(x=domain)
+  width <- diff(dom$x)/(3*length(touches))
   dfn <- mosaicCalc::D(fn(x) ~ x)
   slopes <- dfn(touches)
   intervals <- tibble(
@@ -44,7 +42,7 @@ graph_with_tangents <- function(fn,
     mutate(color = rainbow(nrow(.), start=0.6),
            label = LETTERS[1:nrow(.)])
 
-  slice_plot(fn(x) ~ x, domain=domain, ...) %>%
+  slice_plot(fn(x) ~ x, dom, ...) %>%
     gf_segment(ylow + yhigh ~ xlow + xhigh, data=intervals,
             color = ~color, size=3,
             alpha = 0.4, inherit=FALSE) %>%

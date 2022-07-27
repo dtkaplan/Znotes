@@ -1,4 +1,13 @@
-#' Formatting multiple-choice questions for the book
+#' Typeset multiple choice questions
+#'
+#' Formats multiple-choice questions for *MOSAIC Calculus*
+#'
+#' @param prompt Character string prompt
+#' @param \dots fixed-choice possibilities
+#' @param item_label Character string how to label each individual question
+#' @param out_format Either `"Markdown"` or `"PDF"`
+#'
+#' @rdname askMC
 #' @export
 MC_simple_format <- function(prompt="The question prompt", ..., item_label="Part",
                              out_format = c("Markdown", "PDF")) {
@@ -22,7 +31,7 @@ MC_simple_format <- function(prompt="The question prompt", ..., item_label="Part
 
 
 }
-#'
+#' @rdname askMC
 #' @export
 askMC <- function (prompt = "The question prompt", ..., id = NULL, right_one = NULL,
                    inline = FALSE, random_answer_order = FALSE, allow_retry = TRUE,

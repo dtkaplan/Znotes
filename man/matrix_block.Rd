@@ -8,7 +8,7 @@ matrix_block(
   cmd,
   digits = 4,
   ignore_cmd = FALSE,
-  phrase = "      ",
+  phrase = "      ",
   display = FALSE,
   inline = TRUE,
   width = "40\%"
