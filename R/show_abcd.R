@@ -31,6 +31,13 @@ show_abcd <- function(a, b, c, d, which=c("both", "x", "y"),
                                      fill="red", alpha=0.3,
                                      domain(x=-1:1, y=-1:1))
   }
-  P %>% vectorfield_plot((show_sign(dx(x,y))) ~ x&y, show_sign(dy(x,y)) ~ x & y, transform=function(x) x^pow) %>%
+  fx <- x ~ show_sign(dx(x,y))
+  fy <- y ~ show_sign(dy(x,y))
+  P %>%
+    vectorfield_plot(fx, #show_sign(dx(x,y)),
+                     fy, #show_sign(dy(x,y)),
+                     domain(x=-1:1, y=-1:1),
+                     transform=function(x) x^pow,
+                     env = environment(fx)) %>%
     gf_refine(coord_fixed())
 }
